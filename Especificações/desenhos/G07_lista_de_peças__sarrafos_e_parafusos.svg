@@ -1,0 +1,220 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="297.0mm" height="210.0mm" viewBox="0 0 297.0 210.0" font-family="DejaVu Sans, Arial, sans-serif">
+<defs>
+<pattern id="la" width="2.4" height="2.4" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="2.4" height="2.4" fill="#fbf6c8"/><line x1="0" y1="0" x2="0" y2="2.4" stroke="#b9a94a" stroke-width="0.25"/></pattern>
+</defs>
+<rect width="297.0" height="210.0" fill="#ffffff"/>
+<rect x="6" y="6" width="285.0" height="198.0" fill="none" stroke="#222" stroke-width="0.5"/>
+<line x1="6" y1="194.0" x2="291.0" y2="194.0" stroke="#222" stroke-width="0.5"/>
+<text x="10.00" y="16.00" font-size="3.0" text-anchor="start" fill="#222" font-weight="bold">Compensado naval 18 mm</text>
+<text x="10.00" y="21.00" font-size="2.3" text-anchor="start" fill="#222" font-weight="bold">Folha</text>
+<text x="22.00" y="21.00" font-size="2.3" text-anchor="start" fill="#222" font-weight="bold">Peça</text>
+<text x="104.00" y="21.00" font-size="2.3" text-anchor="start" fill="#222" font-weight="bold">Qtd</text>
+<text x="116.00" y="21.00" font-size="2.3" text-anchor="start" fill="#222" font-weight="bold">Medida</text>
+<text x="10.00" y="25.00" font-size="2.2" text-anchor="start" fill="#222">P01</text>
+<text x="22.00" y="25.00" font-size="2.2" text-anchor="start" fill="#222">Base (piso)</text>
+<text x="104.00" y="25.00" font-size="2.2" text-anchor="start" fill="#222">1</text>
+<text x="116.00" y="25.00" font-size="2.2" text-anchor="start" fill="#222">2000 × 1600</text>
+<text x="10.00" y="28.70" font-size="2.2" text-anchor="start" fill="#222">P02</text>
+<text x="22.00" y="28.70" font-size="2.2" text-anchor="start" fill="#222">Teto da câmara (piso do capuz)</text>
+<text x="104.00" y="28.70" font-size="2.2" text-anchor="start" fill="#222">1</text>
+<text x="116.00" y="28.70" font-size="2.2" text-anchor="start" fill="#222">2000 × 1582</text>
+<text x="10.00" y="32.40" font-size="2.2" text-anchor="start" fill="#222">P03</text>
+<text x="22.00" y="32.40" font-size="2.2" text-anchor="start" fill="#222">Tampa do capuz</text>
+<text x="104.00" y="32.40" font-size="2.2" text-anchor="start" fill="#222">1</text>
+<text x="116.00" y="32.40" font-size="2.2" text-anchor="start" fill="#222">2200 × 1600</text>
+<text x="10.00" y="36.10" font-size="2.2" text-anchor="start" fill="#222">P04</text>
+<text x="22.00" y="36.10" font-size="2.2" text-anchor="start" fill="#222">Traseira inferior</text>
+<text x="104.00" y="36.10" font-size="2.2" text-anchor="start" fill="#222">1</text>
+<text x="116.00" y="36.10" font-size="2.2" text-anchor="start" fill="#222">2000 × 1560</text>
+<text x="10.00" y="39.80" font-size="2.2" text-anchor="start" fill="#222">P05</text>
+<text x="22.00" y="39.80" font-size="2.2" text-anchor="start" fill="#222">Traseira superior</text>
+<text x="104.00" y="39.80" font-size="2.2" text-anchor="start" fill="#222">1</text>
+<text x="116.00" y="39.80" font-size="2.2" text-anchor="start" fill="#222">2000 × 444</text>
+<text x="10.00" y="43.50" font-size="2.2" text-anchor="start" fill="#222">P06</text>
+<text x="22.00" y="43.50" font-size="2.2" text-anchor="start" fill="#222">Lateral da entrada de ar frio</text>
+<text x="104.00" y="43.50" font-size="2.2" text-anchor="start" fill="#222">1</text>
+<text x="116.00" y="43.50" font-size="2.2" text-anchor="start" fill="#222">1564 × 1666</text>
+<text x="10.00" y="47.20" font-size="2.2" text-anchor="start" fill="#222">P07</text>
+<text x="22.00" y="47.20" font-size="2.2" text-anchor="start" fill="#222">Lateral do escapamento</text>
+<text x="104.00" y="47.20" font-size="2.2" text-anchor="start" fill="#222">1</text>
+<text x="116.00" y="47.20" font-size="2.2" text-anchor="start" fill="#222">1564 × 1666</text>
+<text x="10.00" y="50.90" font-size="2.2" text-anchor="start" fill="#222">P08</text>
+<text x="22.00" y="50.90" font-size="2.2" text-anchor="start" fill="#222">Divisória do labirinto de entrada</text>
+<text x="104.00" y="50.90" font-size="2.2" text-anchor="start" fill="#222">1</text>
+<text x="116.00" y="50.90" font-size="2.2" text-anchor="start" fill="#222">1514 × 1402</text>
+<text x="10.00" y="54.60" font-size="2.2" text-anchor="start" fill="#222">P09</text>
+<text x="22.00" y="54.60" font-size="2.2" text-anchor="start" fill="#222">Capuz: frente</text>
+<text x="104.00" y="54.60" font-size="2.2" text-anchor="start" fill="#222">1</text>
+<text x="116.00" y="54.60" font-size="2.2" text-anchor="start" fill="#222">2000 × 320</text>
+<text x="10.00" y="58.30" font-size="2.2" text-anchor="start" fill="#222">P10</text>
+<text x="22.00" y="58.30" font-size="2.2" text-anchor="start" fill="#222">Capuz: lateral da saída de ar quente</text>
+<text x="104.00" y="58.30" font-size="2.2" text-anchor="start" fill="#222">1</text>
+<text x="116.00" y="58.30" font-size="2.2" text-anchor="start" fill="#222">1564 × 320</text>
+<text x="10.00" y="62.00" font-size="2.2" text-anchor="start" fill="#222">P11</text>
+<text x="22.00" y="62.00" font-size="2.2" text-anchor="start" fill="#222">Capuz: lateral fechada</text>
+<text x="104.00" y="62.00" font-size="2.2" text-anchor="start" fill="#222">1</text>
+<text x="116.00" y="62.00" font-size="2.2" text-anchor="start" fill="#222">1564 × 320</text>
+<text x="10.00" y="65.70" font-size="2.2" text-anchor="start" fill="#222">P12</text>
+<text x="22.00" y="65.70" font-size="2.2" text-anchor="start" fill="#222">Chicana 1 (presa à tampa)</text>
+<text x="104.00" y="65.70" font-size="2.2" text-anchor="start" fill="#222">1</text>
+<text x="116.00" y="65.70" font-size="2.2" text-anchor="start" fill="#222">1464 × 182</text>
+<text x="10.00" y="69.40" font-size="2.2" text-anchor="start" fill="#222">P13</text>
+<text x="22.00" y="69.40" font-size="2.2" text-anchor="start" fill="#222">Chicana 2 (presa ao piso do capuz)</text>
+<text x="104.00" y="69.40" font-size="2.2" text-anchor="start" fill="#222">1</text>
+<text x="116.00" y="69.40" font-size="2.2" text-anchor="start" fill="#222">1464 × 198</text>
+<text x="10.00" y="73.10" font-size="2.2" text-anchor="start" fill="#222">P14</text>
+<text x="22.00" y="73.10" font-size="2.2" text-anchor="start" fill="#222">Folha de porta ativa (lado da entrada de ar)</text>
+<text x="104.00" y="73.10" font-size="2.2" text-anchor="start" fill="#222">1</text>
+<text x="116.00" y="73.10" font-size="2.2" text-anchor="start" fill="#222">936 × 1658</text>
+<text x="10.00" y="76.80" font-size="2.2" text-anchor="start" fill="#222">P15</text>
+<text x="22.00" y="76.80" font-size="2.2" text-anchor="start" fill="#222">Folha de porta passiva (lado do escapamento)</text>
+<text x="104.00" y="76.80" font-size="2.2" text-anchor="start" fill="#222">1</text>
+<text x="116.00" y="76.80" font-size="2.2" text-anchor="start" fill="#222">936 × 1658</text>
+<text x="10.00" y="80.50" font-size="2.2" text-anchor="start" fill="#222">P16</text>
+<text x="22.00" y="80.50" font-size="2.2" text-anchor="start" fill="#222">Guarnição do lado da entrada de ar</text>
+<text x="104.00" y="80.50" font-size="2.2" text-anchor="start" fill="#222">1</text>
+<text x="116.00" y="80.50" font-size="2.2" text-anchor="start" fill="#222">60 × 1666</text>
+<text x="10.00" y="84.20" font-size="2.2" text-anchor="start" fill="#222">P17</text>
+<text x="22.00" y="84.20" font-size="2.2" text-anchor="start" fill="#222">Guarnição do lado do escapamento</text>
+<text x="104.00" y="84.20" font-size="2.2" text-anchor="start" fill="#222">1</text>
+<text x="116.00" y="84.20" font-size="2.2" text-anchor="start" fill="#222">60 × 1666</text>
+<text x="10.00" y="87.90" font-size="2.2" text-anchor="start" fill="#222">P18</text>
+<text x="22.00" y="87.90" font-size="2.2" text-anchor="start" fill="#222">Batente inferior (removível)</text>
+<text x="104.00" y="87.90" font-size="2.2" text-anchor="start" fill="#222">1</text>
+<text x="116.00" y="87.90" font-size="2.2" text-anchor="start" fill="#222">1964 × 60</text>
+<text x="10.00" y="91.60" font-size="2.2" text-anchor="start" fill="#222">P19</text>
+<text x="22.00" y="91.60" font-size="2.2" text-anchor="start" fill="#222">Batente superior</text>
+<text x="104.00" y="91.60" font-size="2.2" text-anchor="start" fill="#222">1</text>
+<text x="116.00" y="91.60" font-size="2.2" text-anchor="start" fill="#222">1964 × 60</text>
+<text x="10.00" y="95.30" font-size="2.2" text-anchor="start" fill="#222">P20</text>
+<text x="22.00" y="95.30" font-size="2.2" text-anchor="start" fill="#222">Batente lateral do lado da entrada de ar</text>
+<text x="104.00" y="95.30" font-size="2.2" text-anchor="start" fill="#222">1</text>
+<text x="116.00" y="95.30" font-size="2.2" text-anchor="start" fill="#222">80 × 1546</text>
+<text x="10.00" y="99.00" font-size="2.2" text-anchor="start" fill="#222">P21</text>
+<text x="22.00" y="99.00" font-size="2.2" text-anchor="start" fill="#222">Batente lateral do lado do escapamento</text>
+<text x="104.00" y="99.00" font-size="2.2" text-anchor="start" fill="#222">1</text>
+<text x="116.00" y="99.00" font-size="2.2" text-anchor="start" fill="#222">80 × 1546</text>
+<text x="10.00" y="102.70" font-size="2.2" text-anchor="start" fill="#222">P22</text>
+<text x="22.00" y="102.70" font-size="2.2" text-anchor="start" fill="#222">Mata-junta central</text>
+<text x="104.00" y="102.70" font-size="2.2" text-anchor="start" fill="#222">1</text>
+<text x="116.00" y="102.70" font-size="2.2" text-anchor="start" fill="#222">60 × 1542</text>
+<text x="10.00" y="106.40" font-size="2.2" text-anchor="start" fill="#222">P23</text>
+<text x="22.00" y="106.40" font-size="2.2" text-anchor="start" fill="#222">Régua de emenda da traseira</text>
+<text x="104.00" y="106.40" font-size="2.2" text-anchor="start" fill="#222">1</text>
+<text x="116.00" y="106.40" font-size="2.2" text-anchor="start" fill="#222">1884 × 100</text>
+<text x="10.00" y="110.10" font-size="2.2" text-anchor="start" fill="#222">P24</text>
+<text x="22.00" y="110.10" font-size="2.2" text-anchor="start" fill="#222">Quadro da lã das portas: vertical</text>
+<text x="104.00" y="110.10" font-size="2.2" text-anchor="start" fill="#222">4</text>
+<text x="116.00" y="110.10" font-size="2.2" text-anchor="start" fill="#222">50 × 1542</text>
+<text x="10.00" y="113.80" font-size="2.2" text-anchor="start" fill="#222">P25</text>
+<text x="22.00" y="113.80" font-size="2.2" text-anchor="start" fill="#222">Quadro da lã das portas: horizontal</text>
+<text x="104.00" y="113.80" font-size="2.2" text-anchor="start" fill="#222">4</text>
+<text x="116.00" y="113.80" font-size="2.2" text-anchor="start" fill="#222">828 × 50</text>
+<text x="152.00" y="16.00" font-size="3.0" text-anchor="start" fill="#222" font-weight="bold">Madeira maciça e apoios</text>
+<text x="152.00" y="21.00" font-size="2.3" text-anchor="start" fill="#222" font-weight="bold">Seção</text>
+<text x="178.00" y="21.00" font-size="2.3" text-anchor="start" fill="#222" font-weight="bold">Comprimento</text>
+<text x="200.00" y="21.00" font-size="2.3" text-anchor="start" fill="#222" font-weight="bold">Qtd</text>
+<text x="210.00" y="21.00" font-size="2.3" text-anchor="start" fill="#222" font-weight="bold">Onde</text>
+<text x="152.00" y="25.00" font-size="2.2" text-anchor="start" fill="#222">12 × 40</text>
+<text x="178.00" y="25.00" font-size="2.2" text-anchor="start" fill="#222">1666</text>
+<text x="200.00" y="25.00" font-size="2.2" text-anchor="start" fill="#222">2</text>
+<text x="210.00" y="25.00" font-size="2.0" text-anchor="start" fill="#222">entre guarnição e batente</text>
+<text x="152.00" y="28.70" font-size="2.2" text-anchor="start" fill="#222">120 × 60 × 10</text>
+<text x="178.00" y="28.70" font-size="2.2" text-anchor="start" fill="#222">120</text>
+<text x="200.00" y="28.70" font-size="2.2" text-anchor="start" fill="#222">9</text>
+<text x="210.00" y="28.70" font-size="2.0" text-anchor="start" fill="#222">sob as longarinas</text>
+<text x="152.00" y="32.40" font-size="2.2" text-anchor="start" fill="#222">40 × 40</text>
+<text x="178.00" y="32.40" font-size="2.2" text-anchor="start" fill="#222">1884</text>
+<text x="200.00" y="32.40" font-size="2.2" text-anchor="start" fill="#222">2</text>
+<text x="210.00" y="32.40" font-size="2.0" text-anchor="start" fill="#222">câmara, junto ao teto</text>
+<text x="152.00" y="36.10" font-size="2.2" text-anchor="start" fill="#222">40 × 40</text>
+<text x="178.00" y="36.10" font-size="2.2" text-anchor="start" fill="#222">1884</text>
+<text x="200.00" y="36.10" font-size="2.2" text-anchor="start" fill="#222">2</text>
+<text x="210.00" y="36.10" font-size="2.0" text-anchor="start" fill="#222">capuz, junto ao piso do capuz</text>
+<text x="152.00" y="39.80" font-size="2.2" text-anchor="start" fill="#222">40 × 40</text>
+<text x="178.00" y="39.80" font-size="2.2" text-anchor="start" fill="#222">1884</text>
+<text x="200.00" y="39.80" font-size="2.2" text-anchor="start" fill="#222">2</text>
+<text x="210.00" y="39.80" font-size="2.0" text-anchor="start" fill="#222">capuz, junto à tampa</text>
+<text x="152.00" y="43.50" font-size="2.2" text-anchor="start" fill="#222">40 × 40</text>
+<text x="178.00" y="43.50" font-size="2.2" text-anchor="start" fill="#222">1666</text>
+<text x="200.00" y="43.50" font-size="2.2" text-anchor="start" fill="#222">2</text>
+<text x="210.00" y="43.50" font-size="2.0" text-anchor="start" fill="#222">cantos de trás da câmara</text>
+<text x="152.00" y="47.20" font-size="2.2" text-anchor="start" fill="#222">40 × 40</text>
+<text x="178.00" y="47.20" font-size="2.2" text-anchor="start" fill="#222">1666</text>
+<text x="200.00" y="47.20" font-size="2.2" text-anchor="start" fill="#222">2</text>
+<text x="210.00" y="47.20" font-size="2.0" text-anchor="start" fill="#222">montantes da frente (dobradiças)</text>
+<text x="152.00" y="50.90" font-size="2.2" text-anchor="start" fill="#222">40 × 40</text>
+<text x="178.00" y="50.90" font-size="2.2" text-anchor="start" fill="#222">1560</text>
+<text x="200.00" y="50.90" font-size="2.2" text-anchor="start" fill="#222">2</text>
+<text x="210.00" y="50.90" font-size="2.0" text-anchor="start" fill="#222">câmara, junto ao piso</text>
+<text x="152.00" y="54.60" font-size="2.2" text-anchor="start" fill="#222">40 × 40</text>
+<text x="178.00" y="54.60" font-size="2.2" text-anchor="start" fill="#222">1484</text>
+<text x="200.00" y="54.60" font-size="2.2" text-anchor="start" fill="#222">2</text>
+<text x="210.00" y="54.60" font-size="2.0" text-anchor="start" fill="#222">capuz, junto ao piso do capuz</text>
+<text x="152.00" y="58.30" font-size="2.2" text-anchor="start" fill="#222">40 × 40</text>
+<text x="178.00" y="58.30" font-size="2.2" text-anchor="start" fill="#222">1484</text>
+<text x="200.00" y="58.30" font-size="2.2" text-anchor="start" fill="#222">2</text>
+<text x="210.00" y="58.30" font-size="2.0" text-anchor="start" fill="#222">capuz, junto à tampa</text>
+<text x="152.00" y="62.00" font-size="2.2" text-anchor="start" fill="#222">40 × 40</text>
+<text x="178.00" y="62.00" font-size="2.2" text-anchor="start" fill="#222">1464</text>
+<text x="200.00" y="62.00" font-size="2.2" text-anchor="start" fill="#222">2</text>
+<text x="210.00" y="62.00" font-size="2.0" text-anchor="start" fill="#222">fixação das chicanas</text>
+<text x="152.00" y="65.70" font-size="2.2" text-anchor="start" fill="#222">40 × 40</text>
+<text x="178.00" y="65.70" font-size="2.2" text-anchor="start" fill="#222">1454</text>
+<text x="200.00" y="65.70" font-size="2.2" text-anchor="start" fill="#222">2</text>
+<text x="210.00" y="65.70" font-size="2.0" text-anchor="start" fill="#222">câmara, junto ao piso</text>
+<text x="152.00" y="69.40" font-size="2.2" text-anchor="start" fill="#222">40 × 40</text>
+<text x="178.00" y="69.40" font-size="2.2" text-anchor="start" fill="#222">1454</text>
+<text x="200.00" y="69.40" font-size="2.2" text-anchor="start" fill="#222">2</text>
+<text x="210.00" y="69.40" font-size="2.0" text-anchor="start" fill="#222">câmara, junto ao teto</text>
+<text x="152.00" y="73.10" font-size="2.2" text-anchor="start" fill="#222">40 × 40</text>
+<text x="178.00" y="73.10" font-size="2.2" text-anchor="start" fill="#222">1454</text>
+<text x="200.00" y="73.10" font-size="2.2" text-anchor="start" fill="#222">1</text>
+<text x="210.00" y="73.10" font-size="2.0" text-anchor="start" fill="#222">divisória, no piso</text>
+<text x="152.00" y="76.80" font-size="2.2" text-anchor="start" fill="#222">40 × 40</text>
+<text x="178.00" y="76.80" font-size="2.2" text-anchor="start" fill="#222">1402</text>
+<text x="200.00" y="76.80" font-size="2.2" text-anchor="start" fill="#222">1</text>
+<text x="210.00" y="76.80" font-size="2.0" text-anchor="start" fill="#222">divisória, na traseira</text>
+<text x="152.00" y="80.50" font-size="2.2" text-anchor="start" fill="#222">40 × 40</text>
+<text x="178.00" y="80.50" font-size="2.2" text-anchor="start" fill="#222">346</text>
+<text x="200.00" y="80.50" font-size="2.2" text-anchor="start" fill="#222">1</text>
+<text x="210.00" y="80.50" font-size="2.0" text-anchor="start" fill="#222">travessa no topo da divisória</text>
+<text x="152.00" y="84.20" font-size="2.2" text-anchor="start" fill="#222">40 × 40</text>
+<text x="178.00" y="84.20" font-size="2.2" text-anchor="start" fill="#222">320</text>
+<text x="200.00" y="84.20" font-size="2.2" text-anchor="start" fill="#222">4</text>
+<text x="210.00" y="84.20" font-size="2.0" text-anchor="start" fill="#222">cantos do capuz</text>
+<text x="152.00" y="87.90" font-size="2.2" text-anchor="start" fill="#222">40 × 40</text>
+<text x="178.00" y="87.90" font-size="2.2" text-anchor="start" fill="#222">306</text>
+<text x="200.00" y="87.90" font-size="2.2" text-anchor="start" fill="#222">1</text>
+<text x="210.00" y="87.90" font-size="2.0" text-anchor="start" fill="#222">câmara, junto ao piso</text>
+<text x="152.00" y="91.60" font-size="2.2" text-anchor="start" fill="#222">40 × 40</text>
+<text x="178.00" y="91.60" font-size="2.2" text-anchor="start" fill="#222">266</text>
+<text x="200.00" y="91.60" font-size="2.2" text-anchor="start" fill="#222">1</text>
+<text x="210.00" y="91.60" font-size="2.0" text-anchor="start" fill="#222">câmara, junto ao piso</text>
+<text x="152.00" y="95.30" font-size="2.2" text-anchor="start" fill="#222">45 × 70</text>
+<text x="178.00" y="95.30" font-size="2.2" text-anchor="start" fill="#222">2000</text>
+<text x="200.00" y="95.30" font-size="2.2" text-anchor="start" fill="#222">3</text>
+<text x="210.00" y="95.30" font-size="2.0" text-anchor="start" fill="#222">apoio sob a base</text>
+<text x="152.00" y="104.00" font-size="3.0" text-anchor="start" fill="#222" font-weight="bold">Parafusos inox (cabeça chata, rosca soberba)</text>
+<circle cx="153.00" cy="108.20" r="0.80" fill="#7b3fa0" stroke="#7b3fa0" stroke-width="0.1"/>
+<text x="156.00" y="109.00" font-size="2.2" text-anchor="start" fill="#222">4,0 x 30</text>
+<text x="210.00" y="109.00" font-size="2.2" text-anchor="start" fill="#222">20 no modelo</text>
+<circle cx="153.00" cy="111.90" r="0.80" fill="#c62828" stroke="#c62828" stroke-width="0.1"/>
+<text x="156.00" y="112.70" font-size="2.2" text-anchor="start" fill="#222">4,5 x 40</text>
+<text x="210.00" y="112.70" font-size="2.2" text-anchor="start" fill="#222">323 no modelo</text>
+<circle cx="153.00" cy="115.60" r="0.80" fill="#1565c0" stroke="#1565c0" stroke-width="0.1"/>
+<text x="156.00" y="116.40" font-size="2.2" text-anchor="start" fill="#222">4,5 x 50</text>
+<text x="210.00" y="116.40" font-size="2.2" text-anchor="start" fill="#222">69 no modelo</text>
+<circle cx="153.00" cy="119.30" r="0.80" fill="#00838f" stroke="#00838f" stroke-width="0.1"/>
+<text x="156.00" y="120.10" font-size="2.2" text-anchor="start" fill="#222">5,0 x 50 com arruela EPDM</text>
+<text x="210.00" y="120.10" font-size="2.2" text-anchor="start" fill="#222">26 no modelo</text>
+<circle cx="153.00" cy="123.00" r="0.80" fill="#ef6c00" stroke="#ef6c00" stroke-width="0.1"/>
+<text x="156.00" y="123.80" font-size="2.2" text-anchor="start" fill="#222">5,0 x 70</text>
+<text x="210.00" y="123.80" font-size="2.2" text-anchor="start" fill="#222">16 no modelo</text>
+<circle cx="153.00" cy="126.70" r="0.80" fill="#2e7d32" stroke="#2e7d32" stroke-width="0.1"/>
+<text x="156.00" y="127.50" font-size="2.2" text-anchor="start" fill="#222">5,0 x 80</text>
+<text x="210.00" y="127.50" font-size="2.2" text-anchor="start" fill="#222">43 no modelo</text>
+<text x="9.00" y="200.50" font-size="3.6" text-anchor="start" fill="#222" font-weight="bold">G07 — Lista de peças, sarrafos e parafusos</text>
+<text x="288.00" y="198.50" font-size="2.4" text-anchor="end" fill="#222">Cabine acústica ventilada para gerador</text>
+<text x="288.00" y="201.80" font-size="2.2" text-anchor="end" fill="#444">Medidas em mm · não medir no desenho, usar as cotas · folha 7/28</text>
+</svg>

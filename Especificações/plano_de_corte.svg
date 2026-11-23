@@ -24,17 +24,17 @@
 <text x="1545.0" y="262.0" font-size="11" fill="#222" text-anchor="middle">Tampa do capuz (chapa inteira)</text>
 <text x="1545.0" y="277.0" font-size="11" font-weight="bold" fill="#222" text-anchor="middle">2200 × 1600</text>
 <text x="1545.0" y="291.0" font-size="9" fill="#555" text-anchor="middle">beiral de 100 mm sobre as venezianas</text>
-<text x="30" y="534" font-size="14" font-weight="bold" fill="#222">Chapa 4 — aproveitamento 98%</text>
+<text x="30" y="534" font-size="14" font-weight="bold" fill="#222">Chapa 4 — aproveitamento 95%</text>
 <rect x="30.0" y="540.0" width="550.0" height="400.0" fill="#eeeeee" stroke="#555" stroke-width="1.5"/>
-<rect x="30.0" y="540.0" width="500.0" height="400.0" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
-<text x="280.0" y="732.0" font-size="11" fill="#222" text-anchor="middle">Traseira inferior</text>
-<text x="280.0" y="747.0" font-size="11" font-weight="bold" fill="#222" text-anchor="middle">2000 × 1600</text>
-<rect x="531.0" y="540.0" width="12.5" height="400.0" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
-<text x="537.2" y="740.0" font-size="9" fill="#222" text-anchor="middle" transform="rotate(-90 537.2 740.0)" dominant-baseline="middle">Sarrafo 50 50×1600</text>
-<rect x="544.5" y="540.0" width="12.5" height="400.0" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
-<text x="550.8" y="740.0" font-size="9" fill="#222" text-anchor="middle" transform="rotate(-90 550.8 740.0)" dominant-baseline="middle">Sarrafo 50 50×1600</text>
-<rect x="558.0" y="540.0" width="12.5" height="400.0" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
-<text x="564.2" y="740.0" font-size="9" fill="#222" text-anchor="middle" transform="rotate(-90 564.2 740.0)" dominant-baseline="middle">Sarrafo 50 50×1600</text>
+<rect x="30.0" y="540.0" width="500.0" height="390.0" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
+<text x="280.0" y="727.0" font-size="11" fill="#222" text-anchor="middle">Traseira inferior</text>
+<text x="280.0" y="742.0" font-size="11" font-weight="bold" fill="#222" text-anchor="middle">2000 × 1560</text>
+<rect x="531.0" y="540.0" width="12.5" height="385.5" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
+<text x="537.2" y="732.8" font-size="9" fill="#222" text-anchor="middle" transform="rotate(-90 537.2 732.8)" dominant-baseline="middle">Quadro da lã vertical 50×1542</text>
+<rect x="544.5" y="540.0" width="12.5" height="385.5" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
+<text x="550.8" y="732.8" font-size="9" fill="#222" text-anchor="middle" transform="rotate(-90 550.8 732.8)" dominant-baseline="middle">Quadro da lã vertical 50×1542</text>
+<rect x="558.0" y="540.0" width="12.5" height="385.5" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
+<text x="564.2" y="732.8" font-size="9" fill="#222" text-anchor="middle" transform="rotate(-90 564.2 732.8)" dominant-baseline="middle">Quadro da lã vertical 50×1542</text>
 <text x="650" y="534" font-size="14" font-weight="bold" fill="#222">Chapa 5 — aproveitamento 96%</text>
 <rect x="650.0" y="540.0" width="550.0" height="400.0" fill="#eeeeee" stroke="#555" stroke-width="1.5"/>
 <rect x="650.0" y="540.0" width="416.5" height="391.0" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
@@ -45,7 +45,7 @@
 <text x="1107.5" y="735.5" font-size="9" fill="#222" text-anchor="middle" transform="rotate(-90 1107.5 735.5)" dominant-baseline="middle">Capuz: lateral da saída quente 320×1564</text>
 <rect x="1148.5" y="540.0" width="49.5" height="366.0" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
 <text x="1173.2" y="723.0" font-size="9" fill="#222" text-anchor="middle" transform="rotate(-90 1173.2 723.0)" dominant-baseline="middle">Chicana 2 do capuz 198×1464</text>
-<text x="1270" y="534" font-size="14" font-weight="bold" fill="#222">Chapa 6 — aproveitamento 95%</text>
+<text x="1270" y="534" font-size="14" font-weight="bold" fill="#222">Chapa 6 — aproveitamento 93%</text>
 <rect x="1270.0" y="540.0" width="550.0" height="400.0" fill="#eeeeee" stroke="#555" stroke-width="1.5"/>
 <rect x="1270.0" y="540.0" width="416.5" height="391.0" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
 <text x="1478.2" y="727.5" font-size="11" fill="#222" text-anchor="middle">Lateral do escapamento</text>
@@ -53,35 +53,41 @@
 <text x="1478.2" y="756.5" font-size="9" fill="#555" text-anchor="middle">furo Ø150</text>
 <rect x="1687.5" y="540.0" width="80.0" height="391.0" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
 <text x="1727.5" y="735.5" font-size="9" fill="#222" text-anchor="middle" transform="rotate(-90 1727.5 735.5)" dominant-baseline="middle">Capuz: lateral fechada 320×1564</text>
-<rect x="1768.5" y="540.0" width="12.5" height="400.0" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
-<text x="1774.8" y="740.0" font-size="9" fill="#222" text-anchor="middle" transform="rotate(-90 1774.8 740.0)" dominant-baseline="middle">Sarrafo 50 50×1600</text>
-<rect x="1782.0" y="540.0" width="12.5" height="400.0" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
-<text x="1788.2" y="740.0" font-size="9" fill="#222" text-anchor="middle" transform="rotate(-90 1788.2 740.0)" dominant-baseline="middle">Sarrafo 50 50×1600</text>
-<rect x="1795.5" y="540.0" width="12.5" height="400.0" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
-<text x="1801.8" y="740.0" font-size="9" fill="#222" text-anchor="middle" transform="rotate(-90 1801.8 740.0)" dominant-baseline="middle">Sarrafo 50 50×1600</text>
-<text x="30" y="1004" font-size="14" font-weight="bold" fill="#222">Chapa 7 — aproveitamento 63%</text>
+<rect x="1768.5" y="540.0" width="12.5" height="385.5" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
+<text x="1774.8" y="732.8" font-size="9" fill="#222" text-anchor="middle" transform="rotate(-90 1774.8 732.8)" dominant-baseline="middle">Quadro da lã vertical 50×1542</text>
+<rect x="1782.0" y="540.0" width="12.5" height="207.0" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
+<text x="1788.2" y="643.5" font-size="9" fill="#222" text-anchor="middle" transform="rotate(-90 1788.2 643.5)" dominant-baseline="middle">Quadro da lã horizontal 50×828</text>
+<rect x="1795.5" y="540.0" width="12.5" height="207.0" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
+<text x="1801.8" y="643.5" font-size="9" fill="#222" text-anchor="middle" transform="rotate(-90 1801.8 643.5)" dominant-baseline="middle">Quadro da lã horizontal 50×828</text>
+<text x="30" y="1004" font-size="14" font-weight="bold" fill="#222">Chapa 7 — aproveitamento 71%</text>
 <rect x="30.0" y="1010.0" width="550.0" height="400.0" fill="#eeeeee" stroke="#555" stroke-width="1.5"/>
 <rect x="30.0" y="1010.0" width="378.5" height="350.5" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
 <text x="219.2" y="1177.2" font-size="11" fill="#222" text-anchor="middle">Divisória do labirinto de entrada</text>
 <text x="219.2" y="1192.2" font-size="11" font-weight="bold" fill="#222" text-anchor="middle">1514 × 1402</text>
-<rect x="409.5" y="1010.0" width="15.0" height="385.0" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
-<text x="417.0" y="1202.5" font-size="9" fill="#222" text-anchor="middle" transform="rotate(-90 417.0 1202.5)" dominant-baseline="middle">Mata-junta 60×1540</text>
-<text x="650" y="1004" font-size="14" font-weight="bold" fill="#222">Chapa 8 — aproveitamento 74%</text>
+<rect x="502.0" y="1010.0" width="15.0" height="385.5" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
+<text x="509.5" y="1202.8" font-size="9" fill="#222" text-anchor="middle" transform="rotate(-90 509.5 1202.8)" dominant-baseline="middle">Mata-junta 60×1542</text>
+<rect x="30.0" y="1361.5" width="471.0" height="25.0" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
+<text x="265.5" y="1374.0" font-size="9" fill="#222" text-anchor="middle" dominant-baseline="middle">Régua de emenda da traseira 1884×100</text>
+<rect x="30.0" y="1387.5" width="207.0" height="12.5" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
+<text x="133.5" y="1393.8" font-size="9" fill="#222" text-anchor="middle" dominant-baseline="middle">Quadro da lã horizontal 828×50</text>
+<rect x="238.0" y="1387.5" width="207.0" height="12.5" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
+<text x="341.5" y="1393.8" font-size="9" fill="#222" text-anchor="middle" dominant-baseline="middle">Quadro da lã horizontal 828×50</text>
+<text x="650" y="1004" font-size="14" font-weight="bold" fill="#222">Chapa 8 — aproveitamento 76%</text>
 <rect x="650.0" y="1010.0" width="550.0" height="400.0" fill="#eeeeee" stroke="#555" stroke-width="1.5"/>
 <rect x="650.0" y="1010.0" width="414.5" height="234.0" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
-<text x="857.2" y="1119.0" font-size="11" fill="#222" text-anchor="middle">Folha de porta esquerda</text>
+<text x="857.2" y="1119.0" font-size="11" fill="#222" text-anchor="middle">Folha de porta passiva</text>
 <text x="857.2" y="1134.0" font-size="11" font-weight="bold" fill="#222" text-anchor="middle">1658 × 936</text>
-<rect x="650.0" y="1245.0" width="500.0" height="101.0" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
-<text x="900.0" y="1287.5" font-size="11" fill="#222" text-anchor="middle">Traseira superior</text>
-<text x="900.0" y="1302.5" font-size="11" font-weight="bold" fill="#222" text-anchor="middle">2000 × 404</text>
-<rect x="650.0" y="1347.0" width="491.0" height="15.0" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
-<text x="895.5" y="1354.5" font-size="9" fill="#222" text-anchor="middle" dominant-baseline="middle">Batente inferior 1964×60</text>
-<rect x="650.0" y="1363.0" width="491.0" height="15.0" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
-<text x="895.5" y="1370.5" font-size="9" fill="#222" text-anchor="middle" dominant-baseline="middle">Batente superior 1964×60</text>
+<rect x="650.0" y="1245.0" width="500.0" height="111.0" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
+<text x="900.0" y="1292.5" font-size="11" fill="#222" text-anchor="middle">Traseira superior</text>
+<text x="900.0" y="1307.5" font-size="11" font-weight="bold" fill="#222" text-anchor="middle">2000 × 444</text>
+<rect x="650.0" y="1357.0" width="491.0" height="15.0" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
+<text x="895.5" y="1364.5" font-size="9" fill="#222" text-anchor="middle" dominant-baseline="middle">Batente inferior 1964×60</text>
+<rect x="650.0" y="1373.0" width="491.0" height="15.0" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
+<text x="895.5" y="1380.5" font-size="9" fill="#222" text-anchor="middle" dominant-baseline="middle">Batente superior 1964×60</text>
 <text x="1270" y="1004" font-size="14" font-weight="bold" fill="#222">Chapa 9 — aproveitamento 68%</text>
 <rect x="1270.0" y="1010.0" width="550.0" height="400.0" fill="#eeeeee" stroke="#555" stroke-width="1.5"/>
 <rect x="1270.0" y="1010.0" width="414.5" height="234.0" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
-<text x="1477.2" y="1119.0" font-size="11" fill="#222" text-anchor="middle">Folha de porta direita</text>
+<text x="1477.2" y="1119.0" font-size="11" fill="#222" text-anchor="middle">Folha de porta ativa</text>
 <text x="1477.2" y="1134.0" font-size="11" font-weight="bold" fill="#222" text-anchor="middle">1658 × 936</text>
 <rect x="1270.0" y="1245.0" width="500.0" height="80.0" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
 <text x="1520.0" y="1277.0" font-size="11" fill="#222" text-anchor="middle">Capuz: frente</text>

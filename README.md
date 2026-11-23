@@ -1,6 +1,6 @@
 # Cabine acústica ventilada para gerador a gasolina
 
-Projeto aberto de um abrigo externo em compensado naval para um gerador portátil de 7 kVA: reduz o ruído, mantém o motor ventilado e protege da chuva. O modelo 3D é **paramétrico** — um script Python gera tudo no Blender a partir das medidas — e vem com plano de corte das chapas e lista de materiais.
+Projeto aberto de um abrigo externo em compensado naval para um gerador portátil de 7 kVA: reduz o ruído, mantém o motor ventilado e protege da chuva. O modelo 3D é **paramétrico** — um script Python gera tudo no Blender a partir das medidas — e vem com desenhos cotados de cada peça, plano de corte das chapas, lista de materiais e guia de montagem.
 
 Foi dimensionado para o **Toyama TG8000CXER** (420 cc, 7,2 kVA, 820 × 680 × 650 mm), mas as medidas ficam em constantes no início do script e podem ser adaptadas a outros geradores.
 
@@ -15,7 +15,7 @@ Foi dimensionado para o **Toyama TG8000CXER** (420 cc, 7,2 kVA, 820 × 680 × 65
 
 ## Como funciona
 
-![Corte frontal com o caminho do ar](renders/02_corte_frontal.png)
+![Corte frontal, sem as portas e sem a frente do capuz](renders/02_corte_frontal.png)
 
 Olhando de frente para as portas:
 
@@ -29,40 +29,62 @@ As portas são duplas, com batente em degrau, vedação em EPDM e mata-junta cen
 | | |
 |---|---|
 | Medidas externas | 2.000 × 1.600 × 2.120 mm (largura × profundidade × altura) |
-| Estrutura | compensado naval 18 mm, 9 chapas de 2.200 × 1.600 mm |
+| Estrutura | compensado naval 18 mm, 9 chapas de 2.200 × 1.600 mm, com sarrafos 40 × 40 nas quinas |
+| Apoio | 3 longarinas 45 × 70 sobre 9 calços de borracha |
 | Isolamento | lã de rocha 50 mm, 64 kg/m³, ~25 m² |
 | Ventilação | 2 exaustores axiais de 300 mm, pressão negativa |
 | Vazão necessária (estimativa) | 2.000 a 2.700 m³/h para o ar aquecer cerca de 15 °C |
 | Menor área livre no caminho do ar | 0,141 m² (os dois exaustores) |
 
+## Para construir
+
+Tudo o que é necessário para cortar e montar está na pasta `Especificações/`:
+
+| Documento | Conteúdo |
+|---|---|
+| [`desenhos/desenhos_tecnicos.pdf`](Especificações/desenhos/desenhos_tecnicos.pdf) | 28 folhas A4: vistas, cortes, detalhes de fixação e uma folha cotada por peça, com a posição de cada furo. |
+| [`guia_de_montagem.md`](Especificações/guia_de_montagem.md) | Como a cabine é montada, regras de furação e a ordem de montagem passo a passo. |
+| [`plano_de_corte.png`](Especificações/plano_de_corte.png) | Posição das peças nas 9 chapas. |
+| [`plano_de_corte_e_materiais.md`](Especificações/plano_de_corte_e_materiais.md) | Lista de peças e lista de compra. |
+| [`lista_de_pecas.md`](Especificações/lista_de_pecas.md) | Peças, sarrafos e parafusos por junta, gerada do modelo. |
+| [`projeto_cabine_acustica_gerador_toyama_tg8000cxer.md`](Especificações/projeto_cabine_acustica_gerador_toyama_tg8000cxer.md) | Descrição técnica original: objetivos, ventilação e materiais. |
+
+As chapas são coladas e parafusadas em sarrafos de madeira maciça 40 × 40 colocados em todas as quinas internas, e a base se apoia em 3 longarinas. O modelo 3D traz os 497 parafusos nas posições dos desenhos.
+
+![Detalhes de fixação](imagens/desenho_detalhes.png)
+
+![Folha de uma peça, com os furos cotados](imagens/desenho_peca.png)
+
+![Plano de corte das chapas](Especificações/plano_de_corte.png)
+
 ## O que há no repositório
 
 | Arquivo | Conteúdo |
 |---|---|
-| `casa_gerador.py` | Script que gera o modelo 3D completo. As medidas ficam em constantes no início do arquivo. |
+| `casa_gerador.py` | Script que gera o modelo 3D completo e exporta as medidas de construção. As medidas ficam em constantes no início do arquivo. |
 | `casa_gerador.blend` | Modelo já gerado, para abrir direto no Blender. |
+| `desenhos_tecnicos.py` | Gera os desenhos cotados e a lista de peças a partir das medidas exportadas do modelo. |
 | `plano_de_corte.py` | Posiciona as peças nas chapas, confere se cabem e não se sobrepõem, e desenha o plano. |
-| `Especificações/projeto_cabine_acustica_gerador_toyama_tg8000cxer.md` | Descrição técnica do projeto: objetivos, arquitetura de ventilação, materiais e checklist de montagem. |
-| `Especificações/plano_de_corte_e_materiais.md` | Lista de peças com medidas e recortes, lista de materiais e diferenças entre a descrição e o modelo 3D. |
-| `Especificações/plano_de_corte.png` | Desenho das 9 chapas. |
-| `renders/` | Vistas gerais, cortes com o fluxo de ar e vistas com e sem portas. |
+| `Especificações/` | Desenhos, guia de montagem, plano de corte e listas. |
+| `renders/` | Vistas gerais, cortes e vistas com e sem portas. |
 | `renders_extra.py`, `renders_realista.py` | Geram vistas adicionais e vídeos de volta de 360°. |
-
-![Plano de corte das chapas](Especificações/plano_de_corte.png)
 
 ## Como usar
 
-Requer [Blender](https://www.blender.org/) (feito na versão 5.3) e Python 3.
+Requer [Blender](https://www.blender.org/) (feito na versão 5.3) e Python 3. O PDF dos desenhos é gerado com o Google Chrome, se estiver instalado.
 
-Gerar o modelo e as imagens de corte:
+Gerar o modelo, as imagens de corte e as medidas de construção:
 
 ```bash
-blender --background --factory-startup --python casa_gerador.py -- --save casa_gerador.blend --render renders
+blender --background --factory-startup --python casa_gerador.py -- \
+    --save casa_gerador.blend --render renders \
+    --dados Especificações/dados_construcao.json
 ```
 
-Gerar o plano de corte (não precisa do Blender):
+Gerar os desenhos cotados e o plano de corte (não precisam do Blender):
 
 ```bash
+python3 desenhos_tecnicos.py
 python3 plano_de_corte.py
 ```
 
@@ -73,7 +95,7 @@ blender --background casa_gerador.blend --python renders_extra.py -- --imagens
 blender --background casa_gerador.blend --python renders_realista.py -- --portas abertas
 ```
 
-Para adaptar a outro gerador, altere as constantes no início de `casa_gerador.py` (medidas da caixa, envelope do gerador `GX, GY, GZ`, posição da flange do escapamento `EY, EZ`, venezianas e exaustores), gere o modelo de novo e ajuste as peças em `plano_de_corte.py`.
+Para adaptar a outro gerador, altere as constantes no início de `casa_gerador.py` (medidas da caixa, envelope do gerador `GX, GY, GZ`, posição da flange do escapamento `EY, EZ`, venezianas e exaustores), gere o modelo e os desenhos de novo e ajuste as peças em `plano_de_corte.py`.
 
 ## Problemas conhecidos e pontos em aberto
 
@@ -81,8 +103,8 @@ Para adaptar a outro gerador, altere as constantes no início de `casa_gerador.p
 - **Caminho do ar frio.** O ar entra na câmara a 1,50 m de altura e os exaustores ficam no teto, então parte dele pode passar por cima do gerador sem resfriá-lo. Falta um defletor que leve o ar até a ventoinha do motor.
 - **Controle dos exaustores.** Devem ligar junto com o gerador e seguir alguns minutos após o desligamento. Falta termostato ou alarme de temperatura.
 - **Cobertura.** A tampa do modelo é plana; na construção precisa de caimento de 3 a 5% e impermeabilização.
-- **Plano de corte × modelo 3D.** O plano de corte usa três adaptações que ainda não estão no modelo: parede traseira em duas peças, teto da câmara 18 mm mais curto e folhas de porta com 1.658 mm de altura. Estão descritas em `Especificações/plano_de_corte_e_materiais.md`.
-- **Descrição × modelo 3D.** A descrição técnica estima 5 a 6 chapas e 16 a 18 m² de lã; o modelo exige 9 chapas e cerca de 25 m². Quando houver diferença, valem as medidas do modelo.
+- **Fixação e apoio sem cálculo estrutural.** Os sarrafos, os parafusos e as longarinas são uma proposta de marcenaria e ainda não foram testados em obra.
+- **Descrição × modelo 3D.** A descrição técnica estima 5 a 6 chapas e 16 a 18 m² de lã; o modelo exige 9 chapas e cerca de 25 m². A descrição também cita 6 pés de borracha, e o modelo usa longarinas. Quando houver diferença, valem as medidas do modelo.
 
 Sugestões, correções e relatos de quem construir são bem-vindos nas *issues*.
 

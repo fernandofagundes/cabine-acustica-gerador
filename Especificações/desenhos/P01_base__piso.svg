@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="297.0mm" height="210.0mm" viewBox="0 0 297.0 210.0" font-family="DejaVu Sans, Arial, sans-serif">
+<defs>
+<pattern id="la" width="2.4" height="2.4" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="2.4" height="2.4" fill="#fbf6c8"/><line x1="0" y1="0" x2="0" y2="2.4" stroke="#b9a94a" stroke-width="0.25"/></pattern>
+</defs>
+<rect width="297.0" height="210.0" fill="#ffffff"/>
+<rect x="6" y="6" width="285.0" height="198.0" fill="none" stroke="#222" stroke-width="0.5"/>
+<line x1="6" y1="194.0" x2="291.0" y2="194.0" stroke="#222" stroke-width="0.5"/>
+<rect x="77.25" y="22.00" width="147.50" height="118.00" fill="#f6e7c6" stroke="#3b2a10" stroke-width="0.45"/>
+<circle cx="91.26" cy="51.50" r="0.37" fill="#ffffff" stroke="#3b2a10" stroke-width="0.45"/>
+<line x1="89.26" y1="51.50" x2="93.26" y2="51.50" stroke="#1a3c8a" stroke-width="0.15"/>
+<line x1="91.26" y1="49.50" x2="91.26" y2="53.50" stroke="#1a3c8a" stroke-width="0.15"/>
+<text x="93.26" y="50.00" font-size="2.0" text-anchor="start" fill="#1a3c8a">dreno Ø10</text>
+<circle cx="91.26" cy="110.50" r="0.37" fill="#ffffff" stroke="#3b2a10" stroke-width="0.45"/>
+<line x1="89.26" y1="110.50" x2="93.26" y2="110.50" stroke="#1a3c8a" stroke-width="0.15"/>
+<line x1="91.26" y1="108.50" x2="91.26" y2="112.50" stroke="#1a3c8a" stroke-width="0.15"/>
+<text x="93.26" y="109.00" font-size="2.0" text-anchor="start" fill="#1a3c8a">dreno Ø10</text>
+<circle cx="80.05" cy="129.82" r="0.75" fill="#fff" stroke="#1565c0" stroke-width="0.3"/>
+<text x="81.55" y="130.42" font-size="1.7" text-anchor="start" fill="#1565c0">138</text>
+<circle cx="80.05" cy="115.81" r="0.75" fill="#fff" stroke="#1565c0" stroke-width="0.3"/>
+<text x="81.55" y="116.41" font-size="1.7" text-anchor="start" fill="#1565c0">328</text>
+<circle cx="80.05" cy="101.80" r="0.75" fill="#fff" stroke="#1565c0" stroke-width="0.3"/>
+<text x="81.55" y="102.40" font-size="1.7" text-anchor="start" fill="#1565c0">518</text>
+<circle cx="80.05" cy="87.78" r="0.75" fill="#fff" stroke="#1565c0" stroke-width="0.3"/>
+<text x="81.55" y="88.38" font-size="1.7" text-anchor="start" fill="#1565c0">708</text>
+<circle cx="80.05" cy="74.14" r="0.75" fill="#fff" stroke="#1565c0" stroke-width="0.3"/>
+<text x="81.55" y="74.74" font-size="1.7" text-anchor="start" fill="#1565c0">893</text>
+<circle cx="80.05" cy="59.47" r="0.75" fill="#fff" stroke="#1565c0" stroke-width="0.3"/>
+<text x="81.55" y="60.07" font-size="1.7" text-anchor="start" fill="#1565c0">1092</text>
+<circle cx="80.05" cy="44.72" r="0.75" fill="#fff" stroke="#1565c0" stroke-width="0.3"/>
+<text x="81.55" y="45.32" font-size="1.7" text-anchor="start" fill="#1565c0">1292</text>
+<circle cx="80.05" cy="29.97" r="0.75" fill="#fff" stroke="#1565c0" stroke-width="0.3"/>
+<text x="81.55" y="30.57" font-size="1.7" text-anchor="start" fill="#1565c0">1492</text>
+<circle cx="80.94" cy="81.00" r="0.75" fill="#1565c0" stroke="#1565c0" stroke-width="0.1"/>
+<text x="81.54" y="79.40" font-size="1.7" text-anchor="start" fill="#1565c0" transform="rotate(-90 81.54 79.40)">50</text>
+<rect x="84.47" y="134.24" width="1.50" height="1.50" fill="#fff" stroke="#2e7d32" stroke-width="0.3"/>
+<text x="85.81" y="133.39" font-size="1.7" text-anchor="start" fill="#2e7d32" transform="rotate(-90 85.81 133.39)">108</text>
+<rect x="84.47" y="24.05" width="1.50" height="1.50" fill="#fff" stroke="#2e7d32" stroke-width="0.3"/>
+<text x="85.81" y="26.80" font-size="1.7" text-anchor="end" fill="#2e7d32" transform="rotate(-90 85.81 26.80)">108</text>
+<rect x="96.71" y="24.05" width="1.50" height="1.50" fill="#fff" stroke="#2e7d32" stroke-width="0.3"/>
+<text x="98.06" y="26.80" font-size="1.7" text-anchor="end" fill="#2e7d32" transform="rotate(-90 98.06 26.80)">274</text>
+<circle cx="98.49" cy="81.00" r="0.75" fill="#1565c0" stroke="#1565c0" stroke-width="0.1"/>
+<text x="99.09" y="79.40" font-size="1.7" text-anchor="start" fill="#1565c0" transform="rotate(-90 99.09 79.40)">288</text>
+<rect x="99.66" y="134.24" width="1.50" height="1.50" fill="#fff" stroke="#2e7d32" stroke-width="0.3"/>
+<text x="101.01" y="133.39" font-size="1.7" text-anchor="start" fill="#2e7d32" transform="rotate(-90 101.01 133.39)">314</text>
+<circle cx="102.62" cy="129.82" r="0.75" fill="#fff" stroke="#1565c0" stroke-width="0.3"/>
+<text x="104.12" y="130.42" font-size="1.7" text-anchor="start" fill="#1565c0">138</text>
+<circle cx="102.62" cy="115.81" r="0.75" fill="#fff" stroke="#1565c0" stroke-width="0.3"/>
+<text x="104.12" y="116.41" font-size="1.7" text-anchor="start" fill="#1565c0">328</text>
+<circle cx="102.62" cy="101.80" r="0.75" fill="#fff" stroke="#1565c0" stroke-width="0.3"/>
+<text x="104.12" y="102.40" font-size="1.7" text-anchor="start" fill="#1565c0">518</text>
+<circle cx="102.62" cy="87.78" r="0.75" fill="#fff" stroke="#1565c0" stroke-width="0.3"/>
+<text x="104.12" y="88.38" font-size="1.7" text-anchor="start" fill="#1565c0">708</text>
+<circle cx="102.62" cy="74.14" r="0.75" fill="#fff" stroke="#1565c0" stroke-width="0.3"/>
+<text x="104.12" y="74.74" font-size="1.7" text-anchor="start" fill="#1565c0">893</text>
+<circle cx="102.62" cy="59.47" r="0.75" fill="#fff" stroke="#1565c0" stroke-width="0.3"/>
+<text x="104.12" y="60.07" font-size="1.7" text-anchor="start" fill="#1565c0">1092</text>
+<circle cx="102.62" cy="44.72" r="0.75" fill="#fff" stroke="#1565c0" stroke-width="0.3"/>
+<text x="104.12" y="45.32" font-size="1.7" text-anchor="start" fill="#1565c0">1292</text>
+<circle cx="102.62" cy="29.97" r="0.75" fill="#fff" stroke="#1565c0" stroke-width="0.3"/>
+<text x="104.12" y="30.57" font-size="1.7" text-anchor="start" fill="#1565c0">1492</text>
+<rect x="108.36" y="134.24" width="1.50" height="1.50" fill="#fff" stroke="#2e7d32" stroke-width="0.3"/>
+<text x="109.71" y="133.39" font-size="1.7" text-anchor="start" fill="#2e7d32" transform="rotate(-90 109.71 133.39)">432</text>
+<rect x="108.36" y="24.05" width="1.50" height="1.50" fill="#fff" stroke="#2e7d32" stroke-width="0.3"/>
+<text x="109.71" y="26.80" font-size="1.7" text-anchor="end" fill="#2e7d32" transform="rotate(-90 109.71 26.80)">432</text>
+<circle cx="115.97" cy="81.00" r="0.75" fill="#1565c0" stroke="#1565c0" stroke-width="0.1"/>
+<text x="116.57" y="79.40" font-size="1.7" text-anchor="start" fill="#1565c0" transform="rotate(-90 116.57 79.40)">525</text>
+<rect x="126.28" y="134.24" width="1.50" height="1.50" fill="#fff" stroke="#2e7d32" stroke-width="0.3"/>
+<text x="127.63" y="133.39" font-size="1.7" text-anchor="start" fill="#2e7d32" transform="rotate(-90 127.63 133.39)">675</text>
+<rect x="126.28" y="24.05" width="1.50" height="1.50" fill="#fff" stroke="#2e7d32" stroke-width="0.3"/>
+<text x="127.63" y="26.80" font-size="1.7" text-anchor="end" fill="#2e7d32" transform="rotate(-90 127.63 26.80)">675</text>
+<circle cx="133.52" cy="81.00" r="0.75" fill="#1565c0" stroke="#1565c0" stroke-width="0.1"/>
+<text x="134.12" y="79.40" font-size="1.7" text-anchor="start" fill="#1565c0" transform="rotate(-90 134.12 79.40)">763</text>
+<rect x="144.28" y="134.24" width="1.50" height="1.50" fill="#fff" stroke="#2e7d32" stroke-width="0.3"/>
+<text x="145.63" y="133.39" font-size="1.7" text-anchor="start" fill="#2e7d32" transform="rotate(-90 145.63 133.39)">919</text>
+<rect x="144.28" y="24.05" width="1.50" height="1.50" fill="#fff" stroke="#2e7d32" stroke-width="0.3"/>
+<text x="145.63" y="26.80" font-size="1.7" text-anchor="end" fill="#2e7d32" transform="rotate(-90 145.63 26.80)">919</text>
+<circle cx="151.00" cy="81.00" r="0.75" fill="#1565c0" stroke="#1565c0" stroke-width="0.1"/>
+<text x="151.60" y="79.40" font-size="1.7" text-anchor="start" fill="#1565c0" transform="rotate(-90 151.60 79.40)">1000</text>
+<rect x="162.20" y="134.24" width="1.50" height="1.50" fill="#fff" stroke="#2e7d32" stroke-width="0.3"/>
+<text x="163.55" y="133.39" font-size="1.7" text-anchor="start" fill="#2e7d32" transform="rotate(-90 163.55 133.39)">1162</text>
+<rect x="162.20" y="24.05" width="1.50" height="1.50" fill="#fff" stroke="#2e7d32" stroke-width="0.3"/>
+<text x="163.55" y="26.80" font-size="1.7" text-anchor="end" fill="#2e7d32" transform="rotate(-90 163.55 26.80)">1162</text>
+<circle cx="168.55" cy="81.00" r="0.75" fill="#1565c0" stroke="#1565c0" stroke-width="0.1"/>
+<text x="169.15" y="79.40" font-size="1.7" text-anchor="start" fill="#1565c0" transform="rotate(-90 169.15 79.40)">1238</text>
+<rect x="180.12" y="134.24" width="1.50" height="1.50" fill="#fff" stroke="#2e7d32" stroke-width="0.3"/>
+<text x="181.47" y="133.39" font-size="1.7" text-anchor="start" fill="#2e7d32" transform="rotate(-90 181.47 133.39)">1405</text>
+<rect x="180.12" y="24.05" width="1.50" height="1.50" fill="#fff" stroke="#2e7d32" stroke-width="0.3"/>
+<text x="181.47" y="26.80" font-size="1.7" text-anchor="end" fill="#2e7d32" transform="rotate(-90 181.47 26.80)">1405</text>
+<circle cx="186.03" cy="81.00" r="0.75" fill="#1565c0" stroke="#1565c0" stroke-width="0.1"/>
+<text x="186.63" y="79.40" font-size="1.7" text-anchor="start" fill="#1565c0" transform="rotate(-90 186.63 79.40)">1475</text>
+<rect x="198.11" y="134.24" width="1.50" height="1.50" fill="#fff" stroke="#2e7d32" stroke-width="0.3"/>
+<text x="199.46" y="133.39" font-size="1.7" text-anchor="start" fill="#2e7d32" transform="rotate(-90 199.46 133.39)">1649</text>
+<rect x="198.11" y="24.05" width="1.50" height="1.50" fill="#fff" stroke="#2e7d32" stroke-width="0.3"/>
+<text x="199.46" y="26.80" font-size="1.7" text-anchor="end" fill="#2e7d32" transform="rotate(-90 199.46 26.80)">1649</text>
+<circle cx="203.58" cy="81.00" r="0.75" fill="#1565c0" stroke="#1565c0" stroke-width="0.1"/>
+<text x="204.18" y="79.40" font-size="1.7" text-anchor="start" fill="#1565c0" transform="rotate(-90 204.18 79.40)">1713</text>
+<rect x="216.03" y="134.24" width="1.50" height="1.50" fill="#fff" stroke="#2e7d32" stroke-width="0.3"/>
+<text x="217.38" y="133.39" font-size="1.7" text-anchor="start" fill="#2e7d32" transform="rotate(-90 217.38 133.39)">1892</text>
+<rect x="216.03" y="24.05" width="1.50" height="1.50" fill="#fff" stroke="#2e7d32" stroke-width="0.3"/>
+<text x="217.38" y="26.80" font-size="1.7" text-anchor="end" fill="#2e7d32" transform="rotate(-90 217.38 26.80)">1892</text>
+<circle cx="221.06" cy="81.00" r="0.75" fill="#1565c0" stroke="#1565c0" stroke-width="0.1"/>
+<text x="221.66" y="79.40" font-size="1.7" text-anchor="start" fill="#1565c0" transform="rotate(-90 221.66 79.40)">1950</text>
+<circle cx="221.95" cy="129.82" r="0.75" fill="#fff" stroke="#1565c0" stroke-width="0.3"/>
+<text x="220.45" y="130.42" font-size="1.7" text-anchor="end" fill="#1565c0">138</text>
+<circle cx="221.95" cy="115.81" r="0.75" fill="#fff" stroke="#1565c0" stroke-width="0.3"/>
+<text x="220.45" y="116.41" font-size="1.7" text-anchor="end" fill="#1565c0">328</text>
+<circle cx="221.95" cy="101.80" r="0.75" fill="#fff" stroke="#1565c0" stroke-width="0.3"/>
+<text x="220.45" y="102.40" font-size="1.7" text-anchor="end" fill="#1565c0">518</text>
+<circle cx="221.95" cy="87.78" r="0.75" fill="#fff" stroke="#1565c0" stroke-width="0.3"/>
+<text x="220.45" y="88.38" font-size="1.7" text-anchor="end" fill="#1565c0">708</text>
+<circle cx="221.95" cy="74.14" r="0.75" fill="#fff" stroke="#1565c0" stroke-width="0.3"/>
+<text x="220.45" y="74.74" font-size="1.7" text-anchor="end" fill="#1565c0">893</text>
+<circle cx="221.95" cy="59.47" r="0.75" fill="#fff" stroke="#1565c0" stroke-width="0.3"/>
+<text x="220.45" y="60.07" font-size="1.7" text-anchor="end" fill="#1565c0">1092</text>
+<circle cx="221.95" cy="44.72" r="0.75" fill="#fff" stroke="#1565c0" stroke-width="0.3"/>
+<text x="220.45" y="45.32" font-size="1.7" text-anchor="end" fill="#1565c0">1292</text>
+<circle cx="221.95" cy="29.97" r="0.75" fill="#fff" stroke="#1565c0" stroke-width="0.3"/>
+<text x="220.45" y="30.57" font-size="1.7" text-anchor="end" fill="#1565c0">1492</text>
+<line x1="77.25" y1="141.00" x2="77.25" y2="142.60" stroke="#555" stroke-width="0.15"/>
+<text x="78.01" y="143.00" font-size="2.1" text-anchor="end" fill="#555" transform="rotate(-90 78.01 143.00)">0</text>
+<line x1="80.05" y1="141.00" x2="80.05" y2="142.60" stroke="#1565c0" stroke-width="0.15"/>
+<text x="80.81" y="143.00" font-size="2.1" text-anchor="end" fill="#1565c0" transform="rotate(-90 80.81 143.00)">38</text>
+<line x1="91.26" y1="141.00" x2="91.26" y2="142.60" stroke="#1a3c8a" stroke-width="0.15"/>
+<text x="92.02" y="143.00" font-size="2.1" text-anchor="end" fill="#1a3c8a" transform="rotate(-90 92.02 143.00)">190</text>
+<line x1="102.62" y1="141.00" x2="102.62" y2="142.60" stroke="#1565c0" stroke-width="0.15"/>
+<text x="103.38" y="143.00" font-size="2.1" text-anchor="end" fill="#1565c0" transform="rotate(-90 103.38 143.00)">344</text>
+<line x1="221.95" y1="141.00" x2="221.95" y2="142.60" stroke="#1565c0" stroke-width="0.15"/>
+<text x="222.70" y="143.00" font-size="2.1" text-anchor="end" fill="#1565c0" transform="rotate(-90 222.70 143.00)">1962</text>
+<line x1="76.25" y1="140.00" x2="74.65" y2="140.00" stroke="#555" stroke-width="0.15"/>
+<text x="74.25" y="140.76" font-size="2.1" text-anchor="end" fill="#555">0</text>
+<line x1="76.25" y1="134.99" x2="74.65" y2="134.99" stroke="#2e7d32" stroke-width="0.15"/>
+<text x="74.25" y="135.74" font-size="2.1" text-anchor="end" fill="#2e7d32">68</text>
+<line x1="76.25" y1="110.50" x2="74.65" y2="110.50" stroke="#1a3c8a" stroke-width="0.15"/>
+<text x="74.25" y="111.26" font-size="2.1" text-anchor="end" fill="#1a3c8a">400</text>
+<line x1="76.25" y1="81.00" x2="74.65" y2="81.00" stroke="#1565c0" stroke-width="0.15"/>
+<text x="74.25" y="81.76" font-size="2.1" text-anchor="end" fill="#1565c0">800</text>
+<line x1="76.25" y1="51.50" x2="74.65" y2="51.50" stroke="#1a3c8a" stroke-width="0.15"/>
+<text x="74.25" y="52.26" font-size="2.1" text-anchor="end" fill="#1a3c8a">1200</text>
+<line x1="76.25" y1="24.80" x2="74.65" y2="24.80" stroke="#2e7d32" stroke-width="0.15"/>
+<text x="74.25" y="25.56" font-size="2.1" text-anchor="end" fill="#2e7d32">1562</text>
+<line x1="77.25" y1="22.00" x2="77.25" y2="13.80" stroke="#1a3c8a" stroke-width="0.13"/>
+<line x1="224.75" y1="22.00" x2="224.75" y2="13.80" stroke="#1a3c8a" stroke-width="0.13"/>
+<line x1="77.25" y1="15.00" x2="224.75" y2="15.00" stroke="#1a3c8a" stroke-width="0.18"/>
+<line x1="76.45" y1="15.80" x2="78.05" y2="14.20" stroke="#1a3c8a" stroke-width="0.3"/>
+<line x1="223.95" y1="15.80" x2="225.55" y2="14.20" stroke="#1a3c8a" stroke-width="0.3"/>
+<text x="151.00" y="14.10" font-size="2.5" text-anchor="middle" fill="#1a3c8a">2000</text>
+<line x1="224.75" y1="140.00" x2="233.95" y2="140.00" stroke="#1a3c8a" stroke-width="0.13"/>
+<line x1="224.75" y1="22.00" x2="233.95" y2="22.00" stroke="#1a3c8a" stroke-width="0.13"/>
+<line x1="232.75" y1="140.00" x2="232.75" y2="22.00" stroke="#1a3c8a" stroke-width="0.18"/>
+<line x1="231.95" y1="140.80" x2="233.55" y2="139.20" stroke="#1a3c8a" stroke-width="0.3"/>
+<line x1="231.95" y1="22.80" x2="233.55" y2="21.20" stroke="#1a3c8a" stroke-width="0.3"/>
+<text x="231.85" y="81.00" font-size="2.5" text-anchor="middle" fill="#1a3c8a" transform="rotate(-90 231.85 81.00)">1600</text>
+<text x="9.00" y="168.00" font-size="2.4" text-anchor="start" fill="#222">Desenho: vista por cima (frente da cabine para baixo). Origem das cotas no canto inferior esquerdo do desenho.</text>
+<text x="9.00" y="172.00" font-size="2.0" text-anchor="start" fill="#666">No modelo 3D: Base</text>
+<circle cx="10.00" cy="176.60" r="0.90" fill="#1565c0" stroke="#1565c0" stroke-width="0.1"/>
+<text x="12.50" y="177.50" font-size="2.3" text-anchor="start" fill="#222">9 × parafuso 4,5 x 50 (cabeça nesta face)</text>
+<circle cx="73.62" cy="176.60" r="0.90" fill="#fff" stroke="#1565c0" stroke-width="0.3"/>
+<text x="76.12" y="177.50" font-size="2.3" text-anchor="start" fill="#222">24 × parafuso 4,5 x 50 (cabeça na face oposta)</text>
+<rect x="142.94" y="175.70" width="1.80" height="1.80" fill="#fff" stroke="#2e7d32" stroke-width="0.3"/>
+<text x="146.34" y="177.50" font-size="2.3" text-anchor="start" fill="#222">18 × parafuso 5,0 x 80 (vem do sarrafo e atravessa esta peça)</text>
+<text x="9.00" y="186.00" font-size="2.2" text-anchor="start" fill="#444">Número ao lado de cada furo: posição ao longo da linha. Número na margem: posição da linha. Furo passante Ø5 escareado na chapa; pré-furo Ø3 no sarrafo.</text>
+<text x="9.00" y="200.50" font-size="3.6" text-anchor="start" fill="#222" font-weight="bold">P01 — Base (piso)</text>
+<text x="288.00" y="198.50" font-size="2.4" text-anchor="end" fill="#222">Cabine acústica ventilada para gerador</text>
+<text x="288.00" y="201.80" font-size="2.2" text-anchor="end" fill="#444">Medidas em mm · não medir no desenho, usar as cotas · folha 8/28</text>
+<text x="9.00" y="203.10" font-size="2" text-anchor="start" fill="#222"></text>
+<text x="156.50" y="200.50" font-size="2.4" text-anchor="middle" fill="#444">1 peça(s) · compensado naval 18 mm · 2000 × 1600</text>
+</svg>

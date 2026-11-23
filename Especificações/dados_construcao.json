@@ -1,0 +1,9990 @@
+{
+ "pecas": [
+  {
+   "obj": "Longarina_1",
+   "tipo": "longarina",
+   "vista": "-z",
+   "recortes": [],
+   "bbox": [
+    0.0,
+    2000.0,
+    15.0,
+    60.0,
+    10.0,
+    80.0
+   ]
+  },
+  {
+   "obj": "Calco_Borracha_1",
+   "tipo": "borracha",
+   "vista": "-z",
+   "recortes": [],
+   "bbox": [
+    20.0,
+    140.0,
+    7.5,
+    67.5,
+    0.0,
+    10.0
+   ]
+  },
+  {
+   "obj": "Calco_Borracha_2",
+   "tipo": "borracha",
+   "vista": "-z",
+   "recortes": [],
+   "bbox": [
+    940.0,
+    1060.0,
+    7.5,
+    67.5,
+    0.0,
+    10.0
+   ]
+  },
+  {
+   "obj": "Calco_Borracha_3",
+   "tipo": "borracha",
+   "vista": "-z",
+   "recortes": [],
+   "bbox": [
+    1860.0,
+    1980.0,
+    7.5,
+    67.5,
+    0.0,
+    10.0
+   ]
+  },
+  {
+   "obj": "Longarina_2",
+   "tipo": "longarina",
+   "vista": "-z",
+   "recortes": [],
+   "bbox": [
+    0.0,
+    2000.0,
+    777.5,
+    822.5,
+    10.0,
+    80.0
+   ]
+  },
+  {
+   "obj": "Calco_Borracha_4",
+   "tipo": "borracha",
+   "vista": "-z",
+   "recortes": [],
+   "bbox": [
+    20.0,
+    140.0,
+    770.0,
+    830.0,
+    0.0,
+    10.0
+   ]
+  },
+  {
+   "obj": "Calco_Borracha_5",
+   "tipo": "borracha",
+   "vista": "-z",
+   "recortes": [],
+   "bbox": [
+    940.0,
+    1060.0,
+    770.0,
+    830.0,
+    0.0,
+    10.0
+   ]
+  },
+  {
+   "obj": "Calco_Borracha_6",
+   "tipo": "borracha",
+   "vista": "-z",
+   "recortes": [],
+   "bbox": [
+    1860.0,
+    1980.0,
+    770.0,
+    830.0,
+    0.0,
+    10.0
+   ]
+  },
+  {
+   "obj": "Longarina_3",
+   "tipo": "longarina",
+   "vista": "-z",
+   "recortes": [],
+   "bbox": [
+    0.0,
+    2000.0,
+    1510.0,
+    1555.0,
+    10.0,
+    80.0
+   ]
+  },
+  {
+   "obj": "Calco_Borracha_7",
+   "tipo": "borracha",
+   "vista": "-z",
+   "recortes": [],
+   "bbox": [
+    20.0,
+    140.0,
+    1502.5,
+    1562.5,
+    0.0,
+    10.0
+   ]
+  },
+  {
+   "obj": "Calco_Borracha_8",
+   "tipo": "borracha",
+   "vista": "-z",
+   "recortes": [],
+   "bbox": [
+    940.0,
+    1060.0,
+    1502.5,
+    1562.5,
+    0.0,
+    10.0
+   ]
+  },
+  {
+   "obj": "Calco_Borracha_9",
+   "tipo": "borracha",
+   "vista": "-z",
+   "recortes": [],
+   "bbox": [
+    1860.0,
+    1980.0,
+    1502.5,
+    1562.5,
+    0.0,
+    10.0
+   ]
+  },
+  {
+   "obj": "Base",
+   "tipo": "compensado",
+   "vista": "+z",
+   "recortes": [
+    {
+     "forma": "circ",
+     "dados": [
+      1810.0,
+      400.0,
+      98.0,
+      5.0
+     ],
+     "nota": "dreno Ø10"
+    },
+    {
+     "forma": "circ",
+     "dados": [
+      1810.0,
+      1200.0,
+      98.0,
+      5.0
+     ],
+     "nota": "dreno Ø10"
+    }
+   ],
+   "bbox": [
+    0.0,
+    2000.0,
+    0.0,
+    1600.0,
+    80.0,
+    98.0
+   ]
+  },
+  {
+   "obj": "Parede_Traseira_Inferior",
+   "tipo": "compensado",
+   "vista": "-y",
+   "recortes": [],
+   "bbox": [
+    0.0,
+    2000.0,
+    0.0,
+    18.0,
+    98.0,
+    1658.0
+   ]
+  },
+  {
+   "obj": "Parede_Traseira_Superior",
+   "tipo": "compensado",
+   "vista": "-y",
+   "recortes": [],
+   "bbox": [
+    0.0,
+    2000.0,
+    0.0,
+    18.0,
+    1658.0,
+    2102.0
+   ]
+  },
+  {
+   "obj": "Parede_X0_Escapamento",
+   "tipo": "compensado",
+   "vista": "-x",
+   "recortes": [
+    {
+     "forma": "circ",
+     "dados": [
+      0.0,
+      560.0,
+      450.0,
+      75.0
+     ],
+     "nota": "furo Ø150 da flange térmica"
+    }
+   ],
+   "bbox": [
+    0.0,
+    18.0,
+    18.0,
+    1582.0,
+    98.0,
+    1764.0
+   ]
+  },
+  {
+   "obj": "Parede_X2_Entrada",
+   "tipo": "compensado",
+   "vista": "+x",
+   "recortes": [
+    {
+     "forma": "ret",
+     "dados": [
+      1982.0,
+      2000.0,
+      250.0,
+      1350.0,
+      150.0,
+      550.0
+     ],
+     "nota": "abertura da veneziana de entrada"
+    }
+   ],
+   "bbox": [
+    1982.0,
+    2000.0,
+    18.0,
+    1582.0,
+    98.0,
+    1764.0
+   ]
+  },
+  {
+   "obj": "Divisoria_Labirinto_Entrada",
+   "tipo": "compensado",
+   "vista": "-x",
+   "recortes": [],
+   "bbox": [
+    1618.0,
+    1636.0,
+    18.0,
+    1532.0,
+    98.0,
+    1500.0
+   ]
+  },
+  {
+   "obj": "Teto_Camara",
+   "tipo": "compensado",
+   "vista": "+z",
+   "recortes": [
+    {
+     "forma": "circ",
+     "dados": [
+      850.0,
+      500.0,
+      1782.0,
+      150.0
+     ],
+     "nota": "furo Ø300 do exaustor"
+    },
+    {
+     "forma": "circ",
+     "dados": [
+      850.0,
+      1100.0,
+      1782.0,
+      150.0
+     ],
+     "nota": "furo Ø300 do exaustor"
+    }
+   ],
+   "bbox": [
+    0.0,
+    2000.0,
+    18.0,
+    1600.0,
+    1764.0,
+    1782.0
+   ]
+  },
+  {
+   "obj": "Sarrafo_Vertical_Traseiro_X0",
+   "tipo": "sarrafo",
+   "vista": "+y",
+   "recortes": [],
+   "bbox": [
+    18.0,
+    58.0,
+    18.0,
+    58.0,
+    98.0,
+    1764.0
+   ]
+  },
+  {
+   "obj": "Sarrafo_Montante_Frontal_X0",
+   "tipo": "sarrafo",
+   "vista": "+y",
+   "recortes": [],
+   "bbox": [
+    18.0,
+    58.0,
+    1512.0,
+    1552.0,
+    98.0,
+    1764.0
+   ]
+  },
+  {
+   "obj": "Sarrafo_Inferior_Lateral_X0",
+   "tipo": "sarrafo",
+   "vista": "+y",
+   "recortes": [],
+   "bbox": [
+    18.0,
+    58.0,
+    58.0,
+    1512.0,
+    98.0,
+    138.0
+   ]
+  },
+  {
+   "obj": "Sarrafo_Superior_Lateral_X0",
+   "tipo": "sarrafo",
+   "vista": "+y",
+   "recortes": [],
+   "bbox": [
+    18.0,
+    58.0,
+    58.0,
+    1512.0,
+    1724.0,
+    1764.0
+   ]
+  },
+  {
+   "obj": "Sarrafo_Vertical_Traseiro_X2",
+   "tipo": "sarrafo",
+   "vista": "+y",
+   "recortes": [],
+   "bbox": [
+    1942.0,
+    1982.0,
+    18.0,
+    58.0,
+    98.0,
+    1764.0
+   ]
+  },
+  {
+   "obj": "Sarrafo_Montante_Frontal_X2",
+   "tipo": "sarrafo",
+   "vista": "+y",
+   "recortes": [],
+   "bbox": [
+    1942.0,
+    1982.0,
+    1512.0,
+    1552.0,
+    98.0,
+    1764.0
+   ]
+  },
+  {
+   "obj": "Sarrafo_Inferior_Lateral_X2",
+   "tipo": "sarrafo",
+   "vista": "+y",
+   "recortes": [],
+   "bbox": [
+    1942.0,
+    1982.0,
+    58.0,
+    1512.0,
+    98.0,
+    138.0
+   ]
+  },
+  {
+   "obj": "Sarrafo_Superior_Lateral_X2",
+   "tipo": "sarrafo",
+   "vista": "+y",
+   "recortes": [],
+   "bbox": [
+    1942.0,
+    1982.0,
+    58.0,
+    1512.0,
+    1724.0,
+    1764.0
+   ]
+  },
+  {
+   "obj": "Sarrafo_Inferior_Traseiro_A",
+   "tipo": "sarrafo",
+   "vista": "+y",
+   "recortes": [],
+   "bbox": [
+    58.0,
+    1618.0,
+    18.0,
+    58.0,
+    98.0,
+    138.0
+   ]
+  },
+  {
+   "obj": "Sarrafo_Inferior_Traseiro_B",
+   "tipo": "sarrafo",
+   "vista": "+y",
+   "recortes": [],
+   "bbox": [
+    1676.0,
+    1942.0,
+    18.0,
+    58.0,
+    98.0,
+    138.0
+   ]
+  },
+  {
+   "obj": "Sarrafo_Superior_Traseiro",
+   "tipo": "sarrafo",
+   "vista": "+y",
+   "recortes": [],
+   "bbox": [
+    58.0,
+    1942.0,
+    18.0,
+    58.0,
+    1724.0,
+    1764.0
+   ]
+  },
+  {
+   "obj": "Sarrafo_Inferior_Frontal_A",
+   "tipo": "sarrafo",
+   "vista": "+y",
+   "recortes": [],
+   "bbox": [
+    58.0,
+    1618.0,
+    1512.0,
+    1552.0,
+    98.0,
+    138.0
+   ]
+  },
+  {
+   "obj": "Sarrafo_Inferior_Frontal_B",
+   "tipo": "sarrafo",
+   "vista": "+y",
+   "recortes": [],
+   "bbox": [
+    1636.0,
+    1942.0,
+    1512.0,
+    1552.0,
+    98.0,
+    138.0
+   ]
+  },
+  {
+   "obj": "Sarrafo_Superior_Frontal",
+   "tipo": "sarrafo",
+   "vista": "+y",
+   "recortes": [],
+   "bbox": [
+    58.0,
+    1942.0,
+    1512.0,
+    1552.0,
+    1724.0,
+    1764.0
+   ]
+  },
+  {
+   "obj": "Sarrafo_Divisoria_Vertical",
+   "tipo": "sarrafo",
+   "vista": "+y",
+   "recortes": [],
+   "bbox": [
+    1636.0,
+    1676.0,
+    18.0,
+    58.0,
+    98.0,
+    1500.0
+   ]
+  },
+  {
+   "obj": "Sarrafo_Divisoria_Base",
+   "tipo": "sarrafo",
+   "vista": "+y",
+   "recortes": [],
+   "bbox": [
+    1636.0,
+    1676.0,
+    58.0,
+    1512.0,
+    98.0,
+    138.0
+   ]
+  },
+  {
+   "obj": "Sarrafo_Divisoria_Travessa",
+   "tipo": "sarrafo",
+   "vista": "+y",
+   "recortes": [],
+   "bbox": [
+    1636.0,
+    1982.0,
+    1472.0,
+    1512.0,
+    1460.0,
+    1500.0
+   ]
+  },
+  {
+   "obj": "Regua_Emenda_Traseira",
+   "tipo": "compensado",
+   "vista": "+y",
+   "recortes": [],
+   "bbox": [
+    58.0,
+    1942.0,
+    18.0,
+    36.0,
+    1608.0,
+    1708.0
+   ]
+  },
+  {
+   "obj": "Guarnicao_Esquerda",
+   "tipo": "compensado",
+   "vista": "+y",
+   "recortes": [],
+   "bbox": [
+    0.0,
+    60.0,
+    1582.0,
+    1600.0,
+    98.0,
+    1764.0
+   ]
+  },
+  {
+   "obj": "Guarnicao_Direita",
+   "tipo": "compensado",
+   "vista": "+y",
+   "recortes": [],
+   "bbox": [
+    1940.0,
+    2000.0,
+    1582.0,
+    1600.0,
+    98.0,
+    1764.0
+   ]
+  },
+  {
+   "obj": "Calco_Guarnicao_Esquerda",
+   "tipo": "calco",
+   "vista": "+y",
+   "recortes": [],
+   "bbox": [
+    18.0,
+    58.0,
+    1570.0,
+    1582.0,
+    98.0,
+    1764.0
+   ]
+  },
+  {
+   "obj": "Calco_Guarnicao_Direita",
+   "tipo": "calco",
+   "vista": "+y",
+   "recortes": [],
+   "bbox": [
+    1942.0,
+    1982.0,
+    1570.0,
+    1582.0,
+    98.0,
+    1764.0
+   ]
+  },
+  {
+   "obj": "Batente_Inferior",
+   "tipo": "compensado",
+   "vista": "+y",
+   "recortes": [],
+   "bbox": [
+    18.0,
+    1982.0,
+    1552.0,
+    1570.0,
+    98.0,
+    158.0
+   ]
+  },
+  {
+   "obj": "Batente_Superior",
+   "tipo": "compensado",
+   "vista": "+y",
+   "recortes": [],
+   "bbox": [
+    18.0,
+    1982.0,
+    1552.0,
+    1570.0,
+    1704.0,
+    1764.0
+   ]
+  },
+  {
+   "obj": "Batente_Esquerdo",
+   "tipo": "compensado",
+   "vista": "+y",
+   "recortes": [],
+   "bbox": [
+    18.0,
+    98.0,
+    1552.0,
+    1570.0,
+    158.0,
+    1704.0
+   ]
+  },
+  {
+   "obj": "Batente_Direito",
+   "tipo": "compensado",
+   "vista": "+y",
+   "recortes": [],
+   "bbox": [
+    1902.0,
+    1982.0,
+    1552.0,
+    1570.0,
+    158.0,
+    1704.0
+   ]
+  },
+  {
+   "obj": "Porta_Folha_Esquerda_Passiva",
+   "tipo": "compensado",
+   "vista": "+y",
+   "recortes": [],
+   "bbox": [
+    60.0,
+    996.0,
+    1582.0,
+    1600.0,
+    102.0,
+    1760.0
+   ]
+  },
+  {
+   "obj": "Porta_Folha_Direita_Ativa",
+   "tipo": "compensado",
+   "vista": "+y",
+   "recortes": [],
+   "bbox": [
+    1004.0,
+    1940.0,
+    1582.0,
+    1600.0,
+    102.0,
+    1760.0
+   ]
+  },
+  {
+   "obj": "Porta_Quadro_Esquerda_Vertical_A",
+   "tipo": "compensado",
+   "vista": "+x",
+   "recortes": [],
+   "bbox": [
+    102.0,
+    120.0,
+    1532.0,
+    1582.0,
+    160.0,
+    1702.0
+   ]
+  },
+  {
+   "obj": "Porta_Quadro_Esquerda_Vertical_B",
+   "tipo": "compensado",
+   "vista": "+x",
+   "recortes": [],
+   "bbox": [
+    948.0,
+    966.0,
+    1532.0,
+    1582.0,
+    160.0,
+    1702.0
+   ]
+  },
+  {
+   "obj": "Porta_Quadro_Esquerda_Horizontal_A",
+   "tipo": "compensado",
+   "vista": "+z",
+   "recortes": [],
+   "bbox": [
+    120.0,
+    948.0,
+    1532.0,
+    1582.0,
+    160.0,
+    178.0
+   ]
+  },
+  {
+   "obj": "Porta_Quadro_Esquerda_Horizontal_B",
+   "tipo": "compensado",
+   "vista": "+z",
+   "recortes": [],
+   "bbox": [
+    120.0,
+    948.0,
+    1532.0,
+    1582.0,
+    1684.0,
+    1702.0
+   ]
+  },
+  {
+   "obj": "Porta_Quadro_Direita_Vertical_A",
+   "tipo": "compensado",
+   "vista": "+x",
+   "recortes": [],
+   "bbox": [
+    1034.0,
+    1052.0,
+    1532.0,
+    1582.0,
+    160.0,
+    1702.0
+   ]
+  },
+  {
+   "obj": "Porta_Quadro_Direita_Vertical_B",
+   "tipo": "compensado",
+   "vista": "+x",
+   "recortes": [],
+   "bbox": [
+    1880.0,
+    1898.0,
+    1532.0,
+    1582.0,
+    160.0,
+    1702.0
+   ]
+  },
+  {
+   "obj": "Porta_Quadro_Direita_Horizontal_A",
+   "tipo": "compensado",
+   "vista": "+z",
+   "recortes": [],
+   "bbox": [
+    1052.0,
+    1880.0,
+    1532.0,
+    1582.0,
+    160.0,
+    178.0
+   ]
+  },
+  {
+   "obj": "Porta_Quadro_Direita_Horizontal_B",
+   "tipo": "compensado",
+   "vista": "+z",
+   "recortes": [],
+   "bbox": [
+    1052.0,
+    1880.0,
+    1532.0,
+    1582.0,
+    1684.0,
+    1702.0
+   ]
+  },
+  {
+   "obj": "Mata_Junta_Central",
+   "tipo": "compensado",
+   "vista": "+y",
+   "recortes": [],
+   "bbox": [
+    966.0,
+    1026.0,
+    1561.0,
+    1579.0,
+    160.0,
+    1702.0
+   ]
+  },
+  {
+   "obj": "Capuz_Frente",
+   "tipo": "compensado",
+   "vista": "+y",
+   "recortes": [],
+   "bbox": [
+    0.0,
+    2000.0,
+    1582.0,
+    1600.0,
+    1782.0,
+    2102.0
+   ]
+  },
+  {
+   "obj": "Capuz_X2_Fechada",
+   "tipo": "compensado",
+   "vista": "+x",
+   "recortes": [],
+   "bbox": [
+    1982.0,
+    2000.0,
+    18.0,
+    1582.0,
+    1782.0,
+    2102.0
+   ]
+  },
+  {
+   "obj": "Capuz_X0_Saida",
+   "tipo": "compensado",
+   "vista": "-x",
+   "recortes": [
+    {
+     "forma": "ret",
+     "dados": [
+      0.0,
+      18.0,
+      150.0,
+      1450.0,
+      1830.0,
+      2050.0
+     ],
+     "nota": "abertura da veneziana de saída"
+    }
+   ],
+   "bbox": [
+    0.0,
+    18.0,
+    18.0,
+    1582.0,
+    1782.0,
+    2102.0
+   ]
+  },
+  {
+   "obj": "Capuz_Chicana_1_Defletor_Superior",
+   "tipo": "compensado",
+   "vista": "+x",
+   "recortes": [],
+   "bbox": [
+    532.0,
+    550.0,
+    68.0,
+    1532.0,
+    1920.0,
+    2102.0
+   ]
+  },
+  {
+   "obj": "Capuz_Chicana_2_Defletor_Inferior",
+   "tipo": "compensado",
+   "vista": "-x",
+   "recortes": [],
+   "bbox": [
+    262.0,
+    280.0,
+    68.0,
+    1532.0,
+    1782.0,
+    1980.0
+   ]
+  },
+  {
+   "obj": "Capuz_Tampa",
+   "tipo": "compensado",
+   "vista": "+z",
+   "recortes": [],
+   "bbox": [
+    -100.0,
+    2100.0,
+    0.0,
+    1600.0,
+    2102.0,
+    2120.0
+   ]
+  },
+  {
+   "obj": "Sarrafo_Capuz_Inferior_Traseiro",
+   "tipo": "sarrafo",
+   "vista": "+y",
+   "recortes": [],
+   "bbox": [
+    58.0,
+    1942.0,
+    18.0,
+    58.0,
+    1782.0,
+    1822.0
+   ]
+  },
+  {
+   "obj": "Sarrafo_Capuz_Inferior_Frontal",
+   "tipo": "sarrafo",
+   "vista": "+y",
+   "recortes": [],
+   "bbox": [
+    58.0,
+    1942.0,
+    1542.0,
+    1582.0,
+    1782.0,
+    1822.0
+   ]
+  },
+  {
+   "obj": "Sarrafo_Capuz_Inferior_X0",
+   "tipo": "sarrafo",
+   "vista": "+y",
+   "recortes": [],
+   "bbox": [
+    18.0,
+    58.0,
+    58.0,
+    1542.0,
+    1782.0,
+    1822.0
+   ]
+  },
+  {
+   "obj": "Sarrafo_Capuz_Inferior_X2",
+   "tipo": "sarrafo",
+   "vista": "+y",
+   "recortes": [],
+   "bbox": [
+    1942.0,
+    1982.0,
+    58.0,
+    1542.0,
+    1782.0,
+    1822.0
+   ]
+  },
+  {
+   "obj": "Sarrafo_Capuz_Superior_Traseiro",
+   "tipo": "sarrafo",
+   "vista": "+y",
+   "recortes": [],
+   "bbox": [
+    58.0,
+    1942.0,
+    18.0,
+    58.0,
+    2062.0,
+    2102.0
+   ]
+  },
+  {
+   "obj": "Sarrafo_Capuz_Superior_Frontal",
+   "tipo": "sarrafo",
+   "vista": "+y",
+   "recortes": [],
+   "bbox": [
+    58.0,
+    1942.0,
+    1542.0,
+    1582.0,
+    2062.0,
+    2102.0
+   ]
+  },
+  {
+   "obj": "Sarrafo_Capuz_Superior_X0",
+   "tipo": "sarrafo",
+   "vista": "+y",
+   "recortes": [],
+   "bbox": [
+    18.0,
+    58.0,
+    58.0,
+    1542.0,
+    2062.0,
+    2102.0
+   ]
+  },
+  {
+   "obj": "Sarrafo_Capuz_Superior_X2",
+   "tipo": "sarrafo",
+   "vista": "+y",
+   "recortes": [],
+   "bbox": [
+    1942.0,
+    1982.0,
+    58.0,
+    1542.0,
+    2062.0,
+    2102.0
+   ]
+  },
+  {
+   "obj": "Sarrafo_Capuz_Vertical_Traseiro_X0",
+   "tipo": "sarrafo",
+   "vista": "+y",
+   "recortes": [],
+   "bbox": [
+    18.0,
+    58.0,
+    18.0,
+    58.0,
+    1782.0,
+    2102.0
+   ]
+  },
+  {
+   "obj": "Sarrafo_Capuz_Vertical_Frontal_X0",
+   "tipo": "sarrafo",
+   "vista": "+y",
+   "recortes": [],
+   "bbox": [
+    18.0,
+    58.0,
+    1542.0,
+    1582.0,
+    1782.0,
+    2102.0
+   ]
+  },
+  {
+   "obj": "Sarrafo_Capuz_Vertical_Traseiro_X2",
+   "tipo": "sarrafo",
+   "vista": "+y",
+   "recortes": [],
+   "bbox": [
+    1942.0,
+    1982.0,
+    18.0,
+    58.0,
+    1782.0,
+    2102.0
+   ]
+  },
+  {
+   "obj": "Sarrafo_Capuz_Vertical_Frontal_X2",
+   "tipo": "sarrafo",
+   "vista": "+y",
+   "recortes": [],
+   "bbox": [
+    1942.0,
+    1982.0,
+    1542.0,
+    1582.0,
+    1782.0,
+    2102.0
+   ]
+  },
+  {
+   "obj": "Sarrafo_Capuz_Chicana_2",
+   "tipo": "sarrafo",
+   "vista": "+y",
+   "recortes": [],
+   "bbox": [
+    280.0,
+    320.0,
+    68.0,
+    1532.0,
+    1782.0,
+    1822.0
+   ]
+  },
+  {
+   "obj": "Sarrafo_Capuz_Chicana_1",
+   "tipo": "sarrafo",
+   "vista": "+y",
+   "recortes": [],
+   "bbox": [
+    492.0,
+    532.0,
+    68.0,
+    1532.0,
+    2062.0,
+    2102.0
+   ]
+  }
+ ],
+ "parafusos": [
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Inferior",
+   "junta": "Traseira inferior no sarrafo inferior",
+   "p": [
+    108,
+    0,
+    118
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Inferior",
+   "junta": "Traseira inferior no sarrafo inferior",
+   "p": [
+    291,
+    0,
+    118
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Inferior",
+   "junta": "Traseira inferior no sarrafo inferior",
+   "p": [
+    473,
+    0,
+    118
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Inferior",
+   "junta": "Traseira inferior no sarrafo inferior",
+   "p": [
+    656,
+    0,
+    118
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Inferior",
+   "junta": "Traseira inferior no sarrafo inferior",
+   "p": [
+    838,
+    0,
+    118
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Inferior",
+   "junta": "Traseira inferior no sarrafo inferior",
+   "p": [
+    1021,
+    0,
+    118
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Inferior",
+   "junta": "Traseira inferior no sarrafo inferior",
+   "p": [
+    1203,
+    0,
+    118
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Inferior",
+   "junta": "Traseira inferior no sarrafo inferior",
+   "p": [
+    1386,
+    0,
+    118
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Inferior",
+   "junta": "Traseira inferior no sarrafo inferior",
+   "p": [
+    1568,
+    0,
+    118
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Inferior",
+   "junta": "Traseira inferior no sarrafo inferior",
+   "p": [
+    1726,
+    0,
+    118
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Inferior",
+   "junta": "Traseira inferior no sarrafo inferior",
+   "p": [
+    1892,
+    0,
+    118
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Inferior",
+   "junta": "Traseira nos sarrafos verticais",
+   "p": [
+    38,
+    0,
+    148
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Inferior",
+   "junta": "Traseira nos sarrafos verticais",
+   "p": [
+    38,
+    0,
+    331
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Inferior",
+   "junta": "Traseira nos sarrafos verticais",
+   "p": [
+    38,
+    0,
+    513
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Inferior",
+   "junta": "Traseira nos sarrafos verticais",
+   "p": [
+    38,
+    0,
+    695
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Inferior",
+   "junta": "Traseira nos sarrafos verticais",
+   "p": [
+    38,
+    0,
+    878
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Inferior",
+   "junta": "Traseira nos sarrafos verticais",
+   "p": [
+    38,
+    0,
+    1061
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Inferior",
+   "junta": "Traseira nos sarrafos verticais",
+   "p": [
+    38,
+    0,
+    1243
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Inferior",
+   "junta": "Traseira nos sarrafos verticais",
+   "p": [
+    38,
+    0,
+    1426
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Inferior",
+   "junta": "Traseira nos sarrafos verticais",
+   "p": [
+    38,
+    0,
+    1608
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Inferior",
+   "junta": "Traseira nos sarrafos verticais",
+   "p": [
+    1962,
+    0,
+    148
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Inferior",
+   "junta": "Traseira nos sarrafos verticais",
+   "p": [
+    1962,
+    0,
+    331
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Inferior",
+   "junta": "Traseira nos sarrafos verticais",
+   "p": [
+    1962,
+    0,
+    513
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Inferior",
+   "junta": "Traseira nos sarrafos verticais",
+   "p": [
+    1962,
+    0,
+    695
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Inferior",
+   "junta": "Traseira nos sarrafos verticais",
+   "p": [
+    1962,
+    0,
+    878
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Inferior",
+   "junta": "Traseira nos sarrafos verticais",
+   "p": [
+    1962,
+    0,
+    1061
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Inferior",
+   "junta": "Traseira nos sarrafos verticais",
+   "p": [
+    1962,
+    0,
+    1243
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Inferior",
+   "junta": "Traseira nos sarrafos verticais",
+   "p": [
+    1962,
+    0,
+    1426
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Inferior",
+   "junta": "Traseira nos sarrafos verticais",
+   "p": [
+    1962,
+    0,
+    1608
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Inferior",
+   "junta": "Traseira no sarrafo vertical da divisória",
+   "p": [
+    1656,
+    0,
+    188
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Inferior",
+   "junta": "Traseira no sarrafo vertical da divisória",
+   "p": [
+    1656,
+    0,
+    368
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Inferior",
+   "junta": "Traseira no sarrafo vertical da divisória",
+   "p": [
+    1656,
+    0,
+    549
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Inferior",
+   "junta": "Traseira no sarrafo vertical da divisória",
+   "p": [
+    1656,
+    0,
+    729
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Inferior",
+   "junta": "Traseira no sarrafo vertical da divisória",
+   "p": [
+    1656,
+    0,
+    909
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Inferior",
+   "junta": "Traseira no sarrafo vertical da divisória",
+   "p": [
+    1656,
+    0,
+    1089
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Inferior",
+   "junta": "Traseira no sarrafo vertical da divisória",
+   "p": [
+    1656,
+    0,
+    1270
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Inferior",
+   "junta": "Traseira no sarrafo vertical da divisória",
+   "p": [
+    1656,
+    0,
+    1450
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,0 x 30",
+   "obj": "Parede_Traseira_Inferior",
+   "junta": "Traseira na régua de emenda",
+   "p": [
+    108,
+    0,
+    1633
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,0 x 30",
+   "obj": "Parede_Traseira_Inferior",
+   "junta": "Traseira na régua de emenda",
+   "p": [
+    306,
+    0,
+    1633
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,0 x 30",
+   "obj": "Parede_Traseira_Inferior",
+   "junta": "Traseira na régua de emenda",
+   "p": [
+    504,
+    0,
+    1633
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,0 x 30",
+   "obj": "Parede_Traseira_Inferior",
+   "junta": "Traseira na régua de emenda",
+   "p": [
+    703,
+    0,
+    1633
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,0 x 30",
+   "obj": "Parede_Traseira_Inferior",
+   "junta": "Traseira na régua de emenda",
+   "p": [
+    901,
+    0,
+    1633
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,0 x 30",
+   "obj": "Parede_Traseira_Inferior",
+   "junta": "Traseira na régua de emenda",
+   "p": [
+    1099,
+    0,
+    1633
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,0 x 30",
+   "obj": "Parede_Traseira_Inferior",
+   "junta": "Traseira na régua de emenda",
+   "p": [
+    1297,
+    0,
+    1633
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,0 x 30",
+   "obj": "Parede_Traseira_Inferior",
+   "junta": "Traseira na régua de emenda",
+   "p": [
+    1496,
+    0,
+    1633
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,0 x 30",
+   "obj": "Parede_Traseira_Inferior",
+   "junta": "Traseira na régua de emenda",
+   "p": [
+    1694,
+    0,
+    1633
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,0 x 30",
+   "obj": "Parede_Traseira_Inferior",
+   "junta": "Traseira na régua de emenda",
+   "p": [
+    1892,
+    0,
+    1633
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,0 x 30",
+   "obj": "Parede_Traseira_Superior",
+   "junta": "Traseira na régua de emenda",
+   "p": [
+    108,
+    0,
+    1683
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,0 x 30",
+   "obj": "Parede_Traseira_Superior",
+   "junta": "Traseira na régua de emenda",
+   "p": [
+    306,
+    0,
+    1683
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,0 x 30",
+   "obj": "Parede_Traseira_Superior",
+   "junta": "Traseira na régua de emenda",
+   "p": [
+    504,
+    0,
+    1683
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,0 x 30",
+   "obj": "Parede_Traseira_Superior",
+   "junta": "Traseira na régua de emenda",
+   "p": [
+    703,
+    0,
+    1683
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,0 x 30",
+   "obj": "Parede_Traseira_Superior",
+   "junta": "Traseira na régua de emenda",
+   "p": [
+    901,
+    0,
+    1683
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,0 x 30",
+   "obj": "Parede_Traseira_Superior",
+   "junta": "Traseira na régua de emenda",
+   "p": [
+    1099,
+    0,
+    1683
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,0 x 30",
+   "obj": "Parede_Traseira_Superior",
+   "junta": "Traseira na régua de emenda",
+   "p": [
+    1297,
+    0,
+    1683
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,0 x 30",
+   "obj": "Parede_Traseira_Superior",
+   "junta": "Traseira na régua de emenda",
+   "p": [
+    1496,
+    0,
+    1683
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,0 x 30",
+   "obj": "Parede_Traseira_Superior",
+   "junta": "Traseira na régua de emenda",
+   "p": [
+    1694,
+    0,
+    1683
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,0 x 30",
+   "obj": "Parede_Traseira_Superior",
+   "junta": "Traseira na régua de emenda",
+   "p": [
+    1892,
+    0,
+    1683
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Superior",
+   "junta": "Traseira superior no sarrafo superior da câmara",
+   "p": [
+    108,
+    0,
+    1744
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Superior",
+   "junta": "Traseira superior no sarrafo superior da câmara",
+   "p": [
+    306,
+    0,
+    1744
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Superior",
+   "junta": "Traseira superior no sarrafo superior da câmara",
+   "p": [
+    504,
+    0,
+    1744
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Superior",
+   "junta": "Traseira superior no sarrafo superior da câmara",
+   "p": [
+    703,
+    0,
+    1744
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Superior",
+   "junta": "Traseira superior no sarrafo superior da câmara",
+   "p": [
+    901,
+    0,
+    1744
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Superior",
+   "junta": "Traseira superior no sarrafo superior da câmara",
+   "p": [
+    1099,
+    0,
+    1744
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Superior",
+   "junta": "Traseira superior no sarrafo superior da câmara",
+   "p": [
+    1297,
+    0,
+    1744
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Superior",
+   "junta": "Traseira superior no sarrafo superior da câmara",
+   "p": [
+    1496,
+    0,
+    1744
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Superior",
+   "junta": "Traseira superior no sarrafo superior da câmara",
+   "p": [
+    1694,
+    0,
+    1744
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Superior",
+   "junta": "Traseira superior no sarrafo superior da câmara",
+   "p": [
+    1892,
+    0,
+    1744
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Superior",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    108,
+    0,
+    1802
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Superior",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    306,
+    0,
+    1802
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Superior",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    504,
+    0,
+    1802
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Superior",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    703,
+    0,
+    1802
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Superior",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    901,
+    0,
+    1802
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Superior",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    1099,
+    0,
+    1802
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Superior",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    1297,
+    0,
+    1802
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Superior",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    1496,
+    0,
+    1802
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Superior",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    1694,
+    0,
+    1802
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Superior",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    1892,
+    0,
+    1802
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Superior",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    108,
+    0,
+    2082
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Superior",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    306,
+    0,
+    2082
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Superior",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    504,
+    0,
+    2082
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Superior",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    703,
+    0,
+    2082
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Superior",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    901,
+    0,
+    2082
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Superior",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    1099,
+    0,
+    2082
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Superior",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    1297,
+    0,
+    2082
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Superior",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    1496,
+    0,
+    2082
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Superior",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    1694,
+    0,
+    2082
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Superior",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    1892,
+    0,
+    2082
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Superior",
+   "junta": "Traseira nos sarrafos verticais",
+   "p": [
+    38,
+    0,
+    1693
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Superior",
+   "junta": "Traseira nos sarrafos verticais",
+   "p": [
+    38,
+    0,
+    1729
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Superior",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    38,
+    0,
+    1862
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Superior",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    38,
+    0,
+    2022
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Superior",
+   "junta": "Traseira nos sarrafos verticais",
+   "p": [
+    1962,
+    0,
+    1693
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Superior",
+   "junta": "Traseira nos sarrafos verticais",
+   "p": [
+    1962,
+    0,
+    1729
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Superior",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    1962,
+    0,
+    1862
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_Traseira_Superior",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    1962,
+    0,
+    2022
+   ],
+   "n": [
+    0,
+    -1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X0_Escapamento",
+   "junta": "Laterais nos sarrafos inferior e superior",
+   "p": [
+    0,
+    108,
+    118
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X0_Escapamento",
+   "junta": "Laterais nos sarrafos inferior e superior",
+   "p": [
+    0,
+    301,
+    118
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X0_Escapamento",
+   "junta": "Laterais nos sarrafos inferior e superior",
+   "p": [
+    0,
+    495,
+    118
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X0_Escapamento",
+   "junta": "Laterais nos sarrafos inferior e superior",
+   "p": [
+    0,
+    688,
+    118
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X0_Escapamento",
+   "junta": "Laterais nos sarrafos inferior e superior",
+   "p": [
+    0,
+    882,
+    118
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X0_Escapamento",
+   "junta": "Laterais nos sarrafos inferior e superior",
+   "p": [
+    0,
+    1075,
+    118
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X0_Escapamento",
+   "junta": "Laterais nos sarrafos inferior e superior",
+   "p": [
+    0,
+    1269,
+    118
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X0_Escapamento",
+   "junta": "Laterais nos sarrafos inferior e superior",
+   "p": [
+    0,
+    1462,
+    118
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X0_Escapamento",
+   "junta": "Laterais nos sarrafos inferior e superior",
+   "p": [
+    0,
+    108,
+    1744
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X0_Escapamento",
+   "junta": "Laterais nos sarrafos inferior e superior",
+   "p": [
+    0,
+    301,
+    1744
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X0_Escapamento",
+   "junta": "Laterais nos sarrafos inferior e superior",
+   "p": [
+    0,
+    495,
+    1744
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X0_Escapamento",
+   "junta": "Laterais nos sarrafos inferior e superior",
+   "p": [
+    0,
+    688,
+    1744
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X0_Escapamento",
+   "junta": "Laterais nos sarrafos inferior e superior",
+   "p": [
+    0,
+    882,
+    1744
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X0_Escapamento",
+   "junta": "Laterais nos sarrafos inferior e superior",
+   "p": [
+    0,
+    1075,
+    1744
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X0_Escapamento",
+   "junta": "Laterais nos sarrafos inferior e superior",
+   "p": [
+    0,
+    1269,
+    1744
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X0_Escapamento",
+   "junta": "Laterais nos sarrafos inferior e superior",
+   "p": [
+    0,
+    1462,
+    1744
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X0_Escapamento",
+   "junta": "Laterais nos sarrafos verticais e montantes",
+   "p": [
+    0,
+    38,
+    168
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X0_Escapamento",
+   "junta": "Laterais nos sarrafos verticais e montantes",
+   "p": [
+    0,
+    38,
+    359
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X0_Escapamento",
+   "junta": "Laterais nos sarrafos verticais e montantes",
+   "p": [
+    0,
+    38,
+    549
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X0_Escapamento",
+   "junta": "Laterais nos sarrafos verticais e montantes",
+   "p": [
+    0,
+    38,
+    740
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X0_Escapamento",
+   "junta": "Laterais nos sarrafos verticais e montantes",
+   "p": [
+    0,
+    38,
+    931
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X0_Escapamento",
+   "junta": "Laterais nos sarrafos verticais e montantes",
+   "p": [
+    0,
+    38,
+    1122
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X0_Escapamento",
+   "junta": "Laterais nos sarrafos verticais e montantes",
+   "p": [
+    0,
+    38,
+    1312
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X0_Escapamento",
+   "junta": "Laterais nos sarrafos verticais e montantes",
+   "p": [
+    0,
+    38,
+    1503
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X0_Escapamento",
+   "junta": "Laterais nos sarrafos verticais e montantes",
+   "p": [
+    0,
+    38,
+    1694
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X0_Escapamento",
+   "junta": "Laterais nos sarrafos verticais e montantes",
+   "p": [
+    0,
+    1532,
+    168
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X0_Escapamento",
+   "junta": "Laterais nos sarrafos verticais e montantes",
+   "p": [
+    0,
+    1532,
+    359
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X0_Escapamento",
+   "junta": "Laterais nos sarrafos verticais e montantes",
+   "p": [
+    0,
+    1532,
+    549
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X0_Escapamento",
+   "junta": "Laterais nos sarrafos verticais e montantes",
+   "p": [
+    0,
+    1532,
+    740
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X0_Escapamento",
+   "junta": "Laterais nos sarrafos verticais e montantes",
+   "p": [
+    0,
+    1532,
+    931
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X0_Escapamento",
+   "junta": "Laterais nos sarrafos verticais e montantes",
+   "p": [
+    0,
+    1532,
+    1122
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X0_Escapamento",
+   "junta": "Laterais nos sarrafos verticais e montantes",
+   "p": [
+    0,
+    1532,
+    1312
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X0_Escapamento",
+   "junta": "Laterais nos sarrafos verticais e montantes",
+   "p": [
+    0,
+    1532,
+    1503
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X0_Escapamento",
+   "junta": "Laterais nos sarrafos verticais e montantes",
+   "p": [
+    0,
+    1532,
+    1694
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X2_Entrada",
+   "junta": "Laterais nos sarrafos inferior e superior",
+   "p": [
+    2000,
+    108,
+    118
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X2_Entrada",
+   "junta": "Laterais nos sarrafos inferior e superior",
+   "p": [
+    2000,
+    301,
+    118
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X2_Entrada",
+   "junta": "Laterais nos sarrafos inferior e superior",
+   "p": [
+    2000,
+    495,
+    118
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X2_Entrada",
+   "junta": "Laterais nos sarrafos inferior e superior",
+   "p": [
+    2000,
+    688,
+    118
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X2_Entrada",
+   "junta": "Laterais nos sarrafos inferior e superior",
+   "p": [
+    2000,
+    882,
+    118
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X2_Entrada",
+   "junta": "Laterais nos sarrafos inferior e superior",
+   "p": [
+    2000,
+    1075,
+    118
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X2_Entrada",
+   "junta": "Laterais nos sarrafos inferior e superior",
+   "p": [
+    2000,
+    1269,
+    118
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X2_Entrada",
+   "junta": "Laterais nos sarrafos inferior e superior",
+   "p": [
+    2000,
+    1462,
+    118
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X2_Entrada",
+   "junta": "Laterais nos sarrafos inferior e superior",
+   "p": [
+    2000,
+    108,
+    1744
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X2_Entrada",
+   "junta": "Laterais nos sarrafos inferior e superior",
+   "p": [
+    2000,
+    301,
+    1744
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X2_Entrada",
+   "junta": "Laterais nos sarrafos inferior e superior",
+   "p": [
+    2000,
+    495,
+    1744
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X2_Entrada",
+   "junta": "Laterais nos sarrafos inferior e superior",
+   "p": [
+    2000,
+    688,
+    1744
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X2_Entrada",
+   "junta": "Laterais nos sarrafos inferior e superior",
+   "p": [
+    2000,
+    882,
+    1744
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X2_Entrada",
+   "junta": "Laterais nos sarrafos inferior e superior",
+   "p": [
+    2000,
+    1075,
+    1744
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X2_Entrada",
+   "junta": "Laterais nos sarrafos inferior e superior",
+   "p": [
+    2000,
+    1269,
+    1744
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X2_Entrada",
+   "junta": "Laterais nos sarrafos inferior e superior",
+   "p": [
+    2000,
+    1462,
+    1744
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X2_Entrada",
+   "junta": "Laterais nos sarrafos verticais e montantes",
+   "p": [
+    2000,
+    38,
+    168
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X2_Entrada",
+   "junta": "Laterais nos sarrafos verticais e montantes",
+   "p": [
+    2000,
+    38,
+    359
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X2_Entrada",
+   "junta": "Laterais nos sarrafos verticais e montantes",
+   "p": [
+    2000,
+    38,
+    549
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X2_Entrada",
+   "junta": "Laterais nos sarrafos verticais e montantes",
+   "p": [
+    2000,
+    38,
+    740
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X2_Entrada",
+   "junta": "Laterais nos sarrafos verticais e montantes",
+   "p": [
+    2000,
+    38,
+    931
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X2_Entrada",
+   "junta": "Laterais nos sarrafos verticais e montantes",
+   "p": [
+    2000,
+    38,
+    1122
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X2_Entrada",
+   "junta": "Laterais nos sarrafos verticais e montantes",
+   "p": [
+    2000,
+    38,
+    1312
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X2_Entrada",
+   "junta": "Laterais nos sarrafos verticais e montantes",
+   "p": [
+    2000,
+    38,
+    1503
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X2_Entrada",
+   "junta": "Laterais nos sarrafos verticais e montantes",
+   "p": [
+    2000,
+    38,
+    1694
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X2_Entrada",
+   "junta": "Laterais nos sarrafos verticais e montantes",
+   "p": [
+    2000,
+    1532,
+    168
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X2_Entrada",
+   "junta": "Laterais nos sarrafos verticais e montantes",
+   "p": [
+    2000,
+    1532,
+    359
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X2_Entrada",
+   "junta": "Laterais nos sarrafos verticais e montantes",
+   "p": [
+    2000,
+    1532,
+    549
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X2_Entrada",
+   "junta": "Laterais nos sarrafos verticais e montantes",
+   "p": [
+    2000,
+    1532,
+    740
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X2_Entrada",
+   "junta": "Laterais nos sarrafos verticais e montantes",
+   "p": [
+    2000,
+    1532,
+    931
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X2_Entrada",
+   "junta": "Laterais nos sarrafos verticais e montantes",
+   "p": [
+    2000,
+    1532,
+    1122
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X2_Entrada",
+   "junta": "Laterais nos sarrafos verticais e montantes",
+   "p": [
+    2000,
+    1532,
+    1312
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X2_Entrada",
+   "junta": "Laterais nos sarrafos verticais e montantes",
+   "p": [
+    2000,
+    1532,
+    1503
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Parede_X2_Entrada",
+   "junta": "Laterais nos sarrafos verticais e montantes",
+   "p": [
+    2000,
+    1532,
+    1694
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_X0_Saida",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    0,
+    108,
+    1802
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_X0_Saida",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    0,
+    306,
+    1802
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_X0_Saida",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    0,
+    503,
+    1802
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_X0_Saida",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    0,
+    701,
+    1802
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_X0_Saida",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    0,
+    899,
+    1802
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_X0_Saida",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    0,
+    1097,
+    1802
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_X0_Saida",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    0,
+    1294,
+    1802
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_X0_Saida",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    0,
+    1492,
+    1802
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_X0_Saida",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    0,
+    108,
+    2082
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_X0_Saida",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    0,
+    306,
+    2082
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_X0_Saida",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    0,
+    503,
+    2082
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_X0_Saida",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    0,
+    701,
+    2082
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_X0_Saida",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    0,
+    899,
+    2082
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_X0_Saida",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    0,
+    1097,
+    2082
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_X0_Saida",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    0,
+    1294,
+    2082
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_X0_Saida",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    0,
+    1492,
+    2082
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_X0_Saida",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    0,
+    38,
+    1862
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_X0_Saida",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    0,
+    38,
+    2022
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_X0_Saida",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    0,
+    1562,
+    1862
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_X0_Saida",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    0,
+    1562,
+    2022
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_X2_Fechada",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    2000,
+    108,
+    1802
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_X2_Fechada",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    2000,
+    306,
+    1802
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_X2_Fechada",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    2000,
+    503,
+    1802
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_X2_Fechada",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    2000,
+    701,
+    1802
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_X2_Fechada",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    2000,
+    899,
+    1802
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_X2_Fechada",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    2000,
+    1097,
+    1802
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_X2_Fechada",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    2000,
+    1294,
+    1802
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_X2_Fechada",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    2000,
+    1492,
+    1802
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_X2_Fechada",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    2000,
+    108,
+    2082
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_X2_Fechada",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    2000,
+    306,
+    2082
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_X2_Fechada",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    2000,
+    503,
+    2082
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_X2_Fechada",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    2000,
+    701,
+    2082
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_X2_Fechada",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    2000,
+    899,
+    2082
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_X2_Fechada",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    2000,
+    1097,
+    2082
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_X2_Fechada",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    2000,
+    1294,
+    2082
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_X2_Fechada",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    2000,
+    1492,
+    2082
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_X2_Fechada",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    2000,
+    38,
+    1862
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_X2_Fechada",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    2000,
+    38,
+    2022
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_X2_Fechada",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    2000,
+    1562,
+    1862
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_X2_Fechada",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    2000,
+    1562,
+    2022
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_Frente",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    108,
+    1600,
+    1802
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_Frente",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    306,
+    1600,
+    1802
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_Frente",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    504,
+    1600,
+    1802
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_Frente",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    703,
+    1600,
+    1802
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_Frente",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    901,
+    1600,
+    1802
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_Frente",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    1099,
+    1600,
+    1802
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_Frente",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    1297,
+    1600,
+    1802
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_Frente",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    1496,
+    1600,
+    1802
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_Frente",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    1694,
+    1600,
+    1802
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_Frente",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    1892,
+    1600,
+    1802
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_Frente",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    108,
+    1600,
+    2082
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_Frente",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    306,
+    1600,
+    2082
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_Frente",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    504,
+    1600,
+    2082
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_Frente",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    703,
+    1600,
+    2082
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_Frente",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    901,
+    1600,
+    2082
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_Frente",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    1099,
+    1600,
+    2082
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_Frente",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    1297,
+    1600,
+    2082
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_Frente",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    1496,
+    1600,
+    2082
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_Frente",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    1694,
+    1600,
+    2082
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_Frente",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    1892,
+    1600,
+    2082
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_Frente",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    38,
+    1600,
+    1862
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_Frente",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    38,
+    1600,
+    2022
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_Frente",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    1962,
+    1600,
+    1862
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_Frente",
+   "junta": "Paredes do capuz nos sarrafos do capuz",
+   "p": [
+    1962,
+    1600,
+    2022
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Divisoria_Labirinto_Entrada",
+   "junta": "Divisória nos sarrafos da divisória",
+   "p": [
+    1618,
+    108,
+    118
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Divisoria_Labirinto_Entrada",
+   "junta": "Divisória nos sarrafos da divisória",
+   "p": [
+    1618,
+    301,
+    118
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Divisoria_Labirinto_Entrada",
+   "junta": "Divisória nos sarrafos da divisória",
+   "p": [
+    1618,
+    495,
+    118
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Divisoria_Labirinto_Entrada",
+   "junta": "Divisória nos sarrafos da divisória",
+   "p": [
+    1618,
+    688,
+    118
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Divisoria_Labirinto_Entrada",
+   "junta": "Divisória nos sarrafos da divisória",
+   "p": [
+    1618,
+    882,
+    118
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Divisoria_Labirinto_Entrada",
+   "junta": "Divisória nos sarrafos da divisória",
+   "p": [
+    1618,
+    1075,
+    118
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Divisoria_Labirinto_Entrada",
+   "junta": "Divisória nos sarrafos da divisória",
+   "p": [
+    1618,
+    1269,
+    118
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Divisoria_Labirinto_Entrada",
+   "junta": "Divisória nos sarrafos da divisória",
+   "p": [
+    1618,
+    1462,
+    118
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Divisoria_Labirinto_Entrada",
+   "junta": "Divisória nos sarrafos da divisória",
+   "p": [
+    1618,
+    38,
+    208
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Divisoria_Labirinto_Entrada",
+   "junta": "Divisória nos sarrafos da divisória",
+   "p": [
+    1618,
+    38,
+    383
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Divisoria_Labirinto_Entrada",
+   "junta": "Divisória nos sarrafos da divisória",
+   "p": [
+    1618,
+    38,
+    557
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Divisoria_Labirinto_Entrada",
+   "junta": "Divisória nos sarrafos da divisória",
+   "p": [
+    1618,
+    38,
+    732
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Divisoria_Labirinto_Entrada",
+   "junta": "Divisória nos sarrafos da divisória",
+   "p": [
+    1618,
+    38,
+    906
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Divisoria_Labirinto_Entrada",
+   "junta": "Divisória nos sarrafos da divisória",
+   "p": [
+    1618,
+    38,
+    1081
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Divisoria_Labirinto_Entrada",
+   "junta": "Divisória nos sarrafos da divisória",
+   "p": [
+    1618,
+    38,
+    1255
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Divisoria_Labirinto_Entrada",
+   "junta": "Divisória nos sarrafos da divisória",
+   "p": [
+    1618,
+    38,
+    1430
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 80",
+   "obj": "Divisoria_Labirinto_Entrada",
+   "junta": "Travessa da divisória (topo da travessa)",
+   "p": [
+    1618,
+    1492,
+    1480
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 80",
+   "obj": "Parede_X2_Entrada",
+   "junta": "Travessa da divisória (topo da travessa)",
+   "p": [
+    2000,
+    1492,
+    1480
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Base",
+   "junta": "Base nos sarrafos inferiores (por baixo)",
+   "p": [
+    38,
+    108,
+    80
+   ],
+   "n": [
+    0,
+    0,
+    -1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Base",
+   "junta": "Base nos sarrafos inferiores (por baixo)",
+   "p": [
+    38,
+    308,
+    80
+   ],
+   "n": [
+    0,
+    0,
+    -1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Base",
+   "junta": "Base nos sarrafos inferiores (por baixo)",
+   "p": [
+    38,
+    508,
+    80
+   ],
+   "n": [
+    0,
+    0,
+    -1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Base",
+   "junta": "Base nos sarrafos inferiores (por baixo)",
+   "p": [
+    38,
+    707,
+    80
+   ],
+   "n": [
+    0,
+    0,
+    -1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Base",
+   "junta": "Base nos sarrafos inferiores (por baixo)",
+   "p": [
+    38,
+    892,
+    80
+   ],
+   "n": [
+    0,
+    0,
+    -1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Base",
+   "junta": "Base nos sarrafos inferiores (por baixo)",
+   "p": [
+    38,
+    1082,
+    80
+   ],
+   "n": [
+    0,
+    0,
+    -1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Base",
+   "junta": "Base nos sarrafos inferiores (por baixo)",
+   "p": [
+    38,
+    1272,
+    80
+   ],
+   "n": [
+    0,
+    0,
+    -1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Base",
+   "junta": "Base nos sarrafos inferiores (por baixo)",
+   "p": [
+    38,
+    1462,
+    80
+   ],
+   "n": [
+    0,
+    0,
+    -1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Base",
+   "junta": "Base nos sarrafos inferiores (por baixo)",
+   "p": [
+    1962,
+    108,
+    80
+   ],
+   "n": [
+    0,
+    0,
+    -1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Base",
+   "junta": "Base nos sarrafos inferiores (por baixo)",
+   "p": [
+    1962,
+    308,
+    80
+   ],
+   "n": [
+    0,
+    0,
+    -1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Base",
+   "junta": "Base nos sarrafos inferiores (por baixo)",
+   "p": [
+    1962,
+    508,
+    80
+   ],
+   "n": [
+    0,
+    0,
+    -1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Base",
+   "junta": "Base nos sarrafos inferiores (por baixo)",
+   "p": [
+    1962,
+    707,
+    80
+   ],
+   "n": [
+    0,
+    0,
+    -1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Base",
+   "junta": "Base nos sarrafos inferiores (por baixo)",
+   "p": [
+    1962,
+    892,
+    80
+   ],
+   "n": [
+    0,
+    0,
+    -1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Base",
+   "junta": "Base nos sarrafos inferiores (por baixo)",
+   "p": [
+    1962,
+    1082,
+    80
+   ],
+   "n": [
+    0,
+    0,
+    -1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Base",
+   "junta": "Base nos sarrafos inferiores (por baixo)",
+   "p": [
+    1962,
+    1272,
+    80
+   ],
+   "n": [
+    0,
+    0,
+    -1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Base",
+   "junta": "Base nos sarrafos inferiores (por baixo)",
+   "p": [
+    1962,
+    1462,
+    80
+   ],
+   "n": [
+    0,
+    0,
+    -1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Base",
+   "junta": "Base nos sarrafos inferiores (por baixo)",
+   "p": [
+    1656,
+    108,
+    80
+   ],
+   "n": [
+    0,
+    0,
+    -1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Base",
+   "junta": "Base nos sarrafos inferiores (por baixo)",
+   "p": [
+    1656,
+    308,
+    80
+   ],
+   "n": [
+    0,
+    0,
+    -1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Base",
+   "junta": "Base nos sarrafos inferiores (por baixo)",
+   "p": [
+    1656,
+    508,
+    80
+   ],
+   "n": [
+    0,
+    0,
+    -1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Base",
+   "junta": "Base nos sarrafos inferiores (por baixo)",
+   "p": [
+    1656,
+    707,
+    80
+   ],
+   "n": [
+    0,
+    0,
+    -1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Base",
+   "junta": "Base nos sarrafos inferiores (por baixo)",
+   "p": [
+    1656,
+    892,
+    80
+   ],
+   "n": [
+    0,
+    0,
+    -1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Base",
+   "junta": "Base nos sarrafos inferiores (por baixo)",
+   "p": [
+    1656,
+    1082,
+    80
+   ],
+   "n": [
+    0,
+    0,
+    -1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Base",
+   "junta": "Base nos sarrafos inferiores (por baixo)",
+   "p": [
+    1656,
+    1272,
+    80
+   ],
+   "n": [
+    0,
+    0,
+    -1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Base",
+   "junta": "Base nos sarrafos inferiores (por baixo)",
+   "p": [
+    1656,
+    1462,
+    80
+   ],
+   "n": [
+    0,
+    0,
+    -1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Base",
+   "junta": "Base na longarina central (por cima)",
+   "p": [
+    50,
+    800,
+    98
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Base",
+   "junta": "Base na longarina central (por cima)",
+   "p": [
+    287,
+    800,
+    98
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Base",
+   "junta": "Base na longarina central (por cima)",
+   "p": [
+    525,
+    800,
+    98
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Base",
+   "junta": "Base na longarina central (por cima)",
+   "p": [
+    762,
+    800,
+    98
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Base",
+   "junta": "Base na longarina central (por cima)",
+   "p": [
+    1000,
+    800,
+    98
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Base",
+   "junta": "Base na longarina central (por cima)",
+   "p": [
+    1237,
+    800,
+    98
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Base",
+   "junta": "Base na longarina central (por cima)",
+   "p": [
+    1475,
+    800,
+    98
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Base",
+   "junta": "Base na longarina central (por cima)",
+   "p": [
+    1712,
+    800,
+    98
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Base",
+   "junta": "Base na longarina central (por cima)",
+   "p": [
+    1950,
+    800,
+    98
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 80",
+   "obj": "Sarrafo_Inferior_Traseiro_A",
+   "junta": "Sarrafo inferior + base na longarina",
+   "p": [
+    108,
+    38,
+    138
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [
+    "Base"
+   ],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 80",
+   "obj": "Sarrafo_Inferior_Traseiro_A",
+   "junta": "Sarrafo inferior + base na longarina",
+   "p": [
+    351,
+    38,
+    138
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [
+    "Base"
+   ],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 80",
+   "obj": "Sarrafo_Inferior_Traseiro_A",
+   "junta": "Sarrafo inferior + base na longarina",
+   "p": [
+    595,
+    38,
+    138
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [
+    "Base"
+   ],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 80",
+   "obj": "Sarrafo_Inferior_Traseiro_A",
+   "junta": "Sarrafo inferior + base na longarina",
+   "p": [
+    838,
+    38,
+    138
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [
+    "Base"
+   ],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 80",
+   "obj": "Sarrafo_Inferior_Traseiro_A",
+   "junta": "Sarrafo inferior + base na longarina",
+   "p": [
+    1081,
+    38,
+    138
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [
+    "Base"
+   ],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 80",
+   "obj": "Sarrafo_Inferior_Traseiro_A",
+   "junta": "Sarrafo inferior + base na longarina",
+   "p": [
+    1325,
+    38,
+    138
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [
+    "Base"
+   ],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 80",
+   "obj": "Sarrafo_Inferior_Traseiro_A",
+   "junta": "Sarrafo inferior + base na longarina",
+   "p": [
+    1568,
+    38,
+    138
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [
+    "Base"
+   ],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 80",
+   "obj": "Sarrafo_Inferior_Traseiro_B",
+   "junta": "Sarrafo inferior + base na longarina",
+   "p": [
+    1726,
+    38,
+    138
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [
+    "Base"
+   ],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 80",
+   "obj": "Sarrafo_Inferior_Traseiro_B",
+   "junta": "Sarrafo inferior + base na longarina",
+   "p": [
+    1892,
+    38,
+    138
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [
+    "Base"
+   ],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 80",
+   "obj": "Sarrafo_Inferior_Frontal_A",
+   "junta": "Sarrafo inferior + base na longarina",
+   "p": [
+    108,
+    1532,
+    138
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [
+    "Base"
+   ],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 80",
+   "obj": "Sarrafo_Inferior_Frontal_A",
+   "junta": "Sarrafo inferior + base na longarina",
+   "p": [
+    351,
+    1532,
+    138
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [
+    "Base"
+   ],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 80",
+   "obj": "Sarrafo_Inferior_Frontal_A",
+   "junta": "Sarrafo inferior + base na longarina",
+   "p": [
+    595,
+    1532,
+    138
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [
+    "Base"
+   ],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 80",
+   "obj": "Sarrafo_Inferior_Frontal_A",
+   "junta": "Sarrafo inferior + base na longarina",
+   "p": [
+    838,
+    1532,
+    138
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [
+    "Base"
+   ],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 80",
+   "obj": "Sarrafo_Inferior_Frontal_A",
+   "junta": "Sarrafo inferior + base na longarina",
+   "p": [
+    1081,
+    1532,
+    138
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [
+    "Base"
+   ],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 80",
+   "obj": "Sarrafo_Inferior_Frontal_A",
+   "junta": "Sarrafo inferior + base na longarina",
+   "p": [
+    1325,
+    1532,
+    138
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [
+    "Base"
+   ],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 80",
+   "obj": "Sarrafo_Inferior_Frontal_A",
+   "junta": "Sarrafo inferior + base na longarina",
+   "p": [
+    1568,
+    1532,
+    138
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [
+    "Base"
+   ],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 80",
+   "obj": "Sarrafo_Inferior_Frontal_B",
+   "junta": "Sarrafo inferior + base na longarina",
+   "p": [
+    1686,
+    1532,
+    138
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [
+    "Base"
+   ],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 80",
+   "obj": "Sarrafo_Inferior_Frontal_B",
+   "junta": "Sarrafo inferior + base na longarina",
+   "p": [
+    1892,
+    1532,
+    138
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [
+    "Base"
+   ],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Teto_Camara",
+   "junta": "Teto no sarrafo superior frontal (por cima)",
+   "p": [
+    108,
+    1532,
+    1782
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Teto_Camara",
+   "junta": "Teto no sarrafo superior frontal (por cima)",
+   "p": [
+    306,
+    1532,
+    1782
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Teto_Camara",
+   "junta": "Teto no sarrafo superior frontal (por cima)",
+   "p": [
+    504,
+    1532,
+    1782
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Teto_Camara",
+   "junta": "Teto no sarrafo superior frontal (por cima)",
+   "p": [
+    703,
+    1532,
+    1782
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Teto_Camara",
+   "junta": "Teto no sarrafo superior frontal (por cima)",
+   "p": [
+    901,
+    1532,
+    1782
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Teto_Camara",
+   "junta": "Teto no sarrafo superior frontal (por cima)",
+   "p": [
+    1099,
+    1532,
+    1782
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Teto_Camara",
+   "junta": "Teto no sarrafo superior frontal (por cima)",
+   "p": [
+    1297,
+    1532,
+    1782
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Teto_Camara",
+   "junta": "Teto no sarrafo superior frontal (por cima)",
+   "p": [
+    1496,
+    1532,
+    1782
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Teto_Camara",
+   "junta": "Teto no sarrafo superior frontal (por cima)",
+   "p": [
+    1694,
+    1532,
+    1782
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Teto_Camara",
+   "junta": "Teto no sarrafo superior frontal (por cima)",
+   "p": [
+    1892,
+    1532,
+    1782
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Teto_Camara",
+   "junta": "Teto no sarrafo frontal do capuz (por baixo)",
+   "p": [
+    108,
+    1562,
+    1764
+   ],
+   "n": [
+    0,
+    0,
+    -1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Teto_Camara",
+   "junta": "Teto no sarrafo frontal do capuz (por baixo)",
+   "p": [
+    306,
+    1562,
+    1764
+   ],
+   "n": [
+    0,
+    0,
+    -1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Teto_Camara",
+   "junta": "Teto no sarrafo frontal do capuz (por baixo)",
+   "p": [
+    504,
+    1562,
+    1764
+   ],
+   "n": [
+    0,
+    0,
+    -1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Teto_Camara",
+   "junta": "Teto no sarrafo frontal do capuz (por baixo)",
+   "p": [
+    703,
+    1562,
+    1764
+   ],
+   "n": [
+    0,
+    0,
+    -1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Teto_Camara",
+   "junta": "Teto no sarrafo frontal do capuz (por baixo)",
+   "p": [
+    901,
+    1562,
+    1764
+   ],
+   "n": [
+    0,
+    0,
+    -1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Teto_Camara",
+   "junta": "Teto no sarrafo frontal do capuz (por baixo)",
+   "p": [
+    1099,
+    1562,
+    1764
+   ],
+   "n": [
+    0,
+    0,
+    -1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Teto_Camara",
+   "junta": "Teto no sarrafo frontal do capuz (por baixo)",
+   "p": [
+    1297,
+    1562,
+    1764
+   ],
+   "n": [
+    0,
+    0,
+    -1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Teto_Camara",
+   "junta": "Teto no sarrafo frontal do capuz (por baixo)",
+   "p": [
+    1496,
+    1562,
+    1764
+   ],
+   "n": [
+    0,
+    0,
+    -1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Teto_Camara",
+   "junta": "Teto no sarrafo frontal do capuz (por baixo)",
+   "p": [
+    1694,
+    1562,
+    1764
+   ],
+   "n": [
+    0,
+    0,
+    -1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Teto_Camara",
+   "junta": "Teto no sarrafo frontal do capuz (por baixo)",
+   "p": [
+    1892,
+    1562,
+    1764
+   ],
+   "n": [
+    0,
+    0,
+    -1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Teto_Camara",
+   "junta": "Teto no sarrafo da chicana 2 (por baixo)",
+   "p": [
+    300,
+    118,
+    1764
+   ],
+   "n": [
+    0,
+    0,
+    -1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Teto_Camara",
+   "junta": "Teto no sarrafo da chicana 2 (por baixo)",
+   "p": [
+    300,
+    313,
+    1764
+   ],
+   "n": [
+    0,
+    0,
+    -1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Teto_Camara",
+   "junta": "Teto no sarrafo da chicana 2 (por baixo)",
+   "p": [
+    300,
+    508,
+    1764
+   ],
+   "n": [
+    0,
+    0,
+    -1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Teto_Camara",
+   "junta": "Teto no sarrafo da chicana 2 (por baixo)",
+   "p": [
+    300,
+    703,
+    1764
+   ],
+   "n": [
+    0,
+    0,
+    -1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Teto_Camara",
+   "junta": "Teto no sarrafo da chicana 2 (por baixo)",
+   "p": [
+    300,
+    897,
+    1764
+   ],
+   "n": [
+    0,
+    0,
+    -1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Teto_Camara",
+   "junta": "Teto no sarrafo da chicana 2 (por baixo)",
+   "p": [
+    300,
+    1092,
+    1764
+   ],
+   "n": [
+    0,
+    0,
+    -1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Teto_Camara",
+   "junta": "Teto no sarrafo da chicana 2 (por baixo)",
+   "p": [
+    300,
+    1287,
+    1764
+   ],
+   "n": [
+    0,
+    0,
+    -1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Teto_Camara",
+   "junta": "Teto no sarrafo da chicana 2 (por baixo)",
+   "p": [
+    300,
+    1482,
+    1764
+   ],
+   "n": [
+    0,
+    0,
+    -1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 80",
+   "obj": "Sarrafo_Capuz_Inferior_Traseiro",
+   "junta": "Sarrafo do capuz + teto no sarrafo superior da câmara",
+   "p": [
+    108,
+    38,
+    1822
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [
+    "Teto_Camara"
+   ],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 80",
+   "obj": "Sarrafo_Capuz_Inferior_Traseiro",
+   "junta": "Sarrafo do capuz + teto no sarrafo superior da câmara",
+   "p": [
+    331,
+    38,
+    1822
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [
+    "Teto_Camara"
+   ],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 80",
+   "obj": "Sarrafo_Capuz_Inferior_Traseiro",
+   "junta": "Sarrafo do capuz + teto no sarrafo superior da câmara",
+   "p": [
+    554,
+    38,
+    1822
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [
+    "Teto_Camara"
+   ],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 80",
+   "obj": "Sarrafo_Capuz_Inferior_Traseiro",
+   "junta": "Sarrafo do capuz + teto no sarrafo superior da câmara",
+   "p": [
+    777,
+    38,
+    1822
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [
+    "Teto_Camara"
+   ],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 80",
+   "obj": "Sarrafo_Capuz_Inferior_Traseiro",
+   "junta": "Sarrafo do capuz + teto no sarrafo superior da câmara",
+   "p": [
+    1000,
+    38,
+    1822
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [
+    "Teto_Camara"
+   ],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 80",
+   "obj": "Sarrafo_Capuz_Inferior_Traseiro",
+   "junta": "Sarrafo do capuz + teto no sarrafo superior da câmara",
+   "p": [
+    1223,
+    38,
+    1822
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [
+    "Teto_Camara"
+   ],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 80",
+   "obj": "Sarrafo_Capuz_Inferior_Traseiro",
+   "junta": "Sarrafo do capuz + teto no sarrafo superior da câmara",
+   "p": [
+    1446,
+    38,
+    1822
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [
+    "Teto_Camara"
+   ],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 80",
+   "obj": "Sarrafo_Capuz_Inferior_Traseiro",
+   "junta": "Sarrafo do capuz + teto no sarrafo superior da câmara",
+   "p": [
+    1669,
+    38,
+    1822
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [
+    "Teto_Camara"
+   ],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 80",
+   "obj": "Sarrafo_Capuz_Inferior_Traseiro",
+   "junta": "Sarrafo do capuz + teto no sarrafo superior da câmara",
+   "p": [
+    1892,
+    38,
+    1822
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [
+    "Teto_Camara"
+   ],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 80",
+   "obj": "Sarrafo_Capuz_Inferior_X0",
+   "junta": "Sarrafo do capuz + teto no sarrafo superior da câmara",
+   "p": [
+    38,
+    108,
+    1822
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [
+    "Teto_Camara"
+   ],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 80",
+   "obj": "Sarrafo_Capuz_Inferior_X0",
+   "junta": "Sarrafo do capuz + teto no sarrafo superior da câmara",
+   "p": [
+    38,
+    334,
+    1822
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [
+    "Teto_Camara"
+   ],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 80",
+   "obj": "Sarrafo_Capuz_Inferior_X0",
+   "junta": "Sarrafo do capuz + teto no sarrafo superior da câmara",
+   "p": [
+    38,
+    559,
+    1822
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [
+    "Teto_Camara"
+   ],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 80",
+   "obj": "Sarrafo_Capuz_Inferior_X0",
+   "junta": "Sarrafo do capuz + teto no sarrafo superior da câmara",
+   "p": [
+    38,
+    785,
+    1822
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [
+    "Teto_Camara"
+   ],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 80",
+   "obj": "Sarrafo_Capuz_Inferior_X0",
+   "junta": "Sarrafo do capuz + teto no sarrafo superior da câmara",
+   "p": [
+    38,
+    1011,
+    1822
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [
+    "Teto_Camara"
+   ],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 80",
+   "obj": "Sarrafo_Capuz_Inferior_X0",
+   "junta": "Sarrafo do capuz + teto no sarrafo superior da câmara",
+   "p": [
+    38,
+    1236,
+    1822
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [
+    "Teto_Camara"
+   ],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 80",
+   "obj": "Sarrafo_Capuz_Inferior_X0",
+   "junta": "Sarrafo do capuz + teto no sarrafo superior da câmara",
+   "p": [
+    38,
+    1462,
+    1822
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [
+    "Teto_Camara"
+   ],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 80",
+   "obj": "Sarrafo_Capuz_Inferior_X2",
+   "junta": "Sarrafo do capuz + teto no sarrafo superior da câmara",
+   "p": [
+    1962,
+    108,
+    1822
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [
+    "Teto_Camara"
+   ],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 80",
+   "obj": "Sarrafo_Capuz_Inferior_X2",
+   "junta": "Sarrafo do capuz + teto no sarrafo superior da câmara",
+   "p": [
+    1962,
+    334,
+    1822
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [
+    "Teto_Camara"
+   ],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 80",
+   "obj": "Sarrafo_Capuz_Inferior_X2",
+   "junta": "Sarrafo do capuz + teto no sarrafo superior da câmara",
+   "p": [
+    1962,
+    559,
+    1822
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [
+    "Teto_Camara"
+   ],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 80",
+   "obj": "Sarrafo_Capuz_Inferior_X2",
+   "junta": "Sarrafo do capuz + teto no sarrafo superior da câmara",
+   "p": [
+    1962,
+    785,
+    1822
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [
+    "Teto_Camara"
+   ],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 80",
+   "obj": "Sarrafo_Capuz_Inferior_X2",
+   "junta": "Sarrafo do capuz + teto no sarrafo superior da câmara",
+   "p": [
+    1962,
+    1011,
+    1822
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [
+    "Teto_Camara"
+   ],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 80",
+   "obj": "Sarrafo_Capuz_Inferior_X2",
+   "junta": "Sarrafo do capuz + teto no sarrafo superior da câmara",
+   "p": [
+    1962,
+    1236,
+    1822
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [
+    "Teto_Camara"
+   ],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 80",
+   "obj": "Sarrafo_Capuz_Inferior_X2",
+   "junta": "Sarrafo do capuz + teto no sarrafo superior da câmara",
+   "p": [
+    1962,
+    1462,
+    1822
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [
+    "Teto_Camara"
+   ],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_Chicana_2_Defletor_Inferior",
+   "junta": "Chicanas nos sarrafos das chicanas",
+   "p": [
+    262,
+    118,
+    1802
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_Chicana_2_Defletor_Inferior",
+   "junta": "Chicanas nos sarrafos das chicanas",
+   "p": [
+    262,
+    313,
+    1802
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_Chicana_2_Defletor_Inferior",
+   "junta": "Chicanas nos sarrafos das chicanas",
+   "p": [
+    262,
+    508,
+    1802
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_Chicana_2_Defletor_Inferior",
+   "junta": "Chicanas nos sarrafos das chicanas",
+   "p": [
+    262,
+    703,
+    1802
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_Chicana_2_Defletor_Inferior",
+   "junta": "Chicanas nos sarrafos das chicanas",
+   "p": [
+    262,
+    897,
+    1802
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_Chicana_2_Defletor_Inferior",
+   "junta": "Chicanas nos sarrafos das chicanas",
+   "p": [
+    262,
+    1092,
+    1802
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_Chicana_2_Defletor_Inferior",
+   "junta": "Chicanas nos sarrafos das chicanas",
+   "p": [
+    262,
+    1287,
+    1802
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_Chicana_2_Defletor_Inferior",
+   "junta": "Chicanas nos sarrafos das chicanas",
+   "p": [
+    262,
+    1482,
+    1802
+   ],
+   "n": [
+    -1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_Chicana_1_Defletor_Superior",
+   "junta": "Chicanas nos sarrafos das chicanas",
+   "p": [
+    550,
+    118,
+    2082
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_Chicana_1_Defletor_Superior",
+   "junta": "Chicanas nos sarrafos das chicanas",
+   "p": [
+    550,
+    313,
+    2082
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_Chicana_1_Defletor_Superior",
+   "junta": "Chicanas nos sarrafos das chicanas",
+   "p": [
+    550,
+    508,
+    2082
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_Chicana_1_Defletor_Superior",
+   "junta": "Chicanas nos sarrafos das chicanas",
+   "p": [
+    550,
+    703,
+    2082
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_Chicana_1_Defletor_Superior",
+   "junta": "Chicanas nos sarrafos das chicanas",
+   "p": [
+    550,
+    897,
+    2082
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_Chicana_1_Defletor_Superior",
+   "junta": "Chicanas nos sarrafos das chicanas",
+   "p": [
+    550,
+    1092,
+    2082
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_Chicana_1_Defletor_Superior",
+   "junta": "Chicanas nos sarrafos das chicanas",
+   "p": [
+    550,
+    1287,
+    2082
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Capuz_Chicana_1_Defletor_Superior",
+   "junta": "Chicanas nos sarrafos das chicanas",
+   "p": [
+    550,
+    1482,
+    2082
+   ],
+   "n": [
+    1,
+    0,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Capuz_Tampa",
+   "junta": "Tampa no sarrafo da chicana 1",
+   "p": [
+    512,
+    118,
+    2120
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Capuz_Tampa",
+   "junta": "Tampa no sarrafo da chicana 1",
+   "p": [
+    512,
+    313,
+    2120
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Capuz_Tampa",
+   "junta": "Tampa no sarrafo da chicana 1",
+   "p": [
+    512,
+    508,
+    2120
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Capuz_Tampa",
+   "junta": "Tampa no sarrafo da chicana 1",
+   "p": [
+    512,
+    703,
+    2120
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Capuz_Tampa",
+   "junta": "Tampa no sarrafo da chicana 1",
+   "p": [
+    512,
+    897,
+    2120
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Capuz_Tampa",
+   "junta": "Tampa no sarrafo da chicana 1",
+   "p": [
+    512,
+    1092,
+    2120
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Capuz_Tampa",
+   "junta": "Tampa no sarrafo da chicana 1",
+   "p": [
+    512,
+    1287,
+    2120
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 50",
+   "obj": "Capuz_Tampa",
+   "junta": "Tampa no sarrafo da chicana 1",
+   "p": [
+    512,
+    1482,
+    2120
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 50 com arruela EPDM",
+   "obj": "Capuz_Tampa",
+   "junta": "Tampa nos sarrafos superiores do capuz (removível, sem cola)",
+   "p": [
+    108,
+    38,
+    2120
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 50 com arruela EPDM",
+   "obj": "Capuz_Tampa",
+   "junta": "Tampa nos sarrafos superiores do capuz (removível, sem cola)",
+   "p": [
+    405,
+    38,
+    2120
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 50 com arruela EPDM",
+   "obj": "Capuz_Tampa",
+   "junta": "Tampa nos sarrafos superiores do capuz (removível, sem cola)",
+   "p": [
+    703,
+    38,
+    2120
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 50 com arruela EPDM",
+   "obj": "Capuz_Tampa",
+   "junta": "Tampa nos sarrafos superiores do capuz (removível, sem cola)",
+   "p": [
+    1000,
+    38,
+    2120
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 50 com arruela EPDM",
+   "obj": "Capuz_Tampa",
+   "junta": "Tampa nos sarrafos superiores do capuz (removível, sem cola)",
+   "p": [
+    1297,
+    38,
+    2120
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 50 com arruela EPDM",
+   "obj": "Capuz_Tampa",
+   "junta": "Tampa nos sarrafos superiores do capuz (removível, sem cola)",
+   "p": [
+    1595,
+    38,
+    2120
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 50 com arruela EPDM",
+   "obj": "Capuz_Tampa",
+   "junta": "Tampa nos sarrafos superiores do capuz (removível, sem cola)",
+   "p": [
+    1892,
+    38,
+    2120
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 50 com arruela EPDM",
+   "obj": "Capuz_Tampa",
+   "junta": "Tampa nos sarrafos superiores do capuz (removível, sem cola)",
+   "p": [
+    108,
+    1562,
+    2120
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 50 com arruela EPDM",
+   "obj": "Capuz_Tampa",
+   "junta": "Tampa nos sarrafos superiores do capuz (removível, sem cola)",
+   "p": [
+    405,
+    1562,
+    2120
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 50 com arruela EPDM",
+   "obj": "Capuz_Tampa",
+   "junta": "Tampa nos sarrafos superiores do capuz (removível, sem cola)",
+   "p": [
+    703,
+    1562,
+    2120
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 50 com arruela EPDM",
+   "obj": "Capuz_Tampa",
+   "junta": "Tampa nos sarrafos superiores do capuz (removível, sem cola)",
+   "p": [
+    1000,
+    1562,
+    2120
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 50 com arruela EPDM",
+   "obj": "Capuz_Tampa",
+   "junta": "Tampa nos sarrafos superiores do capuz (removível, sem cola)",
+   "p": [
+    1297,
+    1562,
+    2120
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 50 com arruela EPDM",
+   "obj": "Capuz_Tampa",
+   "junta": "Tampa nos sarrafos superiores do capuz (removível, sem cola)",
+   "p": [
+    1595,
+    1562,
+    2120
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 50 com arruela EPDM",
+   "obj": "Capuz_Tampa",
+   "junta": "Tampa nos sarrafos superiores do capuz (removível, sem cola)",
+   "p": [
+    1892,
+    1562,
+    2120
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 50 com arruela EPDM",
+   "obj": "Capuz_Tampa",
+   "junta": "Tampa nos sarrafos superiores do capuz (removível, sem cola)",
+   "p": [
+    38,
+    108,
+    2120
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 50 com arruela EPDM",
+   "obj": "Capuz_Tampa",
+   "junta": "Tampa nos sarrafos superiores do capuz (removível, sem cola)",
+   "p": [
+    38,
+    385,
+    2120
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 50 com arruela EPDM",
+   "obj": "Capuz_Tampa",
+   "junta": "Tampa nos sarrafos superiores do capuz (removível, sem cola)",
+   "p": [
+    38,
+    662,
+    2120
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 50 com arruela EPDM",
+   "obj": "Capuz_Tampa",
+   "junta": "Tampa nos sarrafos superiores do capuz (removível, sem cola)",
+   "p": [
+    38,
+    938,
+    2120
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 50 com arruela EPDM",
+   "obj": "Capuz_Tampa",
+   "junta": "Tampa nos sarrafos superiores do capuz (removível, sem cola)",
+   "p": [
+    38,
+    1215,
+    2120
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 50 com arruela EPDM",
+   "obj": "Capuz_Tampa",
+   "junta": "Tampa nos sarrafos superiores do capuz (removível, sem cola)",
+   "p": [
+    38,
+    1492,
+    2120
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 50 com arruela EPDM",
+   "obj": "Capuz_Tampa",
+   "junta": "Tampa nos sarrafos superiores do capuz (removível, sem cola)",
+   "p": [
+    1962,
+    108,
+    2120
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 50 com arruela EPDM",
+   "obj": "Capuz_Tampa",
+   "junta": "Tampa nos sarrafos superiores do capuz (removível, sem cola)",
+   "p": [
+    1962,
+    385,
+    2120
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 50 com arruela EPDM",
+   "obj": "Capuz_Tampa",
+   "junta": "Tampa nos sarrafos superiores do capuz (removível, sem cola)",
+   "p": [
+    1962,
+    662,
+    2120
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 50 com arruela EPDM",
+   "obj": "Capuz_Tampa",
+   "junta": "Tampa nos sarrafos superiores do capuz (removível, sem cola)",
+   "p": [
+    1962,
+    938,
+    2120
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 50 com arruela EPDM",
+   "obj": "Capuz_Tampa",
+   "junta": "Tampa nos sarrafos superiores do capuz (removível, sem cola)",
+   "p": [
+    1962,
+    1215,
+    2120
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 50 com arruela EPDM",
+   "obj": "Capuz_Tampa",
+   "junta": "Tampa nos sarrafos superiores do capuz (removível, sem cola)",
+   "p": [
+    1962,
+    1492,
+    2120
+   ],
+   "n": [
+    0,
+    0,
+    1
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Batente_Inferior",
+   "junta": "Batente inferior no sarrafo frontal (removível, sem cola)",
+   "p": [
+    108,
+    1570,
+    118
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Batente_Inferior",
+   "junta": "Batente inferior no sarrafo frontal (removível, sem cola)",
+   "p": [
+    291,
+    1570,
+    118
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Batente_Inferior",
+   "junta": "Batente inferior no sarrafo frontal (removível, sem cola)",
+   "p": [
+    473,
+    1570,
+    118
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Batente_Inferior",
+   "junta": "Batente inferior no sarrafo frontal (removível, sem cola)",
+   "p": [
+    656,
+    1570,
+    118
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Batente_Inferior",
+   "junta": "Batente inferior no sarrafo frontal (removível, sem cola)",
+   "p": [
+    838,
+    1570,
+    118
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Batente_Inferior",
+   "junta": "Batente inferior no sarrafo frontal (removível, sem cola)",
+   "p": [
+    1021,
+    1570,
+    118
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Batente_Inferior",
+   "junta": "Batente inferior no sarrafo frontal (removível, sem cola)",
+   "p": [
+    1203,
+    1570,
+    118
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Batente_Inferior",
+   "junta": "Batente inferior no sarrafo frontal (removível, sem cola)",
+   "p": [
+    1386,
+    1570,
+    118
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Batente_Inferior",
+   "junta": "Batente inferior no sarrafo frontal (removível, sem cola)",
+   "p": [
+    1568,
+    1570,
+    118
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Batente_Inferior",
+   "junta": "Batente inferior no sarrafo frontal (removível, sem cola)",
+   "p": [
+    1686,
+    1570,
+    118
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Batente_Inferior",
+   "junta": "Batente inferior no sarrafo frontal (removível, sem cola)",
+   "p": [
+    1789,
+    1570,
+    118
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Batente_Inferior",
+   "junta": "Batente inferior no sarrafo frontal (removível, sem cola)",
+   "p": [
+    1892,
+    1570,
+    118
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Batente_Superior",
+   "junta": "Batente superior e laterais nos sarrafos e montantes",
+   "p": [
+    108,
+    1570,
+    1744
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Batente_Superior",
+   "junta": "Batente superior e laterais nos sarrafos e montantes",
+   "p": [
+    306,
+    1570,
+    1744
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Batente_Superior",
+   "junta": "Batente superior e laterais nos sarrafos e montantes",
+   "p": [
+    504,
+    1570,
+    1744
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Batente_Superior",
+   "junta": "Batente superior e laterais nos sarrafos e montantes",
+   "p": [
+    703,
+    1570,
+    1744
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Batente_Superior",
+   "junta": "Batente superior e laterais nos sarrafos e montantes",
+   "p": [
+    901,
+    1570,
+    1744
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Batente_Superior",
+   "junta": "Batente superior e laterais nos sarrafos e montantes",
+   "p": [
+    1099,
+    1570,
+    1744
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Batente_Superior",
+   "junta": "Batente superior e laterais nos sarrafos e montantes",
+   "p": [
+    1297,
+    1570,
+    1744
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Batente_Superior",
+   "junta": "Batente superior e laterais nos sarrafos e montantes",
+   "p": [
+    1496,
+    1570,
+    1744
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Batente_Superior",
+   "junta": "Batente superior e laterais nos sarrafos e montantes",
+   "p": [
+    1694,
+    1570,
+    1744
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Batente_Superior",
+   "junta": "Batente superior e laterais nos sarrafos e montantes",
+   "p": [
+    1892,
+    1570,
+    1744
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Batente_Esquerdo",
+   "junta": "Batente superior e laterais nos sarrafos e montantes",
+   "p": [
+    30,
+    1570,
+    208
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Batente_Esquerdo",
+   "junta": "Batente superior e laterais nos sarrafos e montantes",
+   "p": [
+    30,
+    1570,
+    389
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Batente_Esquerdo",
+   "junta": "Batente superior e laterais nos sarrafos e montantes",
+   "p": [
+    30,
+    1570,
+    570
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Batente_Esquerdo",
+   "junta": "Batente superior e laterais nos sarrafos e montantes",
+   "p": [
+    30,
+    1570,
+    750
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Batente_Esquerdo",
+   "junta": "Batente superior e laterais nos sarrafos e montantes",
+   "p": [
+    30,
+    1570,
+    931
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Batente_Esquerdo",
+   "junta": "Batente superior e laterais nos sarrafos e montantes",
+   "p": [
+    30,
+    1570,
+    1112
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Batente_Esquerdo",
+   "junta": "Batente superior e laterais nos sarrafos e montantes",
+   "p": [
+    30,
+    1570,
+    1293
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Batente_Esquerdo",
+   "junta": "Batente superior e laterais nos sarrafos e montantes",
+   "p": [
+    30,
+    1570,
+    1473
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Batente_Esquerdo",
+   "junta": "Batente superior e laterais nos sarrafos e montantes",
+   "p": [
+    30,
+    1570,
+    1654
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Batente_Direito",
+   "junta": "Batente superior e laterais nos sarrafos e montantes",
+   "p": [
+    1970,
+    1570,
+    208
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Batente_Direito",
+   "junta": "Batente superior e laterais nos sarrafos e montantes",
+   "p": [
+    1970,
+    1570,
+    389
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Batente_Direito",
+   "junta": "Batente superior e laterais nos sarrafos e montantes",
+   "p": [
+    1970,
+    1570,
+    570
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Batente_Direito",
+   "junta": "Batente superior e laterais nos sarrafos e montantes",
+   "p": [
+    1970,
+    1570,
+    750
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Batente_Direito",
+   "junta": "Batente superior e laterais nos sarrafos e montantes",
+   "p": [
+    1970,
+    1570,
+    931
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Batente_Direito",
+   "junta": "Batente superior e laterais nos sarrafos e montantes",
+   "p": [
+    1970,
+    1570,
+    1112
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Batente_Direito",
+   "junta": "Batente superior e laterais nos sarrafos e montantes",
+   "p": [
+    1970,
+    1570,
+    1293
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Batente_Direito",
+   "junta": "Batente superior e laterais nos sarrafos e montantes",
+   "p": [
+    1970,
+    1570,
+    1473
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Batente_Direito",
+   "junta": "Batente superior e laterais nos sarrafos e montantes",
+   "p": [
+    1970,
+    1570,
+    1654
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 70",
+   "obj": "Guarnicao_Esquerda",
+   "junta": "Guarnição + calço + batente no montante frontal",
+   "p": [
+    46,
+    1600,
+    178
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 70",
+   "obj": "Guarnicao_Esquerda",
+   "junta": "Guarnição + calço + batente no montante frontal",
+   "p": [
+    46,
+    1600,
+    393
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 70",
+   "obj": "Guarnicao_Esquerda",
+   "junta": "Guarnição + calço + batente no montante frontal",
+   "p": [
+    46,
+    1600,
+    608
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 70",
+   "obj": "Guarnicao_Esquerda",
+   "junta": "Guarnição + calço + batente no montante frontal",
+   "p": [
+    46,
+    1600,
+    823
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 70",
+   "obj": "Guarnicao_Esquerda",
+   "junta": "Guarnição + calço + batente no montante frontal",
+   "p": [
+    46,
+    1600,
+    1039
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 70",
+   "obj": "Guarnicao_Esquerda",
+   "junta": "Guarnição + calço + batente no montante frontal",
+   "p": [
+    46,
+    1600,
+    1254
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 70",
+   "obj": "Guarnicao_Esquerda",
+   "junta": "Guarnição + calço + batente no montante frontal",
+   "p": [
+    46,
+    1600,
+    1469
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 70",
+   "obj": "Guarnicao_Esquerda",
+   "junta": "Guarnição + calço + batente no montante frontal",
+   "p": [
+    46,
+    1600,
+    1684
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 70",
+   "obj": "Guarnicao_Direita",
+   "junta": "Guarnição + calço + batente no montante frontal",
+   "p": [
+    1954,
+    1600,
+    178
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 70",
+   "obj": "Guarnicao_Direita",
+   "junta": "Guarnição + calço + batente no montante frontal",
+   "p": [
+    1954,
+    1600,
+    393
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 70",
+   "obj": "Guarnicao_Direita",
+   "junta": "Guarnição + calço + batente no montante frontal",
+   "p": [
+    1954,
+    1600,
+    608
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 70",
+   "obj": "Guarnicao_Direita",
+   "junta": "Guarnição + calço + batente no montante frontal",
+   "p": [
+    1954,
+    1600,
+    823
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 70",
+   "obj": "Guarnicao_Direita",
+   "junta": "Guarnição + calço + batente no montante frontal",
+   "p": [
+    1954,
+    1600,
+    1039
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 70",
+   "obj": "Guarnicao_Direita",
+   "junta": "Guarnição + calço + batente no montante frontal",
+   "p": [
+    1954,
+    1600,
+    1254
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 70",
+   "obj": "Guarnicao_Direita",
+   "junta": "Guarnição + calço + batente no montante frontal",
+   "p": [
+    1954,
+    1600,
+    1469
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "5,0 x 70",
+   "obj": "Guarnicao_Direita",
+   "junta": "Guarnição + calço + batente no montante frontal",
+   "p": [
+    1954,
+    1600,
+    1684
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": ""
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Porta_Folha_Esquerda_Passiva",
+   "junta": "Folha de porta no quadro da lã",
+   "p": [
+    111,
+    1600,
+    210
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": "Porta_Esq"
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Porta_Folha_Esquerda_Passiva",
+   "junta": "Folha de porta no quadro da lã",
+   "p": [
+    111,
+    1600,
+    450
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": "Porta_Esq"
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Porta_Folha_Esquerda_Passiva",
+   "junta": "Folha de porta no quadro da lã",
+   "p": [
+    111,
+    1600,
+    691
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": "Porta_Esq"
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Porta_Folha_Esquerda_Passiva",
+   "junta": "Folha de porta no quadro da lã",
+   "p": [
+    111,
+    1600,
+    931
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": "Porta_Esq"
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Porta_Folha_Esquerda_Passiva",
+   "junta": "Folha de porta no quadro da lã",
+   "p": [
+    111,
+    1600,
+    1171
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": "Porta_Esq"
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Porta_Folha_Esquerda_Passiva",
+   "junta": "Folha de porta no quadro da lã",
+   "p": [
+    111,
+    1600,
+    1412
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": "Porta_Esq"
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Porta_Folha_Esquerda_Passiva",
+   "junta": "Folha de porta no quadro da lã",
+   "p": [
+    111,
+    1600,
+    1652
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": "Porta_Esq"
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Porta_Folha_Esquerda_Passiva",
+   "junta": "Folha de porta no quadro da lã",
+   "p": [
+    957,
+    1600,
+    210
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": "Porta_Esq"
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Porta_Folha_Esquerda_Passiva",
+   "junta": "Folha de porta no quadro da lã",
+   "p": [
+    957,
+    1600,
+    450
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": "Porta_Esq"
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Porta_Folha_Esquerda_Passiva",
+   "junta": "Folha de porta no quadro da lã",
+   "p": [
+    957,
+    1600,
+    691
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": "Porta_Esq"
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Porta_Folha_Esquerda_Passiva",
+   "junta": "Folha de porta no quadro da lã",
+   "p": [
+    957,
+    1600,
+    931
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": "Porta_Esq"
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Porta_Folha_Esquerda_Passiva",
+   "junta": "Folha de porta no quadro da lã",
+   "p": [
+    957,
+    1600,
+    1171
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": "Porta_Esq"
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Porta_Folha_Esquerda_Passiva",
+   "junta": "Folha de porta no quadro da lã",
+   "p": [
+    957,
+    1600,
+    1412
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": "Porta_Esq"
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Porta_Folha_Esquerda_Passiva",
+   "junta": "Folha de porta no quadro da lã",
+   "p": [
+    957,
+    1600,
+    1652
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": "Porta_Esq"
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Porta_Folha_Esquerda_Passiva",
+   "junta": "Folha de porta no quadro da lã",
+   "p": [
+    220,
+    1600,
+    169
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": "Porta_Esq"
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Porta_Folha_Esquerda_Passiva",
+   "junta": "Folha de porta no quadro da lã",
+   "p": [
+    429,
+    1600,
+    169
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": "Porta_Esq"
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Porta_Folha_Esquerda_Passiva",
+   "junta": "Folha de porta no quadro da lã",
+   "p": [
+    639,
+    1600,
+    169
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": "Porta_Esq"
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Porta_Folha_Esquerda_Passiva",
+   "junta": "Folha de porta no quadro da lã",
+   "p": [
+    848,
+    1600,
+    169
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": "Porta_Esq"
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Porta_Folha_Esquerda_Passiva",
+   "junta": "Folha de porta no quadro da lã",
+   "p": [
+    220,
+    1600,
+    1693
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": "Porta_Esq"
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Porta_Folha_Esquerda_Passiva",
+   "junta": "Folha de porta no quadro da lã",
+   "p": [
+    429,
+    1600,
+    1693
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": "Porta_Esq"
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Porta_Folha_Esquerda_Passiva",
+   "junta": "Folha de porta no quadro da lã",
+   "p": [
+    639,
+    1600,
+    1693
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": "Porta_Esq"
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Porta_Folha_Esquerda_Passiva",
+   "junta": "Folha de porta no quadro da lã",
+   "p": [
+    848,
+    1600,
+    1693
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": "Porta_Esq"
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Porta_Folha_Direita_Ativa",
+   "junta": "Folha de porta no quadro da lã",
+   "p": [
+    1043,
+    1600,
+    210
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": "Porta_Dir"
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Porta_Folha_Direita_Ativa",
+   "junta": "Folha de porta no quadro da lã",
+   "p": [
+    1043,
+    1600,
+    450
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": "Porta_Dir"
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Porta_Folha_Direita_Ativa",
+   "junta": "Folha de porta no quadro da lã",
+   "p": [
+    1043,
+    1600,
+    691
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": "Porta_Dir"
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Porta_Folha_Direita_Ativa",
+   "junta": "Folha de porta no quadro da lã",
+   "p": [
+    1043,
+    1600,
+    931
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": "Porta_Dir"
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Porta_Folha_Direita_Ativa",
+   "junta": "Folha de porta no quadro da lã",
+   "p": [
+    1043,
+    1600,
+    1171
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": "Porta_Dir"
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Porta_Folha_Direita_Ativa",
+   "junta": "Folha de porta no quadro da lã",
+   "p": [
+    1043,
+    1600,
+    1412
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": "Porta_Dir"
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Porta_Folha_Direita_Ativa",
+   "junta": "Folha de porta no quadro da lã",
+   "p": [
+    1043,
+    1600,
+    1652
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": "Porta_Dir"
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Porta_Folha_Direita_Ativa",
+   "junta": "Folha de porta no quadro da lã",
+   "p": [
+    1889,
+    1600,
+    210
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": "Porta_Dir"
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Porta_Folha_Direita_Ativa",
+   "junta": "Folha de porta no quadro da lã",
+   "p": [
+    1889,
+    1600,
+    450
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": "Porta_Dir"
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Porta_Folha_Direita_Ativa",
+   "junta": "Folha de porta no quadro da lã",
+   "p": [
+    1889,
+    1600,
+    691
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": "Porta_Dir"
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Porta_Folha_Direita_Ativa",
+   "junta": "Folha de porta no quadro da lã",
+   "p": [
+    1889,
+    1600,
+    931
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": "Porta_Dir"
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Porta_Folha_Direita_Ativa",
+   "junta": "Folha de porta no quadro da lã",
+   "p": [
+    1889,
+    1600,
+    1171
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": "Porta_Dir"
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Porta_Folha_Direita_Ativa",
+   "junta": "Folha de porta no quadro da lã",
+   "p": [
+    1889,
+    1600,
+    1412
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": "Porta_Dir"
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Porta_Folha_Direita_Ativa",
+   "junta": "Folha de porta no quadro da lã",
+   "p": [
+    1889,
+    1600,
+    1652
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": "Porta_Dir"
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Porta_Folha_Direita_Ativa",
+   "junta": "Folha de porta no quadro da lã",
+   "p": [
+    1152,
+    1600,
+    169
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": "Porta_Dir"
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Porta_Folha_Direita_Ativa",
+   "junta": "Folha de porta no quadro da lã",
+   "p": [
+    1361,
+    1600,
+    169
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": "Porta_Dir"
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Porta_Folha_Direita_Ativa",
+   "junta": "Folha de porta no quadro da lã",
+   "p": [
+    1571,
+    1600,
+    169
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": "Porta_Dir"
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Porta_Folha_Direita_Ativa",
+   "junta": "Folha de porta no quadro da lã",
+   "p": [
+    1780,
+    1600,
+    169
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": "Porta_Dir"
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Porta_Folha_Direita_Ativa",
+   "junta": "Folha de porta no quadro da lã",
+   "p": [
+    1152,
+    1600,
+    1693
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": "Porta_Dir"
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Porta_Folha_Direita_Ativa",
+   "junta": "Folha de porta no quadro da lã",
+   "p": [
+    1361,
+    1600,
+    1693
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": "Porta_Dir"
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Porta_Folha_Direita_Ativa",
+   "junta": "Folha de porta no quadro da lã",
+   "p": [
+    1571,
+    1600,
+    1693
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": "Porta_Dir"
+  },
+  {
+   "tipo": "4,5 x 40",
+   "obj": "Porta_Folha_Direita_Ativa",
+   "junta": "Folha de porta no quadro da lã",
+   "p": [
+    1780,
+    1600,
+    1693
+   ],
+   "n": [
+    0,
+    1,
+    0
+   ],
+   "passa": [],
+   "grupo": "Porta_Dir"
+  }
+ ],
+ "revestimentos": [
+  {
+   "nome": "Teto_Camara",
+   "eixo": "z",
+   "bbox": [
+    18.0,
+    1982.0,
+    18.0,
+    1552.0,
+    1714.0,
+    1764.0
+   ]
+  },
+  {
+   "nome": "Parede_X0",
+   "eixo": "x",
+   "bbox": [
+    18.0,
+    68.0,
+    18.0,
+    1552.0,
+    98.0,
+    1714.0
+   ]
+  },
+  {
+   "nome": "Parede_X2",
+   "eixo": "x",
+   "bbox": [
+    1932.0,
+    1982.0,
+    18.0,
+    1552.0,
+    98.0,
+    1714.0
+   ]
+  },
+  {
+   "nome": "Traseira_Camara",
+   "eixo": "y",
+   "bbox": [
+    68.0,
+    1568.0,
+    18.0,
+    68.0,
+    98.0,
+    1714.0
+   ]
+  },
+  {
+   "nome": "Traseira_Passagem",
+   "eixo": "y",
+   "bbox": [
+    1568.0,
+    1686.0,
+    18.0,
+    68.0,
+    1500.0,
+    1714.0
+   ]
+  },
+  {
+   "nome": "Traseira_Duto_Entrada",
+   "eixo": "y",
+   "bbox": [
+    1686.0,
+    1932.0,
+    18.0,
+    68.0,
+    98.0,
+    1714.0
+   ]
+  },
+  {
+   "nome": "Divisoria_Face_Camara",
+   "eixo": "x",
+   "bbox": [
+    1568.0,
+    1618.0,
+    68.0,
+    1532.0,
+    98.0,
+    1500.0
+   ]
+  },
+  {
+   "nome": "Divisoria_Face_Duto",
+   "eixo": "x",
+   "bbox": [
+    1636.0,
+    1686.0,
+    68.0,
+    1532.0,
+    98.0,
+    1500.0
+   ]
+  },
+  {
+   "nome": "Porta_Folha_Esquerda",
+   "eixo": "y",
+   "bbox": [
+    120.0,
+    948.0,
+    1532.0,
+    1582.0,
+    178.0,
+    1684.0
+   ]
+  },
+  {
+   "nome": "Porta_Folha_Direita",
+   "eixo": "y",
+   "bbox": [
+    1052.0,
+    1880.0,
+    1532.0,
+    1582.0,
+    178.0,
+    1684.0
+   ]
+  },
+  {
+   "nome": "Capuz_Teto_A",
+   "eixo": "z",
+   "bbox": [
+    550.0,
+    1982.0,
+    18.0,
+    1582.0,
+    2052.0,
+    2102.0
+   ]
+  },
+  {
+   "nome": "Capuz_Teto_B",
+   "eixo": "z",
+   "bbox": [
+    330.0,
+    532.0,
+    18.0,
+    1582.0,
+    2052.0,
+    2102.0
+   ]
+  },
+  {
+   "nome": "Capuz_Teto_C",
+   "eixo": "z",
+   "bbox": [
+    18.0,
+    212.0,
+    18.0,
+    1582.0,
+    2052.0,
+    2102.0
+   ]
+  },
+  {
+   "nome": "Capuz_Traseira",
+   "eixo": "y",
+   "bbox": [
+    18.0,
+    1932.0,
+    18.0,
+    68.0,
+    1782.0,
+    2052.0
+   ]
+  },
+  {
+   "nome": "Capuz_Frente",
+   "eixo": "y",
+   "bbox": [
+    18.0,
+    1932.0,
+    1532.0,
+    1582.0,
+    1782.0,
+    2052.0
+   ]
+  },
+  {
+   "nome": "Capuz_X2_Fechada",
+   "eixo": "x",
+   "bbox": [
+    1932.0,
+    1982.0,
+    18.0,
+    1582.0,
+    1782.0,
+    2052.0
+   ]
+  },
+  {
+   "nome": "Capuz_Chicana_1_Face_A",
+   "eixo": "x",
+   "bbox": [
+    482.0,
+    532.0,
+    68.0,
+    1532.0,
+    1920.0,
+    2052.0
+   ]
+  },
+  {
+   "nome": "Capuz_Chicana_1_Face_B",
+   "eixo": "x",
+   "bbox": [
+    550.0,
+    600.0,
+    68.0,
+    1532.0,
+    1920.0,
+    2052.0
+   ]
+  },
+  {
+   "nome": "Capuz_Chicana_2_Face_A",
+   "eixo": "x",
+   "bbox": [
+    212.0,
+    262.0,
+    68.0,
+    1532.0,
+    1782.0,
+    1980.0
+   ]
+  },
+  {
+   "nome": "Capuz_Chicana_2_Face_B",
+   "eixo": "x",
+   "bbox": [
+    280.0,
+    330.0,
+    68.0,
+    1532.0,
+    1782.0,
+    1980.0
+   ]
+  }
+ ],
+ "gerador": [
+  318.0,
+  1138.0,
+  220.0,
+  900.0,
+  118.0,
+  768.0
+ ],
+ "tapete": [
+  180.0,
+  1280.0,
+  90.0,
+  1340.0,
+  98.0,
+  118.0
+ ],
+ "exaustores": [
+  [
+   850.0,
+   500.0
+  ],
+  [
+   850.0,
+   1100.0
+  ]
+ ],
+ "escapamento": [
+  560.0,
+  450.0
+ ],
+ "dobradicas_z": [
+  252.0,
+  931.0,
+  1610.0
+ ],
+ "const": {
+  "T": 18.0,
+  "REV": 50.0,
+  "SR": 40.0,
+  "LX": 2000.0,
+  "LY": 1600.0,
+  "Z_PE": 80.0,
+  "Z_BASE1": 98.0,
+  "Z_EM": 1658.0,
+  "Z_TETO0": 1764.0,
+  "Z_TETO1": 1782.0,
+  "Z_TAMPA0": 2102.0,
+  "Z_TAMPA1": 2120.0,
+  "X_DIV": 1618.0,
+  "Z_DIV": 1500.0,
+  "X_CH1": 532.0,
+  "Z_CH1": 1920.0,
+  "X_CH2": 262.0,
+  "Z_CH2": 1980.0,
+  "Y_FR": 1582.0,
+  "YL": 1552.0,
+  "YF": 1532.0,
+  "YT": 68.0,
+  "BZ0": 158.0,
+  "BZ1": 1704.0,
+  "PX0": 60.0,
+  "PX1": 1940.0,
+  "PZ0": 102.0,
+  "PZ1": 1760.0,
+  "XFE": 996.0,
+  "XFD": 1004.0,
+  "BEIRAL": 100.0
+ }
+}

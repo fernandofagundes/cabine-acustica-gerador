@@ -15,8 +15,10 @@ Vao interno livre em Y: 1.464 (0.068..1.532). Piso sem revestimento.
 Uso dentro do Blender: abrir no editor de texto e executar (apaga a cena atual).
 Uso headless:
   blender --background --factory-startup --python casa_gerador.py -- \
-      --save casa_gerador.blend --render renders [--engine CYCLES]
+      --save casa_gerador.blend --render renders \
+      --dados Especificações/dados_construcao.json [--engine CYCLES]
 """
+import json
 import math
 import os
 import sys
@@ -94,7 +96,7 @@ C_TAMPA = colecao("01B_Tampas_Corte")
 C_ISO = colecao("02_Isolamento_Acustico")
 C_VENT = colecao("03_Ventilacao_Escapamento")
 C_GER = colecao("04_Gerador_Base_Iluminacao")
-C_FLUXO = colecao("05_Fluxos_Ar_Cutaway")
+C_FIX = colecao("05_Fixacao_Parafusos")
 
 
 # ----------------------------------------------------------------------------
@@ -137,9 +139,6 @@ M_EPDM = material("Borracha_EPDM", (0.015, 0.015, 0.015), 0.85)
 M_ACO = material("Aco_Escapamento", (0.55, 0.55, 0.56), 0.30, 0.90)
 M_CERAM = material("Fibra_Ceramica", (0.90, 0.88, 0.82), 0.95)
 M_LED = material("LED_12V", (1.0, 0.97, 0.90), 0.3, 0.0, 3.0)
-M_AZUL = material("Fluxo_Frio_Azul", (0.05, 0.30, 1.0), 0.4, 0.0, 1.5)
-M_VERM = material("Fluxo_Quente_Vermelho", (1.0, 0.06, 0.03), 0.4, 0.0, 1.5)
-M_LARANJA = material("Fluxo_Escape_Laranja", (0.75, 0.22, 0.0), 0.4, 0.0, 1.2)
 M_VENT = material("Exaustor_Carcaca", (0.08, 0.08, 0.09), 0.5, 0.5)
 M_PISO = material("Piso_Cena", (0.55, 0.55, 0.55), 0.9)
 # Gerador
@@ -234,6 +233,8 @@ def revestimento(nome, x0, x1, y0, y1, z0, z1, eixo, lado):
         ch[eixo] = [a0, a0 + CH]
     o1 = caixa("La_" + nome, *la['x'], *la['y'], *la['z'], M_LA, C_ISO)
     o2 = caixa("Tela_" + nome, *ch['x'], *ch['y'], *ch['z'], M_TELA, C_ISO)
+    REVEST.append({"nome": nome, "eixo": eixo,
+                   "bbox": [mm(v) for v in (x0, x1, y0, y1, z0, z1)]})
     return [o1, o2]
 
 
@@ -265,56 +266,185 @@ def tubo(nome, pontos, raio, mat, col, ciclico=False, suave=False):
 
 
 # ----------------------------------------------------------------------------
+# Registro de pecas, revestimentos e parafusos (usado pelos desenhos tecnicos)
+# ----------------------------------------------------------------------------
+PECAS, PARAFUSOS, REVEST = [], [], []
+SR = 0.040                              # sarrafo de madeira macica 40 x 40
+Z_EM = 1.658                            # emenda horizontal da parede traseira
+BEIRAL = 0.100                          # beiral da tampa sobre as venezianas
+M_SAR = material("Sarrafo_Madeira_Macica", (0.42, 0.25, 0.10), 0.65)
+M_PARAF = material("Parafuso_Inox", (0.85, 0.85, 0.87), 0.25, 1.0)
+P30, P40, P50 = "4,0 x 30", "4,5 x 40", "4,5 x 50"
+P70, P80, PTAMPA = "5,0 x 70", "5,0 x 80", "5,0 x 50 com arruela EPDM"
+
+
+def mm(v):
+    return round(v * 1000.0, 1)
+
+
+def peca(nome, x0, x1, y0, y1, z0, z1, vista, tipo="compensado", col=None):
+    """Cria a caixa e registra a peca. `vista` = lado de onde o desenho da
+    peca e visto (+x, -x, +y, -y, +z, -z)."""
+    mat = {"compensado": M_MAD, "borracha": M_EPDM}.get(tipo, M_SAR)
+    ob = caixa(nome, x0, x1, y0, y1, z0, z1, mat, col or C_MAD)
+    PECAS.append({"obj": nome, "tipo": tipo, "vista": vista, "recortes": [],
+                  "bbox": [mm(v) for v in (x0, x1, y0, y1, z0, z1)]})
+    return ob
+
+
+def recorte(nome, forma, dados, nota):
+    """Registra um recorte: forma 'ret' (bbox) ou 'circ' (centro + raio)."""
+    p = next(p for p in PECAS if p["obj"] == nome)
+    p["recortes"].append({"forma": forma, "dados": [mm(v) for v in dados],
+                          "nota": nota})
+
+
+def parafuso(tipo, obj, p, n, junta, passa=(), grupo=""):
+    PARAFUSOS.append({"tipo": tipo, "obj": obj, "junta": junta,
+                      "p": [round(c * 1000.0) for c in p], "n": list(n),
+                      "passa": list(passa), "grupo": grupo})
+
+
+def fila(tipo, obj, p0, p1, n, junta, passo=0.20, margem=0.05, passa=(),
+         grupo=""):
+    """Linha de parafusos entre p0 e p1 (pontos na face onde fica a cabeca),
+    com `margem` nas pontas e espacamento maximo `passo`."""
+    a, b = Vector(p0), Vector(p1)
+    comp = (b - a).length
+    util = comp - 2 * margem
+    if util <= 0:
+        pts = [(a + b) / 2]
+    else:
+        k = max(1, math.ceil(util / passo - 1e-6))
+        pts = [a + (b - a) * ((margem + util * i / k) / comp)
+               for i in range(k + 1)]
+    for p in pts:
+        parafuso(tipo, obj, p, n, junta, passa, grupo)
+
+
+def cabecas_dos_parafusos():
+    """Uma malha por grupo com a cabeca (9 mm) de todos os parafusos."""
+    grupos = {}
+    for s in PARAFUSOS:
+        grupos.setdefault(s["grupo"], []).append(s)
+    objs = {}
+    for g, lista in grupos.items():
+        bm = bmesh.new()
+        for s in lista:
+            nv = Vector(s["n"])
+            pos = Vector(s["p"]) / 1000.0 + nv * 0.001
+            bmesh.ops.create_cone(
+                bm, cap_ends=True, segments=10, radius1=0.0045,
+                radius2=0.0045, depth=0.002,
+                matrix=(Matrix.Translation(pos)
+                        @ nv.to_track_quat('Z', 'Y').to_matrix().to_4x4()))
+        objs[g] = _obj("Parafusos" + ("_" + g if g else ""), bm, M_PARAF,
+                       C_FIX)
+    return objs
+
+
+# ----------------------------------------------------------------------------
 # 01 - Estrutura de madeira
 # ----------------------------------------------------------------------------
+# Apoio: 3 longarinas de madeira tratada 45 x 70 sobre calcos de borracha de
+# 10 mm. As longarinas da frente e de tras ficam sob os sarrafos inferiores.
+LONG_Y = [(0.015, 0.060), (LY / 2 - 0.0225, LY / 2 + 0.0225), (1.510, 1.555)]
 n = 0
-for px in (0.0, LX / 2 - 0.06, LX - 0.12):
-    for py in (0.0, LY - 0.12):
+for i, (y0, y1) in enumerate(LONG_Y, 1):
+    peca(f"Longarina_{i}", 0, LX, y0, y1, 0.010, Z_PE, '-z', "longarina")
+    for px in (0.02, LX / 2 - 0.06, LX - 0.14):
         n += 1
-        caixa(f"Pe_Borracha_{n}", px, px + 0.12, py, py + 0.12, 0, Z_PE,
-              M_EPDM, C_MAD)
+        peca(f"Calco_Borracha_{n}", px, px + 0.12, (y0 + y1) / 2 - 0.03,
+             (y0 + y1) / 2 + 0.03, 0, 0.010, '-z', "borracha")
 
-caixa("Base", 0, LX, 0, LY, Z_BASE0, Z_BASE1, M_MAD, C_MAD)
-caixa("Parede_Traseira", 0, LX, 0, T, Z_BASE1, Z_TETO0, M_MAD, C_MAD)
+peca("Base", 0, LX, 0, LY, Z_BASE0, Z_BASE1, '+z')
+for yd in (0.40, 1.20):
+    recorte("Base", "circ", (1.81, yd, Z_BASE1, 0.005), "dreno Ø10")
 
-p_x0 = caixa("Parede_X0_Escapamento", 0, T, T, Y_FR, Z_BASE1, Z_TETO0, M_MAD,
-             C_MAD)
+# Parede traseira em duas pecas (a chapa tem 1.600): a superior cobre o topo
+# da camara e faz a parede de tras do capuz.
+peca("Parede_Traseira_Inferior", 0, LX, 0, T, Z_BASE1, Z_EM, '-y')
+peca("Parede_Traseira_Superior", 0, LX, 0, T, Z_EM, Z_TAMPA0, '-y')
+
+p_x0 = peca("Parede_X0_Escapamento", 0, T, T, Y_FR, Z_BASE1, Z_TETO0, '-x')
 recortar(p_x0, cilindro("c", (T / 2, EY, EZ), 0.075, 0.2, 'X', None, None))
+recorte("Parede_X0_Escapamento", "circ", (0, EY, EZ, 0.075),
+        "furo Ø150 da flange térmica")
 
-p_x2 = caixa("Parede_X2_Entrada", LX - T, LX, T, Y_FR, Z_BASE1, Z_TETO0,
-             M_MAD, C_MAD)
+p_x2 = peca("Parede_X2_Entrada", LX - T, LX, T, Y_FR, Z_BASE1, Z_TETO0, '+x')
 recortar(p_x2, caixa("c", LX - 0.1, LX + 0.1, *ENTRADA, None, None))
+recorte("Parede_X2_Entrada", "ret",
+        (LX - T, LX, ENTRADA[0], ENTRADA[1], ENTRADA[2], ENTRADA[3]),
+        "abertura da veneziana de entrada")
 
 # Divisoria do labirinto de entrada (para em YF: as portas vedam contra ela)
-caixa("Divisoria_Labirinto_Entrada", X_DIV, X_DIV + T, T, YF, Z_BASE1, Z_DIV,
-      M_MAD, C_MAD)
+peca("Divisoria_Labirinto_Entrada", X_DIV, X_DIV + T, T, YF, Z_BASE1, Z_DIV,
+     '-x')
 
-teto = caixa("Teto_Camara", 0, LX, 0, LY, Z_TETO0, Z_TETO1, M_MAD, C_MAD)
+# Teto da camara: encosta por dentro na traseira superior
+teto = peca("Teto_Camara", 0, LX, T, LY, Z_TETO0, Z_TETO1, '+z')
 for fx, fy in FAN_XY:
     recortar(teto, cilindro("c", (fx, fy, Z_TETO0), 0.15, 0.2, 'Z', None,
                             None))
+    recorte("Teto_Camara", "circ", (fx, fy, Z_TETO1, 0.15),
+            "furo Ø300 do exaustor")
+
+# --- Sarrafos 40 x 40 (ficam dentro da espessura do revestimento) -----------
+XS0, XS1 = T + SR, LX - T - SR          # 0.058 / 1.942
+YS0, YS1 = T + SR, YL - SR              # 0.058 / 1.512
+XCA, XCB = T + SR / 2, LX - T - SR / 2  # eixos dos sarrafos junto as laterais
+YCA, YCB = T + SR / 2, YL - SR / 2      # eixos junto a traseira / a frente
+XDC0, XDC1 = X_DIV + T, X_DIV + T + SR  # sarrafos da divisoria (lado do duto)
+YH1 = Y_FR - SR                         # 1.542 sarrafo frontal do capuz
+
+
+def sar(nome, x0, x1, y0, y1, z0, z1):
+    return peca("Sarrafo_" + nome, x0, x1, y0, y1, z0, z1, '+y', "sarrafo")
+
+
+for nome, x0 in (("X0", T), ("X2", XS1)):
+    sar(f"Vertical_Traseiro_{nome}", x0, x0 + SR, T, YS0, ZP, Z_TETO0)
+    sar(f"Montante_Frontal_{nome}", x0, x0 + SR, YS1, YL, ZP, Z_TETO0)
+    sar(f"Inferior_Lateral_{nome}", x0, x0 + SR, YS0, YS1, ZP, ZP + SR)
+    sar(f"Superior_Lateral_{nome}", x0, x0 + SR, YS0, YS1, Z_TETO0 - SR,
+        Z_TETO0)
+for nome, y0 in (("Traseiro", T), ("Frontal", YS1)):
+    sar(f"Inferior_{nome}_A", XS0, X_DIV, y0, y0 + SR, ZP, ZP + SR)
+    sar(f"Inferior_{nome}_B", XDC1 if nome == "Traseiro" else XDC0, XS1, y0,
+        y0 + SR, ZP, ZP + SR)
+    sar(f"Superior_{nome}", XS0, XS1, y0, y0 + SR, Z_TETO0 - SR, Z_TETO0)
+sar("Divisoria_Vertical", XDC0, XDC1, T, YS0, ZP, Z_DIV)
+sar("Divisoria_Base", XDC0, XDC1, YS0, YS1, ZP, ZP + SR)
+sar("Divisoria_Travessa", XDC0, LX - T, YS1 - SR, YS1, Z_DIV - SR, Z_DIV)
+
+# Regua de emenda da traseira (compensado 18 x 100, por dentro)
+peca("Regua_Emenda_Traseira", XS0, XS1, T, 2 * T, Z_EM - 0.05, Z_EM + 0.05,
+     '+y')
 
 # --- Portas duplas acusticas -------------------------------------------------
 # Folhas no plano Y_FR..LY; batente por dentro, onde elas encostam
-LF, PH = 0.936, 1.640                               # folha: largura x altura
+LF, PH = 0.936, 1.658                               # folha: largura x altura
 PX0, PX1 = 0.060, LX - 0.060
-PZ0 = (Z_BASE1 + Z_TETO0 - PH) / 2
+PZ0 = (Z_BASE1 + Z_TETO0 - PH) / 2                  # 4 mm de folga
 PZ1 = PZ0 + PH
-BX0, BX1, BZ0, BZ1 = PX0 + 0.038, PX1 - 0.038, PZ0 + 0.038, PZ1 - 0.038
+BX0, BX1 = PX0 + 0.038, PX1 - 0.038
+BZ0, BZ1 = Z_BASE1 + 0.060, Z_TETO0 - 0.060         # batentes de 60 mm
 YB0, YB1 = YL, YL + T                               # batente (18 mm)
 E = 0.012                                           # EPDM 12 x 12
 
-# Guarnicao fixa em volta das folhas (fecha o plano frontal)
-caixa("Guarnicao_Esquerda", 0, PX0, Y_FR, LY, Z_BASE1, Z_TETO0, M_MAD, C_MAD)
-caixa("Guarnicao_Direita", PX1, LX, Y_FR, LY, Z_BASE1, Z_TETO0, M_MAD, C_MAD)
-caixa("Guarnicao_Inferior", PX0, PX1, Y_FR, LY, Z_BASE1, PZ0, M_MAD, C_MAD)
-caixa("Guarnicao_Superior", PX0, PX1, Y_FR, LY, PZ1, Z_TETO0, M_MAD, C_MAD)
+# Guarnicao fixa ao lado das folhas, com calco de 12 mm ate o batente
+peca("Guarnicao_Esquerda", 0, PX0, Y_FR, LY, Z_BASE1, Z_TETO0, '+y')
+peca("Guarnicao_Direita", PX1, LX, Y_FR, LY, Z_BASE1, Z_TETO0, '+y')
+peca("Calco_Guarnicao_Esquerda", T, XS0, YB1, Y_FR, Z_BASE1, Z_TETO0, '+y',
+     "calco")
+peca("Calco_Guarnicao_Direita", XS1, LX - T, YB1, Y_FR, Z_BASE1, Z_TETO0,
+     '+y', "calco")
 
 # Batente perimetral
-caixa("Batente_Inferior", T, LX - T, YB0, YB1, Z_BASE1, BZ0, M_MAD, C_MAD)
-caixa("Batente_Superior", T, LX - T, YB0, YB1, BZ1, Z_TETO0, M_MAD, C_MAD)
-caixa("Batente_Esquerdo", T, BX0, YB0, YB1, BZ0, BZ1, M_MAD, C_MAD)
-caixa("Batente_Direito", BX1, LX - T, YB0, YB1, BZ0, BZ1, M_MAD, C_MAD)
+peca("Batente_Inferior", T, LX - T, YB0, YB1, Z_BASE1, BZ0, '+y')
+peca("Batente_Superior", T, LX - T, YB0, YB1, BZ1, Z_TETO0, '+y')
+peca("Batente_Esquerdo", T, BX0, YB0, YB1, BZ0, BZ1, '+y')
+peca("Batente_Direito", BX1, LX - T, YB0, YB1, BZ0, BZ1, '+y')
 caixa("EPDM_Esquerdo", BX0 - E - 0.004, BX0 - 0.004, YB1, Y_FR, BZ0 - E,
       BZ1 + E, M_EPDM, C_MAD)
 caixa("EPDM_Direito", BX1 + 0.004, BX1 + E + 0.004, YB1, Y_FR, BZ0 - E,
@@ -331,18 +461,34 @@ caixa("Pingadeira_Costas", PX0 - 0.02, PX1 + 0.02, LY, LY + 0.003,
       PZ1 + 0.007, PZ1 + 0.029, M_ESCOV, C_MAD)
 
 XFE, XFD = PX0 + LF, PX1 - LF           # bordas centrais das folhas
-folha_esq = [caixa("Porta_Folha_Esquerda_Passiva", PX0, XFE, Y_FR, LY, PZ0,
-                   PZ1, M_MAD, C_MAD)]
-folha_dir = [caixa("Porta_Folha_Direita_Ativa", XFD, PX1, Y_FR, LY, PZ0, PZ1,
-                   M_MAD, C_MAD)]
+folha_esq = [peca("Porta_Folha_Esquerda_Passiva", PX0, XFE, Y_FR, LY, PZ0,
+                  PZ1, '+y')]
+folha_dir = [peca("Porta_Folha_Direita_Ativa", XFD, PX1, Y_FR, LY, PZ0, PZ1,
+                  '+y')]
+
+# Quadro de compensado 18 x 50 em volta da la de cada folha
+QZ0, QZ1 = BZ0 + 0.002, BZ1 - 0.002
+QUADROS = (("Esquerda", BX0 + 0.004, XFE - 0.030, folha_esq),
+           ("Direita", XFE + 0.038, BX1 - 0.004, folha_dir))
+for nome, qx0, qx1, partes in QUADROS:
+    partes += [
+        peca(f"Porta_Quadro_{nome}_Vertical_A", qx0, qx0 + T, YF, Y_FR, QZ0,
+             QZ1, '+x'),
+        peca(f"Porta_Quadro_{nome}_Vertical_B", qx1 - T, qx1, YF, Y_FR, QZ0,
+             QZ1, '+x'),
+        peca(f"Porta_Quadro_{nome}_Horizontal_A", qx0 + T, qx1 - T, YF, Y_FR,
+             QZ0, QZ0 + T, '+z'),
+        peca(f"Porta_Quadro_{nome}_Horizontal_B", qx0 + T, qx1 - T, YF, Y_FR,
+             QZ1 - T, QZ1, '+z'),
+    ]
 
 # Mata-junta central na folha esquerda (avanca 30 mm sobre a juncao)
 YM0, YM1 = Y_FR - 0.021, Y_FR - 0.003
 folha_esq += [
-    caixa("Mata_Junta_Central", XFE - 0.030, XFE + 0.030, YM0, YM1,
-          BZ0 + 0.002, BZ1 - 0.002, M_MAD, C_MAD),
-    caixa("Mata_Junta_EPDM", XFD, XFE + 0.030, YM1, Y_FR, BZ0 + 0.002,
-          BZ1 - 0.002, M_EPDM, C_MAD),
+    peca("Mata_Junta_Central", XFE - 0.030, XFE + 0.030, YM0, YM1, QZ0, QZ1,
+         '+y'),
+    caixa("Mata_Junta_EPDM", XFD, XFE + 0.030, YM1, Y_FR, QZ0, QZ1, M_EPDM,
+          C_MAD),
 ]
 # Trincos ferrolho verticais (topo e base, lado interno da folha esquerda)
 for nome, z0, z1, zh0, zh1 in (
@@ -356,7 +502,8 @@ for nome, z0, z1, zh0, zh1 in (
                               0.005, zh1 - zh0, 'Z', M_ACO, C_MAD, 12))
 
 # Ferragens externas
-for i, z in enumerate((PZ0 + 0.15, (PZ0 + PZ1) / 2, PZ1 - 0.15), 1):
+DOBRADICAS_Z = (PZ0 + 0.15, (PZ0 + PZ1) / 2, PZ1 - 0.15)
+for i, z in enumerate(DOBRADICAS_Z, 1):
     for lado, xp, sx, partes in (("Esq", PX0, 1, folha_esq),
                                  ("Dir", PX1, -1, folha_dir)):
         cilindro(f"Dobradica_{lado}_{i}_Pino", (xp, LY + 0.006, z), 0.007,
@@ -381,19 +528,185 @@ for nome, xh, partes in (("Esquerdo", XFE - 0.09, folha_esq),
 
 # Capuz superior de exaustao (Z_TETO1..Z_TAMPA0 + tampa removivel).
 # Saida de ar quente na parede X = 0, mesmo lado do escapamento; a parede
-# X = 2 (lado da entrada de ar frio) e fechada.
-caixa("Capuz_Traseira", 0, LX, 0, T, Z_TETO1, Z_TAMPA0, M_MAD, C_MAD)
-caixa("Capuz_Frente", 0, LX, Y_FR, LY, Z_TETO1, Z_TAMPA0, M_MAD, C_MAD)
-caixa("Capuz_X2_Fechada", LX - T, LX, T, Y_FR, Z_TETO1, Z_TAMPA0, M_MAD,
-      C_MAD)
-c_sai = caixa("Capuz_X0_Saida", 0, T, T, Y_FR, Z_TETO1, Z_TAMPA0, M_MAD,
-              C_MAD)
+# X = 2 (lado da entrada de ar frio) e fechada. A parede de tras do capuz e a
+# propria traseira superior.
+peca("Capuz_Frente", 0, LX, Y_FR, LY, Z_TETO1, Z_TAMPA0, '+y')
+peca("Capuz_X2_Fechada", LX - T, LX, T, Y_FR, Z_TETO1, Z_TAMPA0, '+x')
+c_sai = peca("Capuz_X0_Saida", 0, T, T, Y_FR, Z_TETO1, Z_TAMPA0, '-x')
 recortar(c_sai, caixa("c", -0.1, 0.1, *SAIDA, None, None))
-caixa("Capuz_Chicana_1_Defletor_Superior", X_CH1, X_CH1 + T, YT, YF, Z_CH1,
-      Z_TAMPA0, M_MAD, C_MAD)
-caixa("Capuz_Chicana_2_Defletor_Inferior", X_CH2, X_CH2 + T, YT, YF, Z_TETO1,
-      Z_CH2, M_MAD, C_MAD)
-caixa("Capuz_Tampa", 0, LX, 0, LY, Z_TAMPA0, Z_TAMPA1, M_MAD, C_TAMPA)
+recorte("Capuz_X0_Saida", "ret",
+        (0, T, SAIDA[0], SAIDA[1], SAIDA[2], SAIDA[3]),
+        "abertura da veneziana de saída")
+peca("Capuz_Chicana_1_Defletor_Superior", X_CH1, X_CH1 + T, YT, YF, Z_CH1,
+     Z_TAMPA0, '+x')
+peca("Capuz_Chicana_2_Defletor_Inferior", X_CH2, X_CH2 + T, YT, YF, Z_TETO1,
+     Z_CH2, '-x')
+# Tampa: chapa inteira de 2.200, com beiral de 100 mm sobre cada veneziana
+peca("Capuz_Tampa", -BEIRAL, LX + BEIRAL, 0, LY, Z_TAMPA0, Z_TAMPA1, '+z',
+     col=C_TAMPA)
+
+for nome, z0 in (("Inferior", Z_TETO1), ("Superior", Z_TAMPA0 - SR)):
+    sar(f"Capuz_{nome}_Traseiro", XS0, XS1, T, YS0, z0, z0 + SR)
+    sar(f"Capuz_{nome}_Frontal", XS0, XS1, YH1, Y_FR, z0, z0 + SR)
+    sar(f"Capuz_{nome}_X0", T, XS0, YS0, YH1, z0, z0 + SR)
+    sar(f"Capuz_{nome}_X2", XS1, LX - T, YS0, YH1, z0, z0 + SR)
+for nx, x0 in (("X0", T), ("X2", XS1)):
+    for ny, y0 in (("Traseiro", T), ("Frontal", YH1)):
+        sar(f"Capuz_Vertical_{ny}_{nx}", x0, x0 + SR, y0, y0 + SR, Z_TETO1,
+            Z_TAMPA0)
+# A chicana 2 fica presa ao piso do capuz; a chicana 1 sai junto com a tampa
+sar("Capuz_Chicana_2", X_CH2 + T, X_CH2 + T + SR, YT, YF, Z_TETO1,
+    Z_TETO1 + SR)
+sar("Capuz_Chicana_1", X_CH1 - SR, X_CH1, YT, YF, Z_TAMPA0 - SR, Z_TAMPA0)
+
+# --- Parafusos ---------------------------------------------------------------
+ZI, ZS = ZP + SR / 2, Z_TETO0 - SR / 2          # sarrafos inferior / superior
+ZHI, ZHS = Z_TETO1 + SR / 2, Z_TAMPA0 - SR / 2  # idem, no capuz
+N_TRAS, N_FR, N_X0, N_X2 = (0, -1, 0), (0, 1, 0), (-1, 0, 0), (1, 0, 0)
+N_CIMA, N_BAIXO = (0, 0, 1), (0, 0, -1)
+
+o = "Parede_Traseira_Inferior"
+fila(P40, o, (XS0, 0, ZI), (X_DIV, 0, ZI), N_TRAS,
+     "Traseira inferior no sarrafo inferior")
+fila(P40, o, (XDC1, 0, ZI), (XS1, 0, ZI), N_TRAS,
+     "Traseira inferior no sarrafo inferior")
+for x in (XCA, XCB):
+    fila(P40, o, (x, 0, ZP), (x, 0, Z_EM), N_TRAS,
+         "Traseira nos sarrafos verticais")
+fila(P40, o, ((XDC0 + XDC1) / 2, 0, ZP + SR), ((XDC0 + XDC1) / 2, 0, Z_DIV),
+     N_TRAS, "Traseira no sarrafo vertical da divisória")
+fila(P30, o, (XS0, 0, Z_EM - 0.025), (XS1, 0, Z_EM - 0.025), N_TRAS,
+     "Traseira na régua de emenda")
+
+o = "Parede_Traseira_Superior"
+fila(P30, o, (XS0, 0, Z_EM + 0.025), (XS1, 0, Z_EM + 0.025), N_TRAS,
+     "Traseira na régua de emenda")
+fila(P40, o, (XS0, 0, ZS), (XS1, 0, ZS), N_TRAS,
+     "Traseira superior no sarrafo superior da câmara")
+for z in (ZHI, ZHS):
+    fila(P40, o, (XS0, 0, z), (XS1, 0, z), N_TRAS,
+         "Paredes do capuz nos sarrafos do capuz")
+for x in (XCA, XCB):
+    fila(P40, o, (x, 0, Z_EM), (x, 0, Z_TETO0), N_TRAS,
+         "Traseira nos sarrafos verticais", margem=0.035)
+    fila(P40, o, (x, 0, Z_TETO1), (x, 0, Z_TAMPA0), N_TRAS,
+         "Paredes do capuz nos sarrafos do capuz", margem=0.08)
+
+for o, x, nx in (("Parede_X0_Escapamento", 0.0, N_X0),
+                 ("Parede_X2_Entrada", LX, N_X2)):
+    for z in (ZI, ZS):
+        fila(P40, o, (x, YS0, z), (x, YS1, z), nx,
+             "Laterais nos sarrafos inferior e superior")
+    for y in (YCA, YCB):
+        fila(P40, o, (x, y, ZP), (x, y, Z_TETO0), nx,
+             "Laterais nos sarrafos verticais e montantes", margem=0.07)
+
+for o, x, nx in (("Capuz_X0_Saida", 0.0, N_X0),
+                 ("Capuz_X2_Fechada", LX, N_X2)):
+    for z in (ZHI, ZHS):
+        fila(P40, o, (x, YS0, z), (x, YH1, z), nx,
+             "Paredes do capuz nos sarrafos do capuz")
+    for y in (YCA, Y_FR - SR / 2):
+        fila(P40, o, (x, y, Z_TETO1), (x, y, Z_TAMPA0), nx,
+             "Paredes do capuz nos sarrafos do capuz", margem=0.08)
+o = "Capuz_Frente"
+for z in (ZHI, ZHS):
+    fila(P40, o, (XS0, LY, z), (XS1, LY, z), N_FR,
+         "Paredes do capuz nos sarrafos do capuz")
+for x in (XCA, XCB):
+    fila(P40, o, (x, LY, Z_TETO1), (x, LY, Z_TAMPA0), N_FR,
+         "Paredes do capuz nos sarrafos do capuz", margem=0.08)
+
+o = "Divisoria_Labirinto_Entrada"
+fila(P40, o, (X_DIV, YS0, ZI), (X_DIV, YS1, ZI), N_X0,
+     "Divisória nos sarrafos da divisória")
+fila(P40, o, (X_DIV, YCA, ZP + SR), (X_DIV, YCA, Z_DIV), N_X0,
+     "Divisória nos sarrafos da divisória", margem=0.07)
+ZTRAV = Z_DIV - SR / 2
+parafuso(P80, o, (X_DIV, YS1 - SR / 2, ZTRAV), N_X0,
+         "Travessa da divisória (topo da travessa)")
+parafuso(P80, "Parede_X2_Entrada", (LX, YS1 - SR / 2, ZTRAV), N_X2,
+         "Travessa da divisória (topo da travessa)")
+
+# Base: sarrafos laterais e da divisoria presos por baixo; a base desce nas
+# longarinas. Os sarrafos da frente e de tras levam parafuso longo que
+# atravessa a base e ancora na longarina.
+for x in (XCA, XCB, (XDC0 + XDC1) / 2):
+    for ya, yb in ((YS0, LONG_Y[1][0] - 0.02), (LONG_Y[1][1] + 0.02, YS1)):
+        fila(P50, "Base", (x, ya, Z_BASE0), (x, yb, Z_BASE0), N_BAIXO,
+             "Base nos sarrafos inferiores (por baixo)")
+fila(P50, "Base", (0, LY / 2, Z_BASE1), (LX, LY / 2, Z_BASE1), N_CIMA,
+     "Base na longarina central (por cima)", passo=0.25)
+for nome, y in (("Traseiro", YCA), ("Frontal", YCB)):
+    for suf, xa, xb in (("A", XS0, X_DIV),
+                        ("B", XDC1 if nome == "Traseiro" else XDC0, XS1)):
+        fila(P80, f"Sarrafo_Inferior_{nome}_{suf}", (xa, y, ZP + SR),
+             (xb, y, ZP + SR), N_CIMA,
+             "Sarrafo inferior + base na longarina", passo=0.25,
+             passa=("Base",))
+
+o = "Teto_Camara"
+fila(P50, o, (XS0, YCB, Z_TETO1), (XS1, YCB, Z_TETO1), N_CIMA,
+     "Teto no sarrafo superior frontal (por cima)")
+fila(P50, o, (XS0, Y_FR - SR / 2, Z_TETO0), (XS1, Y_FR - SR / 2, Z_TETO0),
+     N_BAIXO, "Teto no sarrafo frontal do capuz (por baixo)")
+fila(P50, o, (X_CH2 + T + SR / 2, YT, Z_TETO0),
+     (X_CH2 + T + SR / 2, YF, Z_TETO0), N_BAIXO,
+     "Teto no sarrafo da chicana 2 (por baixo)")
+fila(P80, "Sarrafo_Capuz_Inferior_Traseiro", (XS0, YCA, Z_TETO1 + SR),
+     (XS1, YCA, Z_TETO1 + SR), N_CIMA,
+     "Sarrafo do capuz + teto no sarrafo superior da câmara", passo=0.25,
+     passa=("Teto_Camara",))
+for nome, x in (("X0", XCA), ("X2", XCB)):
+    fila(P80, f"Sarrafo_Capuz_Inferior_{nome}", (x, YS0, Z_TETO1 + SR),
+         (x, YS1, Z_TETO1 + SR), N_CIMA,
+         "Sarrafo do capuz + teto no sarrafo superior da câmara", passo=0.25,
+         passa=("Teto_Camara",))
+
+fila(P40, "Capuz_Chicana_2_Defletor_Inferior", (X_CH2, YT, ZHI),
+     (X_CH2, YF, ZHI), N_X0, "Chicanas nos sarrafos das chicanas")
+fila(P40, "Capuz_Chicana_1_Defletor_Superior", (X_CH1 + T, YT, ZHS),
+     (X_CH1 + T, YF, ZHS), N_X2, "Chicanas nos sarrafos das chicanas")
+
+o = "Capuz_Tampa"
+fila(P50, o, (X_CH1 - SR / 2, YT, Z_TAMPA1), (X_CH1 - SR / 2, YF, Z_TAMPA1),
+     N_CIMA, "Tampa no sarrafo da chicana 1")
+for y in (YCA, Y_FR - SR / 2):
+    fila(PTAMPA, o, (XS0, y, Z_TAMPA1), (XS1, y, Z_TAMPA1), N_CIMA,
+         "Tampa nos sarrafos superiores do capuz (removível, sem cola)",
+         passo=0.30)
+for x in (XCA, XCB):
+    fila(PTAMPA, o, (x, YS0, Z_TAMPA1), (x, YH1, Z_TAMPA1), N_CIMA,
+         "Tampa nos sarrafos superiores do capuz (removível, sem cola)",
+         passo=0.30)
+
+fila(P40, "Batente_Inferior", (XS0, YB1, ZI), (X_DIV, YB1, ZI), N_FR,
+     "Batente inferior no sarrafo frontal (removível, sem cola)")
+fila(P40, "Batente_Inferior", (XDC0, YB1, ZI), (XS1, YB1, ZI), N_FR,
+     "Batente inferior no sarrafo frontal (removível, sem cola)")
+fila(P40, "Batente_Superior", (XS0, YB1, ZS), (XS1, YB1, ZS), N_FR,
+     "Batente superior e laterais nos sarrafos e montantes")
+for nome, x in (("Esquerdo", T + 0.012), ("Direito", LX - T - 0.012)):
+    fila(P40, f"Batente_{nome}", (x, YB1, BZ0), (x, YB1, BZ1), N_FR,
+         "Batente superior e laterais nos sarrafos e montantes")
+for nome, x in (("Esquerda", T + 0.028), ("Direita", LX - T - 0.028)):
+    fila(P70, f"Guarnicao_{nome}", (x, LY, Z_BASE1), (x, LY, Z_TETO0), N_FR,
+         "Guarnição + calço + batente no montante frontal", passo=0.25,
+         margem=0.08)
+for (nome, qx0, qx1, _), leaf, g in zip(
+        QUADROS, ("Porta_Folha_Esquerda_Passiva", "Porta_Folha_Direita_Ativa"),
+        ("Porta_Esq", "Porta_Dir")):
+    for x in (qx0 + T / 2, qx1 - T / 2):
+        fila(P40, leaf, (x, LY, QZ0), (x, LY, QZ1), N_FR,
+             "Folha de porta no quadro da lã", passo=0.25, grupo=g)
+    for z in (QZ0 + T / 2, QZ1 - T / 2):
+        fila(P40, leaf, (qx0 + T, LY, z), (qx1 - T, LY, z), N_FR,
+             "Folha de porta no quadro da lã", passo=0.25, margem=0.10,
+             grupo=g)
+
+cab = cabecas_dos_parafusos()
+folha_esq.append(cab["Porta_Esq"])
+folha_dir.append(cab["Porta_Dir"])
 
 # ----------------------------------------------------------------------------
 # 02 - Isolamento acustico (la de rocha + tela perfurada, 50 mm no total)
@@ -418,11 +731,11 @@ revestimento("Divisoria_Face_Camara", DV0, X_DIV, YT, YF, ZP, Z_DIV, 'x', -1)
 revestimento("Divisoria_Face_Duto", X_DIV + T, DV1, YT, YF, ZP, Z_DIV,
              'x', +1)
 
-# Sanduiche acustico recuado em cada folha (encaixa dentro do batente)
-folha_esq += revestimento("Porta_Folha_Esquerda", BX0 + 0.004, XFE - 0.030,
-                          YF, Y_FR, BZ0 + 0.002, BZ1 - 0.002, 'y', -1)
-folha_dir += revestimento("Porta_Folha_Direita", XFE + 0.038, BX1 - 0.004,
-                          YF, Y_FR, BZ0 + 0.002, BZ1 - 0.002, 'y', -1)
+# Sanduiche acustico recuado em cada folha (encaixa dentro do batente),
+# contido pelo quadro de compensado
+for nome, qx0, qx1, partes in QUADROS:
+    partes += revestimento(f"Porta_Folha_{nome}", qx0 + T, qx1 - T, YF, Y_FR,
+                           QZ0 + T, QZ1 - T, 'y', -1)
 
 # Capuz: teto, parede fechada (X = 2), frente/tras e as duas faces de cada
 # chicana. O piso do capuz fica sem revestimento e o teto nao e revestido
@@ -719,50 +1032,6 @@ C_GER.objects.link(luz_led)
 
 
 # ----------------------------------------------------------------------------
-# 05 - Fluxos de ar
-# ----------------------------------------------------------------------------
-def seta(nome, pontos, mat, raio=0.012):
-    ob = tubo(nome, pontos, raio, mat, C_FLUXO, suave=True)
-    a, b = Vector(pontos[-2]), Vector(pontos[-1])
-    d = (b - a).normalized()
-    comp = raio * 6
-    bm = bmesh.new()
-    bmesh.ops.create_cone(bm, cap_ends=True, segments=24, radius1=raio * 2.6,
-                          radius2=0.0, depth=comp)
-    ponta = _obj(nome + "_Ponta", bm, mat, C_FLUXO)
-    ponta.matrix_world = (Matrix.Translation(b + d * comp / 2)
-                          @ d.to_track_quat('Z', 'Y').to_matrix().to_4x4())
-    return ob
-
-
-XDUTO = (DV1 + XD) / 2                   # eixo do duto de subida
-ZPAS = (Z_DIV + ZT) / 2                  # eixo da passagem sobre a divisoria
-XV, ZV = GX + GL + 0.01, GZ + AZ         # ventoinha do motor
-for i, (y, yv) in enumerate(((0.55, GY + AY - 0.06), (1.05, GY + AY + 0.06)),
-                            1):
-    seta(f"Fluxo_Ar_Frio_{i}", [
-        (LX + 0.42, y, 0.35), (LX + 0.05, y, 0.35), (LX - 0.12, y, 0.35),
-        (XDUTO, y, 0.46), (XDUTO, y, 1.45), (XDUTO - 0.01, y, ZPAS - 0.02),
-        (X_DIV, y, ZPAS), (DV0 - 0.08, y, ZPAS - 0.02), (1.40, y, 1.40),
-        (1.40, y, 0.75), (1.36, yv, ZV + 0.06), (XV, yv, ZV)], M_AZUL)
-
-ZV1 = (Z_TETO1 + Z_CH1) / 2              # vao sob a chicana 1
-ZV2 = (Z_CH2 + Z_TAMPA0) / 2             # vao sobre a chicana 2
-XMEIO = (C2B + C1A) / 2                  # espaco intermediario
-for i, (fx, fy) in enumerate(FAN_XY, 1):
-    ys = GY + 0.34 + (0.12 if fy > 0.8 else -0.12)
-    seta(f"Fluxo_Ar_Quente_{i}", [
-        (fx - 0.25, ys, 0.82), (fx, fy, 1.10), (fx, fy, 1.55),
-        (fx, fy, 1.92), (fx - 0.08, fy, 1.96), (C1B + 0.07, fy, 1.95),
-        (C1B + 0.01, fy, ZV1), (C1A - 0.01, fy, ZV1), (XMEIO, fy, 1.90),
-        (XMEIO, fy, 2.00), (C2B + 0.01, fy, ZV2), (C2A - 0.01, fy, ZV2),
-        (C2A - 0.09, fy, 2.02), (C2A - 0.11, fy, 1.95), (0.0, fy, 1.91),
-        (-0.22, fy, 1.74)], M_VERM)
-
-seta("Fluxo_Gases_Escape", [(-0.27, EY, EZ), (-0.38, EY, EZ),
-                            (-0.52, EY, EZ)], M_LARANJA, raio=0.014)
-
-# ----------------------------------------------------------------------------
 # 00 - Cena: piso, camera e luzes
 # ----------------------------------------------------------------------------
 caixa("Piso", -5, 7, -5, 7, -0.01, 0.0, M_PISO, C_CENA)
@@ -828,6 +1097,31 @@ if motor:
     if scene.render.engine == 'CYCLES':
         scene.cycles.samples = 48
         scene.cycles.use_denoising = True
+
+# Dados de construcao: ficam guardados na cena e podem ser exportados em JSON
+DADOS = {
+    "pecas": PECAS, "parafusos": PARAFUSOS, "revestimentos": REVEST,
+    "gerador": [mm(v) for v in (GX, GX + GL, GY, GY + 0.68, GZ, GZ + 0.65)],
+    "tapete": [180.0, 1280.0, 90.0, 1340.0, mm(Z_BASE1), mm(GZ)],
+    "exaustores": [[mm(fx), mm(fy)] for fx, fy in FAN_XY],
+    "escapamento": [mm(EY), mm(EZ)],
+    "dobradicas_z": [mm(z) for z in DOBRADICAS_Z],
+    "const": {k: mm(v) for k, v in (
+        ("T", T), ("REV", REV), ("SR", SR), ("LX", LX), ("LY", LY),
+        ("Z_PE", Z_PE), ("Z_BASE1", Z_BASE1), ("Z_EM", Z_EM),
+        ("Z_TETO0", Z_TETO0), ("Z_TETO1", Z_TETO1), ("Z_TAMPA0", Z_TAMPA0),
+        ("Z_TAMPA1", Z_TAMPA1), ("X_DIV", X_DIV), ("Z_DIV", Z_DIV),
+        ("X_CH1", X_CH1), ("Z_CH1", Z_CH1), ("X_CH2", X_CH2),
+        ("Z_CH2", Z_CH2), ("Y_FR", Y_FR), ("YL", YL), ("YF", YF),
+        ("YT", YT), ("BZ0", BZ0), ("BZ1", BZ1), ("PX0", PX0), ("PX1", PX1),
+        ("PZ0", PZ0), ("PZ1", PZ1), ("XFE", XFE), ("XFD", XFD),
+        ("BEIRAL", BEIRAL))},
+}
+scene["cabine_dados"] = json.dumps(DADOS)
+dados_json = arg("--dados")
+if dados_json:
+    with open(os.path.abspath(dados_json), "w", encoding="utf-8") as f:
+        json.dump(DADOS, f, ensure_ascii=False, indent=1)
 
 salvar = arg("--save")
 if salvar:
