@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1850" height="1460" viewBox="0 0 1850 1460" font-family="sans-serif">
+<rect width="1850" height="1460" fill="#ffffff"/>
+<text x="30" y="26" font-size="18" font-weight="bold" fill="#222">Plano de corte — compensado naval 18 mm, chapas 2200 × 1600 mm (medidas em mm)</text>
+<text x="30" y="64" font-size="14" font-weight="bold" fill="#222">Chapa 1 — aproveitamento 98%</text>
+<rect x="30.0" y="70.0" width="550.0" height="400.0" fill="#eeeeee" stroke="#555" stroke-width="1.5"/>
+<rect x="30.0" y="70.0" width="500.0" height="400.0" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
+<text x="280.0" y="262.0" font-size="11" fill="#222" text-anchor="middle">Base (piso)</text>
+<text x="280.0" y="277.0" font-size="11" font-weight="bold" fill="#222" text-anchor="middle">2000 × 1600</text>
+<rect x="531.0" y="70.0" width="45.5" height="366.0" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
+<text x="553.8" y="253.0" font-size="9" fill="#222" text-anchor="middle" transform="rotate(-90 553.8 253.0)" dominant-baseline="middle">Chicana 1 do capuz 182×1464</text>
+<text x="650" y="64" font-size="14" font-weight="bold" fill="#222">Chapa 2 — aproveitamento 97%</text>
+<rect x="650.0" y="70.0" width="550.0" height="400.0" fill="#eeeeee" stroke="#555" stroke-width="1.5"/>
+<rect x="650.0" y="70.0" width="500.0" height="395.5" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
+<text x="900.0" y="259.8" font-size="11" fill="#222" text-anchor="middle">Teto da câmara</text>
+<text x="900.0" y="274.8" font-size="11" font-weight="bold" fill="#222" text-anchor="middle">2000 × 1582</text>
+<text x="900.0" y="288.8" font-size="9" fill="#555" text-anchor="middle">2 furos Ø300</text>
+<rect x="1151.0" y="70.0" width="20.0" height="386.5" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
+<text x="1161.0" y="263.2" font-size="9" fill="#222" text-anchor="middle" transform="rotate(-90 1161.0 263.2)" dominant-baseline="middle">Batente lateral 80×1546</text>
+<rect x="1172.0" y="70.0" width="20.0" height="386.5" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
+<text x="1182.0" y="263.2" font-size="9" fill="#222" text-anchor="middle" transform="rotate(-90 1182.0 263.2)" dominant-baseline="middle">Batente lateral 80×1546</text>
+<text x="1270" y="64" font-size="14" font-weight="bold" fill="#222">Chapa 3 — aproveitamento 100%</text>
+<rect x="1270.0" y="70.0" width="550.0" height="400.0" fill="#eeeeee" stroke="#555" stroke-width="1.5"/>
+<rect x="1270.0" y="70.0" width="550.0" height="400.0" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
+<text x="1545.0" y="262.0" font-size="11" fill="#222" text-anchor="middle">Tampa do capuz (chapa inteira)</text>
+<text x="1545.0" y="277.0" font-size="11" font-weight="bold" fill="#222" text-anchor="middle">2200 × 1600</text>
+<text x="1545.0" y="291.0" font-size="9" fill="#555" text-anchor="middle">beiral de 100 mm sobre as venezianas</text>
+<text x="30" y="534" font-size="14" font-weight="bold" fill="#222">Chapa 4 — aproveitamento 98%</text>
+<rect x="30.0" y="540.0" width="550.0" height="400.0" fill="#eeeeee" stroke="#555" stroke-width="1.5"/>
+<rect x="30.0" y="540.0" width="500.0" height="400.0" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
+<text x="280.0" y="732.0" font-size="11" fill="#222" text-anchor="middle">Traseira inferior</text>
+<text x="280.0" y="747.0" font-size="11" font-weight="bold" fill="#222" text-anchor="middle">2000 × 1600</text>
+<rect x="531.0" y="540.0" width="12.5" height="400.0" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
+<text x="537.2" y="740.0" font-size="9" fill="#222" text-anchor="middle" transform="rotate(-90 537.2 740.0)" dominant-baseline="middle">Sarrafo 50 50×1600</text>
+<rect x="544.5" y="540.0" width="12.5" height="400.0" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
+<text x="550.8" y="740.0" font-size="9" fill="#222" text-anchor="middle" transform="rotate(-90 550.8 740.0)" dominant-baseline="middle">Sarrafo 50 50×1600</text>
+<rect x="558.0" y="540.0" width="12.5" height="400.0" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
+<text x="564.2" y="740.0" font-size="9" fill="#222" text-anchor="middle" transform="rotate(-90 564.2 740.0)" dominant-baseline="middle">Sarrafo 50 50×1600</text>
+<text x="650" y="534" font-size="14" font-weight="bold" fill="#222">Chapa 5 — aproveitamento 96%</text>
+<rect x="650.0" y="540.0" width="550.0" height="400.0" fill="#eeeeee" stroke="#555" stroke-width="1.5"/>
+<rect x="650.0" y="540.0" width="416.5" height="391.0" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
+<text x="858.2" y="727.5" font-size="11" fill="#222" text-anchor="middle">Lateral da entrada de ar frio</text>
+<text x="858.2" y="742.5" font-size="11" font-weight="bold" fill="#222" text-anchor="middle">1666 × 1564</text>
+<text x="858.2" y="756.5" font-size="9" fill="#555" text-anchor="middle">recorte 1100 x 400</text>
+<rect x="1067.5" y="540.0" width="80.0" height="391.0" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
+<text x="1107.5" y="735.5" font-size="9" fill="#222" text-anchor="middle" transform="rotate(-90 1107.5 735.5)" dominant-baseline="middle">Capuz: lateral da saída quente 320×1564</text>
+<rect x="1148.5" y="540.0" width="49.5" height="366.0" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
+<text x="1173.2" y="723.0" font-size="9" fill="#222" text-anchor="middle" transform="rotate(-90 1173.2 723.0)" dominant-baseline="middle">Chicana 2 do capuz 198×1464</text>
+<text x="1270" y="534" font-size="14" font-weight="bold" fill="#222">Chapa 6 — aproveitamento 95%</text>
+<rect x="1270.0" y="540.0" width="550.0" height="400.0" fill="#eeeeee" stroke="#555" stroke-width="1.5"/>
+<rect x="1270.0" y="540.0" width="416.5" height="391.0" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
+<text x="1478.2" y="727.5" font-size="11" fill="#222" text-anchor="middle">Lateral do escapamento</text>
+<text x="1478.2" y="742.5" font-size="11" font-weight="bold" fill="#222" text-anchor="middle">1666 × 1564</text>
+<text x="1478.2" y="756.5" font-size="9" fill="#555" text-anchor="middle">furo Ø150</text>
+<rect x="1687.5" y="540.0" width="80.0" height="391.0" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
+<text x="1727.5" y="735.5" font-size="9" fill="#222" text-anchor="middle" transform="rotate(-90 1727.5 735.5)" dominant-baseline="middle">Capuz: lateral fechada 320×1564</text>
+<rect x="1768.5" y="540.0" width="12.5" height="400.0" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
+<text x="1774.8" y="740.0" font-size="9" fill="#222" text-anchor="middle" transform="rotate(-90 1774.8 740.0)" dominant-baseline="middle">Sarrafo 50 50×1600</text>
+<rect x="1782.0" y="540.0" width="12.5" height="400.0" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
+<text x="1788.2" y="740.0" font-size="9" fill="#222" text-anchor="middle" transform="rotate(-90 1788.2 740.0)" dominant-baseline="middle">Sarrafo 50 50×1600</text>
+<rect x="1795.5" y="540.0" width="12.5" height="400.0" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
+<text x="1801.8" y="740.0" font-size="9" fill="#222" text-anchor="middle" transform="rotate(-90 1801.8 740.0)" dominant-baseline="middle">Sarrafo 50 50×1600</text>
+<text x="30" y="1004" font-size="14" font-weight="bold" fill="#222">Chapa 7 — aproveitamento 63%</text>
+<rect x="30.0" y="1010.0" width="550.0" height="400.0" fill="#eeeeee" stroke="#555" stroke-width="1.5"/>
+<rect x="30.0" y="1010.0" width="378.5" height="350.5" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
+<text x="219.2" y="1177.2" font-size="11" fill="#222" text-anchor="middle">Divisória do labirinto de entrada</text>
+<text x="219.2" y="1192.2" font-size="11" font-weight="bold" fill="#222" text-anchor="middle">1514 × 1402</text>
+<rect x="409.5" y="1010.0" width="15.0" height="385.0" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
+<text x="417.0" y="1202.5" font-size="9" fill="#222" text-anchor="middle" transform="rotate(-90 417.0 1202.5)" dominant-baseline="middle">Mata-junta 60×1540</text>
+<text x="650" y="1004" font-size="14" font-weight="bold" fill="#222">Chapa 8 — aproveitamento 74%</text>
+<rect x="650.0" y="1010.0" width="550.0" height="400.0" fill="#eeeeee" stroke="#555" stroke-width="1.5"/>
+<rect x="650.0" y="1010.0" width="414.5" height="234.0" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
+<text x="857.2" y="1119.0" font-size="11" fill="#222" text-anchor="middle">Folha de porta esquerda</text>
+<text x="857.2" y="1134.0" font-size="11" font-weight="bold" fill="#222" text-anchor="middle">1658 × 936</text>
+<rect x="650.0" y="1245.0" width="500.0" height="101.0" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
+<text x="900.0" y="1287.5" font-size="11" fill="#222" text-anchor="middle">Traseira superior</text>
+<text x="900.0" y="1302.5" font-size="11" font-weight="bold" fill="#222" text-anchor="middle">2000 × 404</text>
+<rect x="650.0" y="1347.0" width="491.0" height="15.0" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
+<text x="895.5" y="1354.5" font-size="9" fill="#222" text-anchor="middle" dominant-baseline="middle">Batente inferior 1964×60</text>
+<rect x="650.0" y="1363.0" width="491.0" height="15.0" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
+<text x="895.5" y="1370.5" font-size="9" fill="#222" text-anchor="middle" dominant-baseline="middle">Batente superior 1964×60</text>
+<text x="1270" y="1004" font-size="14" font-weight="bold" fill="#222">Chapa 9 — aproveitamento 68%</text>
+<rect x="1270.0" y="1010.0" width="550.0" height="400.0" fill="#eeeeee" stroke="#555" stroke-width="1.5"/>
+<rect x="1270.0" y="1010.0" width="414.5" height="234.0" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
+<text x="1477.2" y="1119.0" font-size="11" fill="#222" text-anchor="middle">Folha de porta direita</text>
+<text x="1477.2" y="1134.0" font-size="11" font-weight="bold" fill="#222" text-anchor="middle">1658 × 936</text>
+<rect x="1270.0" y="1245.0" width="500.0" height="80.0" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
+<text x="1520.0" y="1277.0" font-size="11" fill="#222" text-anchor="middle">Capuz: frente</text>
+<text x="1520.0" y="1292.0" font-size="11" font-weight="bold" fill="#222" text-anchor="middle">2000 × 320</text>
+<rect x="1270.0" y="1326.0" width="416.5" height="15.0" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
+<text x="1478.2" y="1333.5" font-size="9" fill="#222" text-anchor="middle" dominant-baseline="middle">Guarnição lateral 1666×60</text>
+<rect x="1270.0" y="1342.0" width="416.5" height="15.0" fill="#e3c58f" stroke="#6b4a1e" stroke-width="1"/>
+<text x="1478.2" y="1349.5" font-size="9" fill="#222" text-anchor="middle" dominant-baseline="middle">Guarnição lateral 1666×60</text>
+</svg>

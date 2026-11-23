@@ -1,0 +1,13 @@
+# Quadros de vídeo e vídeos (gerados por renders_extra.py e renders_realista.py)
+renders/video_*/
+renders/realista_*/
+*.mp4
+*.avi
+
+# Blender
+*.blend1
+*.blend@
+
+# Local
+.claude/
+__pycache__/
